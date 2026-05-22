@@ -1,0 +1,87 @@
+# Blue Team Command Center safety defaults
+#
+# This repo is documentation-first. Keep real evidence, raw exports, private notes,
+# screenshots, logs, and company-sensitive material out of version control by default.
+
+# Local operating system and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+# Environment, secrets, and local config
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.kdbx
+secrets/
+private/
+local/
+.local/
+
+# Raw evidence and company-sensitive material
+cases/**/evidence/**
+!cases/**/evidence/
+!cases/**/evidence/**/
+!cases/**/evidence/**/.gitkeep
+cases/**/private/**
+cases/**/private-notes/**
+cases/**/raw/**
+cases/**/exports/**
+cases/**/attachments/**
+cases/**/screenshots/**
+cases/**/logs/**
+cases/**/raw-notes/**
+
+# Generated or local-only output drafts
+outputs/**
+!outputs/
+!outputs/README.md
+
+# Common evidence/export file types
+*.pcap
+*.pcapng
+*.evtx
+*.etl
+*.har
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.log
+*.csv
+*.xlsx
+*.xls
+*.jsonl
+*.sqlite
+*.sqlite3
+*.db
+
+# Screenshots and media that may contain sensitive data
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+*.tiff
+
+# Optional script byproducts
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+
