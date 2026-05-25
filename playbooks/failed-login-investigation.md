@@ -4,6 +4,13 @@
 
 Investigate failed authentication activity to determine whether it is expected user behavior, misconfiguration, password spraying, brute force activity, or early account compromise activity.
 
+## Related Checklist
+
+Use this checklist during triage:
+
+```text
+checklists/failed-login-triage-checklist.md
+
 ## When to Use
 
 - Repeated failed logins against one account.
@@ -54,4 +61,32 @@ Use `templates/ALERT-TRIAGE-REPORT.md` or `templates/INCIDENT-REPORT.md`.
 - Did the alert provide enough context?
 - Were account ownership and business impact clear?
 - Should thresholds, allowlists, or detections be tuned?
+
+## Failed Login Decision Points
+
+Before closing or escalating a failed login case, confirm:
+
+- [ ] Failed login count is documented or marked unavailable
+- [ ] Timestamp range is documented or marked unavailable
+- [ ] Source context is reviewed or marked unavailable
+- [ ] Target account sensitivity is reviewed or marked unavailable
+- [ ] Successful login activity after failures is reviewed or marked unavailable
+- [ ] Similar activity across other accounts is reviewed or marked unavailable
+- [ ] Facts are separated from assumptions
+- [ ] Missing information is documented
+- [ ] Approval-required actions are clearly marked
+
+## Escalation Reminder
+
+Escalation may be appropriate when:
+
+- A successful login follows repeated failures
+- A privileged account is targeted
+- Multiple accounts are targeted
+- Multiple sources target the same account
+- The source is unusual or suspicious
+- The user denies the activity
+- Related endpoint, identity, or network alerts exist
+
+Do not block, disable, reset, isolate, contact users, escalate, close, publish, or send messa
 
