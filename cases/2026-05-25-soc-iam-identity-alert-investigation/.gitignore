@@ -1,0 +1,17 @@
+# Local/private investigation notes
+evidence/raw-notes/*
+!evidence/raw-notes/.gitkeep
+
+# Local agent outputs and LinkedIn drafts
+outputs/*
+!outputs/.gitkeep
+
+# Keep generated or submission files local unless manually reviewed
+*.docx
+*.pdf
+*.zip
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
+*.tmp
