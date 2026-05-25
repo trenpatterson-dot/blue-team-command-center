@@ -85,3 +85,11 @@ Use:
 
 ```text
 analysis/timeline.md
+
+## Recommended Next Steps
+
+| High | Complete failed-login triage checklist | Ensures failed login count, source context, successful login follow-up, and escalation criteria are reviewed | No |
+
+**Related Playbook:** `playbooks/failed-login-investigation.md`
+
+**Related Checklist:** `checklists/failed-login-triage-checklist.md`
