@@ -1,5 +1,12 @@
 # Phishing Email Triage
 
+## Related Checklist
+
+Use this checklist during phishing triage:
+
+```text
+checklists/phishing-triage-checklist.md
+
 ## Purpose
 
 Review a reported or detected suspicious email and determine whether it appears benign, spam, phishing, credential theft, malware delivery, or business email compromise.
@@ -41,6 +48,35 @@ Review a reported or detected suspicious email and determine whether it appears 
 - Multiple recipients or executive impersonation.
 - User submitted credentials, opened attachment, or approved MFA prompt.
 - Similar messages continue arriving.
+
+## Phishing Decision Points
+
+Before closing or escalating a phishing case, confirm:
+
+- [ ] Sender identity is reviewed
+- [ ] Reply-to address is reviewed
+- [ ] SPF, DKIM, and DMARC results are reviewed or marked unavailable
+- [ ] URLs are reviewed safely or marked unavailable
+- [ ] Attachments are reviewed safely or marked unavailable
+- [ ] User interaction is confirmed or marked unavailable
+- [ ] Similar messages are searched for or marked unavailable
+- [ ] Facts are separated from assumptions
+- [ ] Missing information is documented
+- [ ] Approval-required actions are clearly marked
+
+## Escalation Reminder
+
+Escalation may be appropriate when:
+
+- User clicked a suspicious link
+- User entered credentials
+- User opened a suspicious attachment
+- SPF, DKIM, or DMARC results failed
+- Sender impersonation is likely
+- Multiple users received the message
+- The email includes credential theft, malware delivery, or business email compromise indicators
+
+Do not delete messages, block senders, reset passwords, revoke sessions, contact users, escalate, close, publish, or send messages without the proper human approval process.
 
 ## Report Output
 
