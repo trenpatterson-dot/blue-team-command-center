@@ -10,6 +10,7 @@ Use this checklist during triage:
 
 ```text
 checklists/failed-login-triage-checklist.md
+```
 
 ## When to Use
 
@@ -88,5 +89,4 @@ Escalation may be appropriate when:
 - The user denies the activity
 - Related endpoint, identity, or network alerts exist
 
-Do not block, disable, reset, isolate, contact users, escalate, close, publish, or send messa
-
+Do not block, disable, reset, isolate, contact users, escalate, close, publish, or send messages without the proper human approval process.

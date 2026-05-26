@@ -1,52 +1,52 @@
-\# Case Template
+# Case Template
 
 
 
-\## Case Overview
+## Case Overview
 
 
 
-\*\*Case Title:\*\*  
+**Case Title:**
 
-\*\*Case ID / Ticket Reference:\*\*  
+**Case ID / Ticket Reference:**
 
-\*\*Date Opened:\*\*  
+**Date Opened:**
 
-\*\*Date Closed:\*\*  
+**Date Closed:**
 
-\*\*Analyst:\*\*  
+**Analyst:**
 
-\*\*Team / Queue:\*\*  
+**Team / Queue:**
 
-\*\*Status:\*\* New / Active / Monitoring / Escalated / Closed  
+**Status:** New / Active / Monitoring / Escalated / Closed
 
-\*\*Severity:\*\* Low / Medium / High / Critical  
+**Severity:** Low / Medium / High / Critical
 
-\*\*Operating Mode:\*\* Personal Lab / Company-Safe Template / Sanitized Export  
-
-
-
-\## Alert / Source Information
+**Operating Mode:** Personal Lab / Company-Safe Template / Sanitized Export
 
 
 
-\*\*Alert Name:\*\*  
-
-\*\*Source System:\*\*  
-
-\*\*Detection Tool:\*\*  
-
-\*\*Alert Time:\*\*  
-
-\*\*Reviewed Time:\*\*  
-
-\*\*Timezone:\*\*  
-
-\*\*Related Playbook:\*\*  
+## Alert / Source Information
 
 
 
-\## Impacted Entities
+**Alert Name:**
+
+**Source System:**
+
+**Detection Tool:**
+
+**Alert Time:**
+
+**Reviewed Time:**
+
+**Timezone:**
+
+**Related Playbook:**
+
+
+
+## Impacted Entities
 
 
 
@@ -54,23 +54,23 @@ Only document sensitive details if policy allows it.
 
 
 
-\*\*User / Account:\*\*  
+**User / Account:**
 
-\*\*Host / Device:\*\*  
+**Host / Device:**
 
-\*\*IP Address:\*\*  
+**IP Address:**
 
-\*\*Domain / URL:\*\*  
+**Domain / URL:**
 
-\*\*File / Hash:\*\*  
+**File / Hash:**
 
-\*\*Application / Service:\*\*  
+**Application / Service:**
 
-\*\*Business Unit / Owner:\*\*  
+**Business Unit / Owner:**
 
 
 
-\## Initial Summary
+## Initial Summary
 
 
 
@@ -86,7 +86,7 @@ Example:
 
 
 
-\## Known Facts
+## Known Facts
 
 
 
@@ -94,15 +94,15 @@ List only confirmed facts.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Analyst Interpretation
+## Analyst Interpretation
 
 
 
@@ -114,15 +114,15 @@ Do not overstate the conclusion.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Assumptions
+## Assumptions
 
 
 
@@ -130,15 +130,15 @@ List anything that has not been confirmed yet.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Missing Information
+## Missing Information
 
 
 
@@ -146,15 +146,15 @@ List what still needs to be verified.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Evidence Collected
+## Evidence Collected
 
 
 
@@ -178,7 +178,7 @@ Do not place restricted evidence in this folder unless policy allows it.
 
 
 
-\## Timeline Reference
+## Timeline Reference
 
 
 
@@ -189,4 +189,4 @@ Use:
 ```text
 
 analysis/timeline.md
-
+```

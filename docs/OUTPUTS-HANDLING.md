@@ -1,4 +1,4 @@
-\# Outputs Handling
+# Outputs Handling
 
 
 
@@ -10,7 +10,7 @@ By default, `outputs/` should be treated as local-only and private.
 
 
 
-\## Purpose
+## Purpose
 
 
 
@@ -18,27 +18,27 @@ Use `outputs/` for:
 
 
 
-\- Draft reports
+- Draft reports
 
-\- AI-assisted summaries
+- AI-assisted summaries
 
-\- Temporary exports
+- Temporary exports
 
-\- Working notes
+- Working notes
 
-\- Generated Markdown
+- Generated Markdown
 
-\- Generated Word or PDF files
+- Generated Word or PDF files
 
-\- Sanitization drafts
+- Sanitization drafts
 
-\- Review copies
+- Review copies
 
-\- Case closeout drafts
+- Case closeout drafts
 
 
 
-\## Default Rule
+## Default Rule
 
 
 
@@ -54,7 +54,7 @@ Only commit an output file if it has been manually reviewed and is safe for the 
 
 
 
-\## Why Outputs Are Local-Only
+## Why Outputs Are Local-Only
 
 
 
@@ -62,27 +62,27 @@ Outputs may include:
 
 
 
-\- Raw case details
+- Raw case details
 
-\- Company-sensitive information
+- Company-sensitive information
 
-\- Usernames
+- Usernames
 
-\- Hostnames
+- Hostnames
 
-\- IP addresses
+- IP addresses
 
-\- Ticket numbers
+- Ticket numbers
 
-\- Internal tool names
+- Internal tool names
 
-\- Private analyst notes
+- Private analyst notes
 
-\- Draft conclusions
+- Draft conclusions
 
-\- Unverified assumptions
+- Unverified assumptions
 
-\- AI-generated wording that needs review
+- AI-generated wording that needs review
 
 
 
@@ -90,7 +90,7 @@ Because of that, outputs should not be treated as publish-ready.
 
 
 
-\## What Belongs in Outputs
+## What Belongs in Outputs
 
 
 
@@ -109,4 +109,4 @@ outputs/sanitized-github-summary-draft.md
 outputs/lessons-learned-draft.md
 
 outputs/case-closeout-review.md
-
+```

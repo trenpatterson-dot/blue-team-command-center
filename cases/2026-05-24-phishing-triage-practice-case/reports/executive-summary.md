@@ -6,12 +6,12 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 
 ## Report Details
 
-**Case Title:** Phishing Triage Practice Case  
-**Date Prepared:** 2026-05-24  
-**Prepared By:** Tren Patterson  
-**Status:** Draft  
-**Severity:** Medium  
-**Operating Mode:** Personal Lab  
+**Case Title:** Phishing Triage Practice Case
+**Date Prepared:** 2026-05-24
+**Prepared By:** Tren Patterson
+**Status:** Draft
+**Severity:** Medium
+**Operating Mode:** Personal Lab
 
 ## Plain-English Summary
 

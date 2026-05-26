@@ -1,4 +1,4 @@
-\# Indicators
+# Indicators
 
 
 
@@ -10,21 +10,21 @@ Only document sensitive indicators if policy allows it. For public or portfolio 
 
 
 
-\## Indicator Summary
+## Indicator Summary
 
 
 
-\*\*Case Title:\*\*  
+**Case Title:**
 
-\*\*Date Reviewed:\*\*  
+**Date Reviewed:**
 
-\*\*Analyst:\*\*  
+**Analyst:**
 
-\*\*Operating Mode:\*\* Personal Lab / Company-Safe Template / Sanitized Export  
+**Operating Mode:** Personal Lab / Company-Safe Template / Sanitized Export
 
 
 
-\## Indicator Table
+## Indicator Table
 
 
 
@@ -52,7 +52,7 @@ Only document sensitive indicators if policy allows it. For public or portfolio 
 
 
 
-\## Known Good / Expected Indicators
+## Known Good / Expected Indicators
 
 
 
@@ -60,15 +60,15 @@ List indicators that appear expected or benign.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Suspicious Indicators
+## Suspicious Indicators
 
 
 
@@ -76,15 +76,15 @@ List indicators that may need more review.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Unknown Indicators
+## Unknown Indicators
 
 
 
@@ -92,15 +92,15 @@ List indicators where context is missing.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Indicator Questions
+## Indicator Questions
 
 
 
@@ -108,25 +108,25 @@ Use these questions during triage:
 
 
 
-\- Is this indicator tied to the alert?
+- Is this indicator tied to the alert?
 
-\- Is this indicator known in the environment?
+- Is this indicator known in the environment?
 
-\- Is this indicator expected for the user, host, or business process?
+- Is this indicator expected for the user, host, or business process?
 
-\- Has this indicator appeared before?
+- Has this indicator appeared before?
 
-\- Is there successful activity tied to the indicator?
+- Is there successful activity tied to the indicator?
 
-\- Is the indicator associated with known malicious behavior?
+- Is the indicator associated with known malicious behavior?
 
-\- Does the indicator require escalation?
+- Does the indicator require escalation?
 
-\- Does the indicator require human-approved action?
+- Does the indicator require human-approved action?
 
 
 
-\## Safe Handling Notes
+## Safe Handling Notes
 
 
 
@@ -134,21 +134,21 @@ Do not publicly share:
 
 
 
-\- Real user names
+- Real user names
 
-\- Email addresses
+- Email addresses
 
-\- Hostnames
+- Hostnames
 
-\- Internal IP addresses
+- Internal IP addresses
 
-\- Customer identifiers
+- Customer identifiers
 
-\- Ticket numbers
+- Ticket numbers
 
-\- Internal domains
+- Internal domains
 
-\- Restricted company indicators
+- Restricted company indicators
 
 
 
@@ -164,7 +164,7 @@ Example:
 
 
 
-\## Recommended Next Steps
+## Recommended Next Steps
 
 
 
@@ -180,7 +180,7 @@ Example:
 
 
 
-\## Closeout Review
+## Closeout Review
 
 
 
@@ -188,13 +188,13 @@ Before closing this section, confirm:
 
 
 
-\- \[ ] Indicators are documented clearly.
+- [ ] Indicators are documented clearly.
 
-\- \[ ] Sensitive indicators are protected.
+- [ ] Sensitive indicators are protected.
 
-\- \[ ] Unknown indicators are marked.
+- [ ] Unknown indicators are marked.
 
-\- \[ ] Suspicious indicators have recommended next steps.
+- [ ] Suspicious indicators have recommended next steps.
 
-\- \[ ] Any blocking or containment action is marked as requiring approval.
+- [ ] Any blocking or containment action is marked as requiring approval.
 

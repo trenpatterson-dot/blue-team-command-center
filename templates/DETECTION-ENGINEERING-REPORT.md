@@ -10,23 +10,23 @@
 
 ## Known Facts
 
-- 
+-
 
 ## Analyst Interpretation
 
-- 
+-
 
 ## Assumptions
 
-- 
+-
 
 ## Missing Information
 
-- 
+-
 
 ## Detection Logic Summary
 
-- 
+-
 
 ## Validation Notes
 
@@ -36,7 +36,7 @@
 
 ## Recommended Next Steps
 
-- 
+-
 
 ## Human Approval Required
 

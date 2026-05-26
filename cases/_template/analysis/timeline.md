@@ -1,8 +1,8 @@
-\# Case Timeline
+# Case Timeline
 
 
 
-\## Timeline Overview
+## Timeline Overview
 
 
 
@@ -14,19 +14,19 @@ Keep entries factual. If a timestamp or event is uncertain, mark it clearly.
 
 
 
-\## Timezone
+## Timezone
 
 
 
-\*\*Timezone Used:\*\*  
+**Timezone Used:**
 
-\*\*UTC Used?\*\* Yes / No  
+**UTC Used?** Yes / No
 
-\*\*Notes:\*\*  
+**Notes:**
 
 
 
-\## Timeline Table
+## Timeline Table
 
 
 
@@ -48,7 +48,7 @@ Keep entries factual. If a timestamp or event is uncertain, mark it clearly.
 
 
 
-\## Confirmed Events
+## Confirmed Events
 
 
 
@@ -56,15 +56,15 @@ List only confirmed events.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Analyst Notes
+## Analyst Notes
 
 
 
@@ -72,15 +72,15 @@ Use this section for interpretation or context.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Gaps in Timeline
+## Gaps in Timeline
 
 
 
@@ -88,37 +88,37 @@ List missing timestamps or unclear event order.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
-
-
-
-\## Timeline Review Questions
+-
 
 
 
-\- When did the activity start?
-
-\- When did the alert fire?
-
-\- When did the analyst review it?
-
-\- Was the activity still ongoing during review?
-
-\- Was there related activity before or after the alert?
-
-\- Is the timezone clearly documented?
-
-\- Are any timestamps missing?
-
-\- Is any event based on assumption instead of evidence?
+## Timeline Review Questions
 
 
 
-\## Closeout Notes
+- When did the activity start?
+
+- When did the alert fire?
+
+- When did the analyst review it?
+
+- Was the activity still ongoing during review?
+
+- Was there related activity before or after the alert?
+
+- Is the timezone clearly documented?
+
+- Are any timestamps missing?
+
+- Is any event based on assumption instead of evidence?
+
+
+
+## Closeout Notes
 
 
 
@@ -126,13 +126,13 @@ Before closing the case, confirm:
 
 
 
-\- \[ ] Timeline is complete enough for another analyst to understand.
+- [ ] Timeline is complete enough for another analyst to understand.
 
-\- \[ ] Timezone is documented.
+- [ ] Timezone is documented.
 
-\- \[ ] Known facts are separated from analyst notes.
+- [ ] Known facts are separated from analyst notes.
 
-\- \[ ] Missing timestamps are listed.
+- [ ] Missing timestamps are listed.
 
-\- \[ ] No sensitive data is exposed unnecessarily.
+- [ ] No sensitive data is exposed unnecessarily.
 

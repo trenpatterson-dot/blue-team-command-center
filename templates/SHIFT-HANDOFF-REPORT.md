@@ -1,24 +1,24 @@
-\# Shift Handoff Report
+# Shift Handoff Report
 
 
 
-\## Handoff Summary
+## Handoff Summary
 
 
 
-\*\*Date:\*\*  
+**Date:**
 
-\*\*Shift:\*\*  
+**Shift:**
 
-\*\*Analyst:\*\*  
+**Analyst:**
 
-\*\*Next Analyst / Team:\*\*  
+**Next Analyst / Team:**
 
-\*\*Status:\*\* Active / Monitoring / Escalated / Waiting / Closed  
+**Status:** Active / Monitoring / Escalated / Waiting / Closed
 
 
 
-\## Current Situation
+## Current Situation
 
 
 
@@ -30,17 +30,17 @@ Focus on:
 
 
 
-\- What triggered the investigation
+- What triggered the investigation
 
-\- What is currently known
+- What is currently known
 
-\- What is still unresolved
+- What is still unresolved
 
-\- What needs attention next
+- What needs attention next
 
 
 
-\## Active Cases
+## Active Cases
 
 
 
@@ -52,7 +52,7 @@ Focus on:
 
 
 
-\## High-Priority Alerts
+## High-Priority Alerts
 
 
 
@@ -64,7 +64,7 @@ Focus on:
 
 
 
-\## Known Facts
+## Known Facts
 
 
 
@@ -72,15 +72,15 @@ List only confirmed facts.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Analyst Interpretation
+## Analyst Interpretation
 
 
 
@@ -92,15 +92,15 @@ Do not overstate the conclusion.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Assumptions
+## Assumptions
 
 
 
@@ -108,15 +108,15 @@ List anything that has not been confirmed yet.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Missing Information
+## Missing Information
 
 
 
@@ -124,15 +124,15 @@ List what the next analyst still needs to verify.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Evidence Collected
+## Evidence Collected
 
 
 
@@ -148,7 +148,7 @@ Do not include sensitive evidence directly unless approved.
 
 
 
-\## Actions Completed
+## Actions Completed
 
 
 
@@ -160,7 +160,7 @@ Do not include sensitive evidence directly unless approved.
 
 
 
-\## Recommended Next Steps
+## Recommended Next Steps
 
 
 
@@ -176,7 +176,7 @@ Do not include sensitive evidence directly unless approved.
 
 
 
-\## Human Approval Required
+## Human Approval Required
 
 
 
@@ -184,37 +184,37 @@ The following actions require approval before execution:
 
 
 
-\- Blocking IPs or domains
+- Blocking IPs or domains
 
-\- Disabling accounts
+- Disabling accounts
 
-\- Resetting passwords
+- Resetting passwords
 
-\- Deleting or quarantining files
+- Deleting or quarantining files
 
-\- Isolating endpoints
+- Isolating endpoints
 
-\- Contacting users or customers
+- Contacting users or customers
 
-\- Escalating to leadership
+- Escalating to leadership
 
-\- Closing incidents
-
-
-
-\## Risks / Watch Items
+- Closing incidents
 
 
 
-\- 
-
-\- 
-
-\- 
+## Risks / Watch Items
 
 
 
-\## Communication Notes
+-
+
+-
+
+-
+
+
+
+## Communication Notes
 
 
 
@@ -222,15 +222,15 @@ Document any internal updates, tickets, messages, or escalation notes.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Handoff Statement
+## Handoff Statement
 
 
 
@@ -246,7 +246,7 @@ Example:
 
 
 
-\## Final Review
+## Final Review
 
 
 
@@ -254,15 +254,15 @@ Before handing off, confirm:
 
 
 
-\- Known facts are separated from assumptions.
+- Known facts are separated from assumptions.
 
-\- Open questions are clear.
+- Open questions are clear.
 
-\- Next steps are specific.
+- Next steps are specific.
 
-\- Approval-required actions are marked.
+- Approval-required actions are marked.
 
-\- Sensitive evidence is not exposed.
+- Sensitive evidence is not exposed.
 
-\- The next analyst can continue without guessing.
+- The next analyst can continue without guessing.
 

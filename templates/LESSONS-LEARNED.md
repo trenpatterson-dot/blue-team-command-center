@@ -9,35 +9,35 @@
 
 ## Known Facts
 
-- 
+-
 
 ## Analyst Interpretation
 
-- 
+-
 
 ## Assumptions
 
-- 
+-
 
 ## Missing Information
 
-- 
+-
 
 ## What Worked
 
-- 
+-
 
 ## What Did Not Work
 
-- 
+-
 
 ## Process Improvements
 
-- 
+-
 
 ## Recommended Next Steps
 
-- 
+-
 
 ## Human Approval Required
 

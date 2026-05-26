@@ -1,4 +1,4 @@
-\# Operating Modes
+# Operating Modes
 
 
 
@@ -10,7 +10,7 @@ The system should help an analyst organize evidence, think clearly, document wor
 
 
 
-\## Mode 1: Personal Lab Mode
+## Mode 1: Personal Lab Mode
 
 
 
@@ -22,21 +22,21 @@ Use this mode for:
 
 
 
-\- Wazuh labs
+- Wazuh labs
 
-\- TryHackMe or other training notes
+- TryHackMe or other training notes
 
-\- Bellevue-style reports
+- Bellevue-style reports
 
-\- Portfolio-safe documentation
+- Portfolio-safe documentation
 
-\- Practice incident response writeups
+- Practice incident response writeups
 
-\- Detection engineering notes
+- Detection engineering notes
 
-\- GitHub-safe sanitized examples
+- GitHub-safe sanitized examples
 
-\- Interview story bank material
+- Interview story bank material
 
 
 
@@ -44,19 +44,19 @@ Allowed in this mode:
 
 
 
-\- Lab screenshots
+- Lab screenshots
 
-\- Practice logs
+- Practice logs
 
-\- Markdown reports
+- Markdown reports
 
-\- Sanitized findings
+- Sanitized findings
 
-\- Local generated drafts
+- Local generated drafts
 
-\- AI-assisted summaries
+- AI-assisted summaries
 
-\- Framework mapping practice
+- Framework mapping practice
 
 
 
@@ -64,17 +64,17 @@ Rules:
 
 
 
-\- Do not mix real employer data into lab folders.
+- Do not mix real employer data into lab folders.
 
-\- Keep private notes separate from public-ready documentation.
+- Keep private notes separate from public-ready documentation.
 
-\- Review all screenshots before sharing.
+- Review all screenshots before sharing.
 
-\- Do not publish anything that includes personal, company, customer, or restricted information.
+- Do not publish anything that includes personal, company, customer, or restricted information.
 
 
 
-\## Mode 2: Company-Safe Template Mode
+## Mode 2: Company-Safe Template Mode
 
 
 
@@ -90,21 +90,21 @@ Use this mode for:
 
 
 
-\- Report structure
+- Report structure
 
-\- Investigation checklists
+- Investigation checklists
 
-\- Playbook guidance
+- Playbook guidance
 
-\- Escalation questions
+- Escalation questions
 
-\- Framework mapping
+- Framework mapping
 
-\- Plain-English summaries
+- Plain-English summaries
 
-\- Shift handoff structure
+- Shift handoff structure
 
-\- Lessons learned structure
+- Lessons learned structure
 
 
 
@@ -112,19 +112,19 @@ Do not use this mode to:
 
 
 
-\- Store restricted company evidence unless policy allows it
+- Store restricted company evidence unless policy allows it
 
-\- Copy logs out of approved company systems
+- Copy logs out of approved company systems
 
-\- Upload company data to personal tools
+- Upload company data to personal tools
 
-\- Save customer data in personal folders
+- Save customer data in personal folders
 
-\- Run unapproved scripts
+- Run unapproved scripts
 
-\- Take destructive action from this system
+- Take destructive action from this system
 
-\- Publish internal details externally
+- Publish internal details externally
 
 
 
@@ -132,23 +132,23 @@ Company-sensitive data may include:
 
 
 
-\- Usernames
+- Usernames
 
-\- Email addresses
+- Email addresses
 
-\- Hostnames
+- Hostnames
 
-\- IP addresses
+- IP addresses
 
-\- Ticket numbers
+- Ticket numbers
 
-\- Customer names
+- Customer names
 
-\- Screenshots of internal tools
+- Screenshots of internal tools
 
-\- Alert details from internal platforms
+- Alert details from internal platforms
 
-\- Logs, packet captures, exports, or case notes
+- Logs, packet captures, exports, or case notes
 
 
 
@@ -160,7 +160,7 @@ Safe usage example:
 
 
 
-\## Mode 3: Sanitized Export Mode
+## Mode 3: Sanitized Export Mode
 
 
 
@@ -172,19 +172,19 @@ Use this mode for:
 
 
 
-\- GitHub-safe writeups
+- GitHub-safe writeups
 
-\- LinkedIn posts
+- LinkedIn posts
 
-\- Portfolio summaries
+- Portfolio summaries
 
-\- Resume bullet drafts
+- Resume bullet drafts
 
-\- Interview stories
+- Interview stories
 
-\- Notion portfolio summaries
+- Notion portfolio summaries
 
-\- Lessons learned without sensitive details
+- Lessons learned without sensitive details
 
 
 
@@ -192,25 +192,25 @@ Before exporting, remove:
 
 
 
-\- Company names
+- Company names
 
-\- Usernames
+- Usernames
 
-\- Emails
+- Emails
 
-\- Hostnames
+- Hostnames
 
-\- IP addresses
+- IP addresses
 
-\- Ticket IDs
+- Ticket IDs
 
-\- Customer information
+- Customer information
 
-\- Internal tool screenshots
+- Internal tool screenshots
 
-\- Proprietary process details
+- Proprietary process details
 
-\- Any confidential or restricted information
+- Any confidential or restricted information
 
 
 
@@ -234,29 +234,29 @@ Safe public wording:
 
 
 
-\## Universal Rules Across All Modes
+## Universal Rules Across All Modes
 
 
 
-\- Preserve evidence.
+- Preserve evidence.
 
-\- Separate facts from assumptions.
+- Separate facts from assumptions.
 
-\- Clearly mark analyst interpretation.
+- Clearly mark analyst interpretation.
 
-\- Identify missing information.
+- Identify missing information.
 
-\- Recommend safe next steps.
+- Recommend safe next steps.
 
-\- Require human approval for operational actions.
+- Require human approval for operational actions.
 
-\- Do not claim that an action was taken unless it was confirmed.
+- Do not claim that an action was taken unless it was confirmed.
 
-\- Keep writing clear, professional, and human.
+- Keep writing clear, professional, and human.
 
 
 
-\## Human Approval Required
+## Human Approval Required
 
 
 
@@ -264,23 +264,23 @@ The following actions always require human approval:
 
 
 
-\- Blocking an IP address or domain
+- Blocking an IP address or domain
 
-\- Disabling an account
+- Disabling an account
 
-\- Resetting a password
+- Resetting a password
 
-\- Deleting or quarantining files
+- Deleting or quarantining files
 
-\- Isolating an endpoint
+- Isolating an endpoint
 
-\- Contacting a user or customer
+- Contacting a user or customer
 
-\- Escalating to leadership
+- Escalating to leadership
 
-\- Closing an incident
+- Closing an incident
 
-\- Publishing a report
+- Publishing a report
 
-\- Sending an external message
+- Sending an external message
 

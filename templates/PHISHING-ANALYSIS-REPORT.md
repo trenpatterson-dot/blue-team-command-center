@@ -11,19 +11,19 @@
 
 ## Known Facts
 
-- 
+-
 
 ## Analyst Interpretation
 
-- 
+-
 
 ## Assumptions
 
-- 
+-
 
 ## Missing Information
 
-- 
+-
 
 ## Indicators
 
@@ -35,7 +35,7 @@
 
 ## Recommended Next Steps
 
-- 
+-
 
 ## Human Approval Required
 

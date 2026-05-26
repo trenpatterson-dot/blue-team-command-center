@@ -12,27 +12,27 @@
 
 ## Known Facts
 
-- 
+-
 
 ## Analyst Interpretation
 
-- 
+-
 
 ## Assumptions
 
-- 
+-
 
 ## Missing Information
 
-- 
+-
 
 ## Evidence Reviewed
 
-- 
+-
 
 ## Recommended Next Steps
 
-- 
+-
 
 ## Human Approval Required
 

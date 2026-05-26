@@ -1,4 +1,4 @@
-\# Case Closeout Checklist
+# Case Closeout Checklist
 
 
 
@@ -10,7 +10,7 @@ The goal is simple: close the case cleanly, protect evidence, and make sure the 
 
 
 
-\## 1. Case Basics
+## 1. Case Basics
 
 
 
@@ -18,27 +18,27 @@ Confirm the case includes:
 
 
 
-\- \[ ] Case title
+- [ ] Case title
 
-\- \[ ] Date opened
+- [ ] Date opened
 
-\- \[ ] Date closed or current status
+- [ ] Date closed or current status
 
-\- \[ ] Analyst name or team
+- [ ] Analyst name or team
 
-\- \[ ] Alert/source system
+- [ ] Alert/source system
 
-\- \[ ] Severity
+- [ ] Severity
 
-\- \[ ] Current disposition
+- [ ] Current disposition
 
-\- \[ ] Impacted asset/user/account, if allowed to document
+- [ ] Impacted asset/user/account, if allowed to document
 
-\- \[ ] Related ticket or case reference, if allowed to document
+- [ ] Related ticket or case reference, if allowed to document
 
 
 
-\## 2. Facts Are Documented
+## 2. Facts Are Documented
 
 
 
@@ -46,21 +46,21 @@ Confirm known facts are clearly listed.
 
 
 
-\- \[ ] What triggered the investigation
+- [ ] What triggered the investigation
 
-\- \[ ] When the activity occurred
+- [ ] When the activity occurred
 
-\- \[ ] What user/account/asset was involved, if allowed
+- [ ] What user/account/asset was involved, if allowed
 
-\- \[ ] What evidence supports the finding
+- [ ] What evidence supports the finding
 
-\- \[ ] What was confirmed
+- [ ] What was confirmed
 
-\- \[ ] What was not confirmed
+- [ ] What was not confirmed
 
 
 
-\## 3. Assumptions Are Marked
+## 3. Assumptions Are Marked
 
 
 
@@ -68,17 +68,17 @@ Confirm assumptions are not written as facts.
 
 
 
-\- \[ ] Analyst interpretation is separated from known facts
+- [ ] Analyst interpretation is separated from known facts
 
-\- \[ ] Unconfirmed items are labeled clearly
+- [ ] Unconfirmed items are labeled clearly
 
-\- \[ ] Missing context is listed
+- [ ] Missing context is listed
 
-\- \[ ] Confidence level is documented where needed
+- [ ] Confidence level is documented where needed
 
 
 
-\## 4. Timeline Is Complete
+## 4. Timeline Is Complete
 
 
 
@@ -86,23 +86,23 @@ Confirm the timeline includes:
 
 
 
-\- \[ ] Alert time
+- [ ] Alert time
 
-\- \[ ] Activity start time
+- [ ] Activity start time
 
-\- \[ ] Activity end time, if known
+- [ ] Activity end time, if known
 
-\- \[ ] Triage/review time
+- [ ] Triage/review time
 
-\- \[ ] Escalation time, if applicable
+- [ ] Escalation time, if applicable
 
-\- \[ ] Containment/remediation approval time, if applicable
+- [ ] Containment/remediation approval time, if applicable
 
-\- \[ ] Closure or handoff time
+- [ ] Closure or handoff time
 
 
 
-\## 5. Evidence Is Protected
+## 5. Evidence Is Protected
 
 
 
@@ -110,21 +110,21 @@ Confirm evidence is handled safely.
 
 
 
-\- \[ ] Raw logs are not committed by default
+- [ ] Raw logs are not committed by default
 
-\- \[ ] Screenshots are not committed by default
+- [ ] Screenshots are not committed by default
 
-\- \[ ] Packet captures are not committed by default
+- [ ] Packet captures are not committed by default
 
-\- \[ ] Sensitive exports are not committed by default
+- [ ] Sensitive exports are not committed by default
 
-\- \[ ] Evidence location is documented without exposing restricted data
+- [ ] Evidence location is documented without exposing restricted data
 
-\- \[ ] Public/private boundaries were reviewed
+- [ ] Public/private boundaries were reviewed
 
 
 
-\## 6. Indicators Are Reviewed
+## 6. Indicators Are Reviewed
 
 
 
@@ -136,25 +136,25 @@ Possible indicators:
 
 
 
-\- \[ ] IP addresses
+- [ ] IP addresses
 
-\- \[ ] Domains
+- [ ] Domains
 
-\- \[ ] URLs
+- [ ] URLs
 
-\- \[ ] Email senders
+- [ ] Email senders
 
-\- \[ ] File names
+- [ ] File names
 
-\- \[ ] Hashes
+- [ ] Hashes
 
-\- \[ ] Process names
+- [ ] Process names
 
-\- \[ ] Event IDs
+- [ ] Event IDs
 
-\- \[ ] User/account names
+- [ ] User/account names
 
-\- \[ ] Hostnames
+- [ ] Hostnames
 
 
 
@@ -162,7 +162,7 @@ For public or portfolio use, sanitize sensitive indicators first.
 
 
 
-\## 7. Findings Are Clear
+## 7. Findings Are Clear
 
 
 
@@ -170,25 +170,25 @@ Confirm the finding explains:
 
 
 
-\- \[ ] What happened
+- [ ] What happened
 
-\- \[ ] Why it matters
+- [ ] Why it matters
 
-\- \[ ] Impact
+- [ ] Impact
 
-\- \[ ] Likelihood
+- [ ] Likelihood
 
-\- \[ ] Risk level
+- [ ] Risk level
 
-\- \[ ] Evidence supporting the conclusion
+- [ ] Evidence supporting the conclusion
 
-\- \[ ] Recommended action
+- [ ] Recommended action
 
-\- \[ ] Remaining uncertainty
+- [ ] Remaining uncertainty
 
 
 
-\## 8. Human Approval Items Are Marked
+## 8. Human Approval Items Are Marked
 
 
 
@@ -200,29 +200,29 @@ Actions requiring approval include:
 
 
 
-\- \[ ] Blocking IPs or domains
+- [ ] Blocking IPs or domains
 
-\- \[ ] Disabling accounts
+- [ ] Disabling accounts
 
-\- \[ ] Resetting passwords
+- [ ] Resetting passwords
 
-\- \[ ] Deleting or quarantining files
+- [ ] Deleting or quarantining files
 
-\- \[ ] Isolating endpoints
+- [ ] Isolating endpoints
 
-\- \[ ] Contacting users or customers
+- [ ] Contacting users or customers
 
-\- \[ ] Escalating to leadership
+- [ ] Escalating to leadership
 
-\- \[ ] Closing incidents
+- [ ] Closing incidents
 
-\- \[ ] Publishing reports
+- [ ] Publishing reports
 
-\- \[ ] Sending external messages
+- [ ] Sending external messages
 
 
 
-\## 9. Reports Are Complete
+## 9. Reports Are Complete
 
 
 
@@ -234,31 +234,31 @@ Possible reports:
 
 
 
-\- \[ ] Alert triage report
+- [ ] Alert triage report
 
-\- \[ ] Incident report
+- [ ] Incident report
 
-\- \[ ] Executive summary
+- [ ] Executive summary
 
-\- \[ ] Lessons learned report
+- [ ] Lessons learned report
 
-\- \[ ] Phishing analysis report
+- [ ] Phishing analysis report
 
-\- \[ ] Detection engineering report
+- [ ] Detection engineering report
 
-\- \[ ] Threat hunting report
+- [ ] Threat hunting report
 
-\- \[ ] Vulnerability remediation report
+- [ ] Vulnerability remediation report
 
-\- \[ ] Audit finding report
+- [ ] Audit finding report
 
-\- \[ ] Shift handoff report
+- [ ] Shift handoff report
 
-\- \[ ] Weekly SOC activity summary
+- [ ] Weekly SOC activity summary
 
 
 
-\## 10. Recommendations Are Actionable
+## 10. Recommendations Are Actionable
 
 
 
@@ -266,23 +266,23 @@ Confirm recommendations are:
 
 
 
-\- \[ ] Specific
+- [ ] Specific
 
-\- \[ ] Safe
+- [ ] Safe
 
-\- \[ ] Evidence-based
+- [ ] Evidence-based
 
-\- \[ ] Assigned to a role or team when possible
+- [ ] Assigned to a role or team when possible
 
-\- \[ ] Clear about approval needs
+- [ ] Clear about approval needs
 
-\- \[ ] Not overstated
+- [ ] Not overstated
 
-\- \[ ] Written for the correct audience
+- [ ] Written for the correct audience
 
 
 
-\## 11. Lessons Learned Are Captured
+## 11. Lessons Learned Are Captured
 
 
 
@@ -290,23 +290,23 @@ Document:
 
 
 
-\- \[ ] What went well
+- [ ] What went well
 
-\- \[ ] What slowed the investigation down
+- [ ] What slowed the investigation down
 
-\- \[ ] What evidence was missing
+- [ ] What evidence was missing
 
-\- \[ ] What detection could be improved
+- [ ] What detection could be improved
 
-\- \[ ] What process could be improved
+- [ ] What process could be improved
 
-\- \[ ] What should be added to a playbook
+- [ ] What should be added to a playbook
 
-\- \[ ] What should be reviewed later
+- [ ] What should be reviewed later
 
 
 
-\## 12. Sanitization Review
+## 12. Sanitization Review
 
 
 
@@ -314,31 +314,31 @@ Before sharing outside the approved audience, remove:
 
 
 
-\- \[ ] Company names
+- [ ] Company names
 
-\- \[ ] Usernames
+- [ ] Usernames
 
-\- \[ ] Email addresses
+- [ ] Email addresses
 
-\- \[ ] Hostnames
+- [ ] Hostnames
 
-\- \[ ] IP addresses
+- [ ] IP addresses
 
-\- \[ ] Ticket IDs
+- [ ] Ticket IDs
 
-\- \[ ] Customer information
+- [ ] Customer information
 
-\- \[ ] Internal screenshots
+- [ ] Internal screenshots
 
-\- \[ ] Tool-specific internal details
+- [ ] Tool-specific internal details
 
-\- \[ ] Private notes
+- [ ] Private notes
 
-\- \[ ] Restricted evidence
+- [ ] Restricted evidence
 
 
 
-\## 13. Final Case Status
+## 13. Final Case Status
 
 
 
@@ -346,27 +346,27 @@ Choose one:
 
 
 
-\- \[ ] Closed as benign
+- [ ] Closed as benign
 
-\- \[ ] Closed as false positive
+- [ ] Closed as false positive
 
-\- \[ ] Closed as expected activity
+- [ ] Closed as expected activity
 
-\- \[ ] Escalated for investigation
+- [ ] Escalated for investigation
 
-\- \[ ] Confirmed incident
+- [ ] Confirmed incident
 
-\- \[ ] Monitoring required
+- [ ] Monitoring required
 
-\- \[ ] Waiting on user/team/business response
+- [ ] Waiting on user/team/business response
 
-\- \[ ] Needs more evidence
+- [ ] Needs more evidence
 
-\- \[ ] Transferred to another team
+- [ ] Transferred to another team
 
 
 
-\## 14. Final Closeout Statement
+## 14. Final Closeout Statement
 
 
 
@@ -382,7 +382,7 @@ Example:
 
 
 
-\## Final Review
+## Final Review
 
 
 
@@ -390,15 +390,15 @@ Before closing, confirm:
 
 
 
-\- \[ ] The case can be understood by another analyst
+- [ ] The case can be understood by another analyst
 
-\- \[ ] The report is clear to the intended audience
+- [ ] The report is clear to the intended audience
 
-\- \[ ] Sensitive evidence is protected
+- [ ] Sensitive evidence is protected
 
-\- \[ ] Public/private boundaries are respected
+- [ ] Public/private boundaries are respected
 
-\- \[ ] No unapproved action is implied as completed
+- [ ] No unapproved action is implied as completed
 
-\- \[ ] The next step is clear
+- [ ] The next step is clear
 

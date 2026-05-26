@@ -2,37 +2,38 @@
 
 ## Case Overview
 
-**Case Title:** Failed Login Practice Case  
-**Case ID / Ticket Reference:** Practice Case  
-**Date Opened:** 2026-05-23  
-**Date Closed:**  
-**Analyst:** Tren Patterson  
-**Team / Queue:** Blue Team Command Center Practice  
-**Status:** Active  
-**Severity:** Medium  
-**Operating Mode:** Personal Lab  
+**Case Title:** Failed Login Practice Case
+**Case ID / Ticket Reference:** Practice Case
+**Date Opened:** 2026-05-23
+**Date Closed:**
+**Analyst:** Tren Patterson
+**Team / Queue:** Blue Team Command Center Practice
+**Status:** Active
+**Severity:** Medium
+**Operating Mode:** Personal Lab
 
 ## Alert / Source Information
 
-**Alert Name:** Repeated Failed Login Activity  
-**Source System:** Practice SIEM / Windows Security Logs  
-**Detection Tool:** Blue Team Command Center Practice Case  
-**Alert Time:** TBD  
-**Reviewed Time:** TBD  
-**Timezone:** Local  
+**Alert Name:** Repeated Failed Login Activity
+**Source System:** Practice SIEM / Windows Security Logs
+**Detection Tool:** Blue Team Command Center Practice Case
+**Alert Time:** TBD
+**Reviewed Time:** TBD
+**Timezone:** Local
 **Related Playbook:** `playbooks/failed-login-investigation.md`
+**Related Checklist:** `checklists/failed-login-triage-checklist.md`
 
 ## Impacted Entities
 
 Only demo/lab details are used in this practice case.
 
-**User / Account:** Demo user account  
-**Host / Device:** Demo Windows host  
-**IP Address:** Demo source address  
-**Domain / URL:** Not applicable  
-**File / Hash:** Not applicable  
-**Application / Service:** Windows authentication  
-**Business Unit / Owner:** Lab / practice environment  
+**User / Account:** Demo user account
+**Host / Device:** Demo Windows host
+**IP Address:** Demo source address
+**Domain / URL:** Not applicable
+**File / Hash:** Not applicable
+**Application / Service:** Windows authentication
+**Business Unit / Owner:** Lab / practice environment
 
 ## Initial Summary
 
@@ -86,6 +87,7 @@ Use:
 ```text
 analysis/timeline.md
 
+```
 ## Recommended Next Steps
 
 | High | Complete failed-login triage checklist | Ensures failed login count, source context, successful login follow-up, and escalation criteria are reviewed | No |

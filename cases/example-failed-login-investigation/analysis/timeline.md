@@ -2,19 +2,19 @@
 
 ## Known Facts
 
-- 
+-
 
 ## Analyst Interpretation
 
-- 
+-
 
 ## Assumptions
 
-- 
+-
 
 ## Missing Information
 
-- 
+-
 
 ## Timeline Entries
 

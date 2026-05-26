@@ -1,8 +1,8 @@
-\# Case Timeline
+# Case Timeline
 
 
 
-\## Timeline Overview
+## Timeline Overview
 
 
 
@@ -14,19 +14,19 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 
 
 
-\## Timezone
+## Timezone
 
 
 
-\*\*Timezone Used:\*\* Local  
+**Timezone Used:** Local
 
-\*\*UTC Used?\*\* No  
+**UTC Used?** No
 
-\*\*Notes:\*\* Timestamps are placeholders for practice. Replace with real lab timestamps if sanitized evidence is added later.
+**Notes:** Timestamps are placeholders for practice. Replace with real lab timestamps if sanitized evidence is added later.
 
 
 
-\## Timeline Table
+## Timeline Table
 
 
 
@@ -50,79 +50,79 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 
 
 
-\## Confirmed Events
+## Confirmed Events
 
 
 
-\- A phishing triage practice case was created.
+- A phishing triage practice case was created.
 
-\- The case is being handled in Personal Lab Mode.
+- The case is being handled in Personal Lab Mode.
 
-\- No real company or customer data is being used.
+- No real company or customer data is being used.
 
-\- No message deletion, blocking, password reset, session revocation, or user notification has occurred.
+- No message deletion, blocking, password reset, session revocation, or user notification has occurred.
 
-\- The investigation is currently in documentation and analysis practice stage.
-
-
-
-\## Analyst Notes
+- The investigation is currently in documentation and analysis practice stage.
 
 
 
-\- Phishing triage should review sender identity, reply-to address, authentication results, URLs, attachments, and user interaction.
-
-\- User interaction changes risk. A reported email with no interaction is different from a clicked link or submitted credential.
-
-\- Similar-message scope matters because one message may be isolated, while many similar messages could indicate a broader campaign.
-
-\- No action should be taken without approval.
+## Analyst Notes
 
 
 
-\## Gaps in Timeline
+- Phishing triage should review sender identity, reply-to address, authentication results, URLs, attachments, and user interaction.
+
+- User interaction changes risk. A reported email with no interaction is different from a clicked link or submitted credential.
+
+- Similar-message scope matters because one message may be isolated, while many similar messages could indicate a broader campaign.
+
+- No action should be taken without approval.
 
 
 
-\- Exact email received time is not documented yet.
-
-\- Exact reported time is not documented yet.
-
-\- Sender and reply-to details are not documented yet.
-
-\- Authentication results are not documented yet.
-
-\- URL and attachment details are not documented yet.
-
-\- User interaction status is unknown.
-
-\- Similar-message search has not been completed.
+## Gaps in Timeline
 
 
 
-\## Timeline Review Questions
+- Exact email received time is not documented yet.
+
+- Exact reported time is not documented yet.
+
+- Sender and reply-to details are not documented yet.
+
+- Authentication results are not documented yet.
+
+- URL and attachment details are not documented yet.
+
+- User interaction status is unknown.
+
+- Similar-message search has not been completed.
 
 
 
-\- When was the email received?
-
-\- When was it reported or detected?
-
-\- Who received it, if allowed to document?
-
-\- Did the user interact with it?
-
-\- Were there links or attachments?
-
-\- Did similar messages reach other users?
-
-\- Were authentication results available?
-
-\- Did the message require escalation?
+## Timeline Review Questions
 
 
 
-\## Closeout Notes
+- When was the email received?
+
+- When was it reported or detected?
+
+- Who received it, if allowed to document?
+
+- Did the user interact with it?
+
+- Were there links or attachments?
+
+- Did similar messages reach other users?
+
+- Were authentication results available?
+
+- Did the message require escalation?
+
+
+
+## Closeout Notes
 
 
 
@@ -130,13 +130,13 @@ Before closing the case, confirm:
 
 
 
-\- \[ ] Timeline is complete enough for another analyst to understand.
+- [ ] Timeline is complete enough for another analyst to understand.
 
-\- \[ ] Timezone is documented.
+- [ ] Timezone is documented.
 
-\- \[ ] Known facts are separated from analyst notes.
+- [ ] Known facts are separated from analyst notes.
 
-\- \[ ] Missing timestamps are listed.
+- [ ] Missing timestamps are listed.
 
-\- \[ ] No sensitive data is exposed unnecessarily.
+- [ ] No sensitive data is exposed unnecessarily.
 

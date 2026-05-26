@@ -1,4 +1,4 @@
-\# Failed Login Triage Checklist
+# Failed Login Triage Checklist
 
 
 
@@ -10,25 +10,25 @@ The goal is to separate normal user error from suspicious authentication behavio
 
 
 
-\## 1. Case Basics
+## 1. Case Basics
 
 
 
-\- \[ ] Case or ticket created
+- [ ] Case or ticket created
 
-\- \[ ] Alert name documented
+- [ ] Alert name documented
 
-\- \[ ] Alert source documented
+- [ ] Alert source documented
 
-\- \[ ] Analyst name documented
+- [ ] Analyst name documented
 
-\- \[ ] Date and time documented
+- [ ] Date and time documented
 
-\- \[ ] Timezone documented
+- [ ] Timezone documented
 
-\- \[ ] Severity documented
+- [ ] Severity documented
 
-\- \[ ] Related playbook linked
+- [ ] Related playbook linked
 
 
 
@@ -39,4 +39,4 @@ Related playbook:
 ```text
 
 playbooks/failed-login-investigation.md
-
+```

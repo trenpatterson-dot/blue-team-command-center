@@ -6,12 +6,12 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 
 ## Report Details
 
-**Case Title:** Failed Login Practice Case  
-**Date Prepared:** 2026-05-23  
-**Prepared By:** Tren Patterson  
-**Status:** Draft  
-**Severity:** Medium  
-**Operating Mode:** Personal Lab  
+**Case Title:** Failed Login Practice Case
+**Date Prepared:** 2026-05-23
+**Prepared By:** Tren Patterson
+**Status:** Draft
+**Severity:** Medium
+**Operating Mode:** Personal Lab
 
 ## Short Summary
 
@@ -21,11 +21,11 @@ No compromise has been confirmed from the available practice evidence. No contai
 
 ## Alert / Detection Information
 
-**Alert Name:** Repeated Failed Login Activity  
-**Source System:** Practice SIEM / Windows Security Logs  
-**Detection Tool:** Blue Team Command Center Practice Case  
-**Alert Time:** TBD  
-**Reviewed Time:** TBD  
+**Alert Name:** Repeated Failed Login Activity
+**Source System:** Practice SIEM / Windows Security Logs
+**Detection Tool:** Blue Team Command Center Practice Case
+**Alert Time:** TBD
+**Reviewed Time:** TBD
 **Related Playbook:** `playbooks/failed-login-investigation.md`
 
 ## Scope
@@ -81,3 +81,4 @@ Full timeline location:
 
 ```text
 analysis/timeline.md
+```

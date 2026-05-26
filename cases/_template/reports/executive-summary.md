@@ -1,4 +1,4 @@
-\# Executive Summary
+# Executive Summary
 
 
 
@@ -10,25 +10,25 @@ The goal is to explain what happened, why it matters, current risk, and what sho
 
 
 
-\## Report Details
+## Report Details
 
 
 
-\*\*Case Title:\*\*  
+**Case Title:**
 
-\*\*Date Prepared:\*\*  
+**Date Prepared:**
 
-\*\*Prepared By:\*\*  
+**Prepared By:**
 
-\*\*Status:\*\* Draft / Reviewed / Final  
+**Status:** Draft / Reviewed / Final
 
-\*\*Severity:\*\* Low / Medium / High / Critical  
+**Severity:** Low / Medium / High / Critical
 
-\*\*Operating Mode:\*\* Personal Lab / Company-Safe Template / Sanitized Export  
+**Operating Mode:** Personal Lab / Company-Safe Template / Sanitized Export
 
 
 
-\## Plain-English Summary
+## Plain-English Summary
 
 
 
@@ -44,7 +44,7 @@ Example:
 
 
 
-\## Business Impact
+## Business Impact
 
 
 
@@ -56,21 +56,21 @@ Consider:
 
 
 
-\- User/account risk
+- User/account risk
 
-\- Device risk
+- Device risk
 
-\- Data exposure risk
+- Data exposure risk
 
-\- Business process risk
+- Business process risk
 
-\- Operational disruption
+- Operational disruption
 
-\- Reputation or compliance concern
+- Reputation or compliance concern
 
 
 
-\## Current Risk Level
+## Current Risk Level
 
 
 
@@ -78,13 +78,13 @@ Choose one:
 
 
 
-\- \[ ] Low
+- [ ] Low
 
-\- \[ ] Medium
+- [ ] Medium
 
-\- \[ ] High
+- [ ] High
 
-\- \[ ] Critical
+- [ ] Critical
 
 
 
@@ -92,11 +92,11 @@ Explain why:
 
 
 
-> 
+>
 
 
 
-\## What We Know
+## What We Know
 
 
 
@@ -104,15 +104,15 @@ List confirmed facts only.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## What We Do Not Know Yet
+## What We Do Not Know Yet
 
 
 
@@ -120,15 +120,15 @@ List missing or unconfirmed information.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Recommended Next Steps
+## Recommended Next Steps
 
 
 
@@ -144,7 +144,7 @@ List missing or unconfirmed information.
 
 
 
-\## Approval Required
+## Approval Required
 
 
 
@@ -152,29 +152,29 @@ Mark any decision that requires approval.
 
 
 
-\- \[ ] Block IP/domain
+- [ ] Block IP/domain
 
-\- \[ ] Disable account
+- [ ] Disable account
 
-\- \[ ] Reset password
+- [ ] Reset password
 
-\- \[ ] Delete/quarantine file
+- [ ] Delete/quarantine file
 
-\- \[ ] Isolate endpoint
+- [ ] Isolate endpoint
 
-\- \[ ] Contact user/customer
+- [ ] Contact user/customer
 
-\- \[ ] Escalate to leadership
+- [ ] Escalate to leadership
 
-\- \[ ] Close incident
+- [ ] Close incident
 
-\- \[ ] Publish report
+- [ ] Publish report
 
-\- \[ ] Send external message
+- [ ] Send external message
 
 
 
-\## Final Executive Statement
+## Final Executive Statement
 
 
 
@@ -186,7 +186,7 @@ Example:
 
 
 
-\## Sanitization Reminder
+## Sanitization Reminder
 
 
 
@@ -194,21 +194,21 @@ Before sharing outside the approved audience, remove:
 
 
 
-\- Usernames
+- Usernames
 
-\- Emails
+- Emails
 
-\- Hostnames
+- Hostnames
 
-\- IP addresses
+- IP addresses
 
-\- Ticket IDs
+- Ticket IDs
 
-\- Customer information
+- Customer information
 
-\- Internal screenshots
+- Internal screenshots
 
-\- Tool-specific internal details
+- Tool-specific internal details
 
-\- Private notes
+- Private notes
 

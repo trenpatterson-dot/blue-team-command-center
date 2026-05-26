@@ -6,11 +6,11 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 
 ## Report Details
 
-**Case Title:** Failed Login Practice Case  
-**Date Prepared:** 2026-05-23  
-**Prepared By:** Tren Patterson  
-**Status:** Draft  
-**Operating Mode:** Personal Lab  
+**Case Title:** Failed Login Practice Case
+**Date Prepared:** 2026-05-23
+**Prepared By:** Tren Patterson
+**Status:** Draft
+**Operating Mode:** Personal Lab
 
 ## Plain-English Summary
 

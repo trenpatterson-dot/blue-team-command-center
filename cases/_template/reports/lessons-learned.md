@@ -1,4 +1,4 @@
-\# Lessons Learned
+# Lessons Learned
 
 
 
@@ -10,23 +10,23 @@ The goal is to capture what happened, what worked, what slowed the team down, an
 
 
 
-\## Report Details
+## Report Details
 
 
 
-\*\*Case Title:\*\*  
+**Case Title:**
 
-\*\*Date Prepared:\*\*  
+**Date Prepared:**
 
-\*\*Prepared By:\*\*  
+**Prepared By:**
 
-\*\*Status:\*\* Draft / Reviewed / Final  
+**Status:** Draft / Reviewed / Final
 
-\*\*Operating Mode:\*\* Personal Lab / Company-Safe Template / Sanitized Export  
+**Operating Mode:** Personal Lab / Company-Safe Template / Sanitized Export
 
 
 
-\## Plain-English Summary
+## Plain-English Summary
 
 
 
@@ -42,7 +42,7 @@ Example:
 
 
 
-\## What Happened
+## What Happened
 
 
 
@@ -50,15 +50,15 @@ Summarize the event or investigation.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## What Went Well
+## What Went Well
 
 
 
@@ -66,15 +66,15 @@ List what worked.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## What Slowed the Investigation Down
+## What Slowed the Investigation Down
 
 
 
@@ -82,15 +82,15 @@ List blockers, friction, missing context, or unclear process issues.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Evidence Gaps
+## Evidence Gaps
 
 
 
@@ -98,11 +98,11 @@ What evidence would have made the investigation stronger?
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
@@ -110,23 +110,23 @@ Examples:
 
 
 
-\- Missing user context
+- Missing user context
 
-\- Missing endpoint logs
+- Missing endpoint logs
 
-\- Missing process details
+- Missing process details
 
-\- Missing asset owner
+- Missing asset owner
 
-\- Missing baseline
+- Missing baseline
 
-\- Incomplete alert fields
+- Incomplete alert fields
 
-\- Limited retention window
+- Limited retention window
 
 
 
-\## Detection Gaps
+## Detection Gaps
 
 
 
@@ -134,11 +134,11 @@ Did the detection need improvement?
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
@@ -146,21 +146,21 @@ Consider:
 
 
 
-\- Was the alert clear?
+- Was the alert clear?
 
-\- Was severity accurate?
+- Was severity accurate?
 
-\- Were fields useful?
+- Were fields useful?
 
-\- Was enrichment needed?
+- Was enrichment needed?
 
-\- Were there false positive issues?
+- Were there false positive issues?
 
-\- Was there missing telemetry?
+- Was there missing telemetry?
 
 
 
-\## Process Gaps
+## Process Gaps
 
 
 
@@ -168,11 +168,11 @@ Did the workflow need improvement?
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
@@ -180,21 +180,21 @@ Consider:
 
 
 
-\- Was escalation clear?
+- Was escalation clear?
 
-\- Was ownership clear?
+- Was ownership clear?
 
-\- Was approval needed?
+- Was approval needed?
 
-\- Was documentation complete?
+- Was documentation complete?
 
-\- Did the handoff make sense?
+- Did the handoff make sense?
 
-\- Were response steps safe?
+- Were response steps safe?
 
 
 
-\## Recommended Improvements
+## Recommended Improvements
 
 
 
@@ -210,7 +210,7 @@ Consider:
 
 
 
-\## Playbook Updates Needed
+## Playbook Updates Needed
 
 
 
@@ -218,23 +218,23 @@ Should any playbook be updated?
 
 
 
-\- \[ ] Failed login investigation
+- [ ] Failed login investigation
 
-\- \[ ] Phishing email triage
+- [ ] Phishing email triage
 
-\- \[ ] Suspicious PowerShell
+- [ ] Suspicious PowerShell
 
-\- \[ ] Malware alert triage
+- [ ] Malware alert triage
 
-\- \[ ] Vulnerability finding
+- [ ] Vulnerability finding
 
-\- \[ ] Account compromise
+- [ ] Account compromise
 
-\- \[ ] Impossible travel
+- [ ] Impossible travel
 
-\- \[ ] Endpoint alert triage
+- [ ] Endpoint alert triage
 
-\- \[ ] Other
+- [ ] Other
 
 
 
@@ -242,15 +242,15 @@ Notes:
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Training / Knowledge Notes
+## Training / Knowledge Notes
 
 
 
@@ -258,15 +258,15 @@ What should the analyst or team practice next?
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Human Approval Reminder
+## Human Approval Reminder
 
 
 
@@ -274,29 +274,29 @@ Any operational changes still require approval, including:
 
 
 
-\- Blocking IPs or domains
+- Blocking IPs or domains
 
-\- Disabling accounts
+- Disabling accounts
 
-\- Resetting passwords
+- Resetting passwords
 
-\- Deleting or quarantining files
+- Deleting or quarantining files
 
-\- Isolating endpoints
+- Isolating endpoints
 
-\- Contacting users or customers
+- Contacting users or customers
 
-\- Escalating to leadership
+- Escalating to leadership
 
-\- Closing incidents
+- Closing incidents
 
-\- Publishing reports
+- Publishing reports
 
-\- Sending external messages
+- Sending external messages
 
 
 
-\## Final Lessons Learned Statement
+## Final Lessons Learned Statement
 
 
 
@@ -308,7 +308,7 @@ Example:
 
 
 
-\## Sanitization Reminder
+## Sanitization Reminder
 
 
 
@@ -316,23 +316,23 @@ Before sharing outside the approved audience, remove:
 
 
 
-\- Company names
+- Company names
 
-\- Usernames
+- Usernames
 
-\- Emails
+- Emails
 
-\- Hostnames
+- Hostnames
 
-\- IP addresses
+- IP addresses
 
-\- Ticket IDs
+- Ticket IDs
 
-\- Customer information
+- Customer information
 
-\- Internal screenshots
+- Internal screenshots
 
-\- Tool-specific internal details
+- Tool-specific internal details
 
-\- Private notes
+- Private notes
 

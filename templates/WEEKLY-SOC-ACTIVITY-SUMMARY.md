@@ -1,24 +1,24 @@
-\# Weekly SOC Activity Summary
+# Weekly SOC Activity Summary
 
 
 
-\## Report Details
+## Report Details
 
 
 
-\*\*Week Covered:\*\*  
+**Week Covered:**
 
-\*\*Prepared By:\*\*  
+**Prepared By:**
 
-\*\*Team / Queue:\*\*  
+**Team / Queue:**
 
-\*\*Date Prepared:\*\*  
+**Date Prepared:**
 
-\*\*Status:\*\* Draft / Reviewed / Final  
+**Status:** Draft / Reviewed / Final
 
 
 
-\## Executive Summary
+## Executive Summary
 
 
 
@@ -30,17 +30,17 @@ Include:
 
 
 
-\- Overall alert volume
+- Overall alert volume
 
-\- Major trends
+- Major trends
 
-\- Notable investigations
+- Notable investigations
 
-\- Key risks
+- Key risks
 
-\- Improvements made
+- Improvements made
 
-\- Items needing follow-up
+- Items needing follow-up
 
 
 
@@ -48,11 +48,11 @@ Example:
 
 
 
-> This week’s SOC activity was mostly routine, with failed login activity and phishing reviews making up the largest portion of analyst work. No confirmed compromise was identified based on the available evidence, but several alerts required follow-up due to repeated authentication failures and incomplete asset context.
+> This weekÃ¢â‚¬â„¢s SOC activity was mostly routine, with failed login activity and phishing reviews making up the largest portion of analyst work. No confirmed compromise was identified based on the available evidence, but several alerts required follow-up due to repeated authentication failures and incomplete asset context.
 
 
 
-\## Weekly Metrics
+## Weekly Metrics
 
 
 
@@ -80,7 +80,7 @@ Example:
 
 
 
-\## Alert Categories
+## Alert Categories
 
 
 
@@ -104,7 +104,7 @@ Example:
 
 
 
-\## Notable Cases
+## Notable Cases
 
 
 
@@ -116,7 +116,7 @@ Example:
 
 
 
-\## Known Facts
+## Known Facts
 
 
 
@@ -124,15 +124,15 @@ List confirmed observations from the week.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Analyst Interpretation
+## Analyst Interpretation
 
 
 
@@ -144,15 +144,15 @@ Do not overstate the conclusion.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Assumptions
+## Assumptions
 
 
 
@@ -160,15 +160,15 @@ List anything that is not confirmed.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Missing Information
+## Missing Information
 
 
 
@@ -180,21 +180,21 @@ Examples:
 
 
 
-\- Asset owner unknown
+- Asset owner unknown
 
-\- User context unavailable
+- User context unavailable
 
-\- Logs not retained long enough
+- Logs not retained long enough
 
-\- Alert lacked process details
+- Alert lacked process details
 
-\- No baseline available
+- No baseline available
 
-\- Ticket did not include business context
+- Ticket did not include business context
 
 
 
-\## Detection and Tuning Notes
+## Detection and Tuning Notes
 
 
 
@@ -210,7 +210,7 @@ Document alerts that may need tuning, suppression review, enrichment, or detecti
 
 
 
-\## Response Actions Completed
+## Response Actions Completed
 
 
 
@@ -222,7 +222,7 @@ Document alerts that may need tuning, suppression review, enrichment, or detecti
 
 
 
-\## Human Approval Items
+## Human Approval Items
 
 
 
@@ -242,35 +242,35 @@ Examples of approval-required actions:
 
 
 
-\- Blocking IPs or domains
+- Blocking IPs or domains
 
-\- Disabling accounts
+- Disabling accounts
 
-\- Resetting passwords
+- Resetting passwords
 
-\- Isolating endpoints
+- Isolating endpoints
 
-\- Deleting or quarantining files
+- Deleting or quarantining files
 
-\- Contacting users or customers
+- Contacting users or customers
 
-\- Closing incidents with business impact
-
-
-
-\## Risks and Watch Items
+- Closing incidents with business impact
 
 
 
-\- 
-
-\- 
-
-\- 
+## Risks and Watch Items
 
 
 
-\## Lessons Learned
+-
+
+-
+
+-
+
+
+
+## Lessons Learned
 
 
 
@@ -278,15 +278,15 @@ Summarize what the team learned this week.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Recommended Next Steps
+## Recommended Next Steps
 
 
 
@@ -302,7 +302,7 @@ Summarize what the team learned this week.
 
 
 
-\## Sanitization Reminder
+## Sanitization Reminder
 
 
 
@@ -310,25 +310,25 @@ Before sharing this report outside the approved audience, remove:
 
 
 
-\- Usernames
+- Usernames
 
-\- Emails
+- Emails
 
-\- Hostnames
+- Hostnames
 
-\- IP addresses
+- IP addresses
 
-\- Ticket IDs
+- Ticket IDs
 
-\- Customer information
+- Customer information
 
-\- Internal tool screenshots
+- Internal tool screenshots
 
-\- Company-sensitive process details
+- Company-sensitive process details
 
 
 
-\## Final Review Checklist
+## Final Review Checklist
 
 
 
@@ -336,17 +336,17 @@ Before marking final:
 
 
 
-\- Metrics are accurate.
+- Metrics are accurate.
 
-\- Known facts are separated from assumptions.
+- Known facts are separated from assumptions.
 
-\- Recommendations are actionable.
+- Recommendations are actionable.
 
-\- Approval-required items are marked.
+- Approval-required items are marked.
 
-\- Sensitive details are protected.
+- Sensitive details are protected.
 
-\- The summary is readable by a non-technical manager.
+- The summary is readable by a non-technical manager.
 
-\- The report does not claim actions were taken unless confirmed.
+- The report does not claim actions were taken unless confirmed.
 

@@ -6,11 +6,11 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 
 ## Finding Summary
 
-**Case Title:** Failed Login Practice Case  
-**Date Reviewed:** 2026-05-23  
-**Analyst:** Tren Patterson  
-**Operating Mode:** Personal Lab  
-**Finding Status:** Draft  
+**Case Title:** Failed Login Practice Case
+**Date Reviewed:** 2026-05-23
+**Analyst:** Tren Patterson
+**Operating Mode:** Personal Lab
+**Finding Status:** Draft
 
 ## Finding Title
 
@@ -51,9 +51,9 @@ Repeated Failed Login Activity Requires Additional Context
 
 | Evidence | Source / Location | What It Shows |
 |---|---|---|
-| Case summary | `CASE.md` | Failed login activity is the focus of the investigation. |
-| Timeline notes | `analysis/timeline.md` | Timeline gaps still need to be filled in. |
-| Indicator notes | `analysis/indicators.md` | Source, account, host, and event context still need review. |
+| Case summary | `../CASE.md` | Failed login activity is the focus of the investigation. |
+| Timeline notes | `timeline.md` | Timeline gaps still need to be filled in. |
+| Indicator notes | `indicators.md` | Source, account, host, and event context still need review. |
 
 ## Analyst Interpretation
 
@@ -153,11 +153,11 @@ Use this section if the finding shows a detection, logging, or process gap.
 
 Optional mapping if supported by evidence.
 
-**MITRE ATT&CK:** T1110 - Brute Force, if evidence supports repeated password guessing  
-**NIST CSF:** Detect, Respond  
-**NIST SP 800-61:** Detection and Analysis  
-**CIS Controls:** Account Management, Audit Log Management  
-**Other:** Windows authentication monitoring  
+**MITRE ATT&CK:** T1110 - Brute Force, if evidence supports repeated password guessing
+**NIST CSF:** Detect, Respond
+**NIST SP 800-61:** Detection and Analysis
+**CIS Controls:** Account Management, Audit Log Management
+**Other:** Windows authentication monitoring
 
 ## Final Finding Statement
 

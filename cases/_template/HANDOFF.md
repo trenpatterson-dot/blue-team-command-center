@@ -1,26 +1,26 @@
-\# Case Handoff
+# Case Handoff
 
 
 
-\## Handoff Status
+## Handoff Status
 
 
 
-\*\*Case Title:\*\*  
+**Case Title:**
 
-\*\*Status:\*\* New / Active / Monitoring / Escalated / Waiting / Closed  
+**Status:** New / Active / Monitoring / Escalated / Waiting / Closed
 
-\*\*Current Owner:\*\*  
+**Current Owner:**
 
-\*\*Next Owner / Team:\*\*  
+**Next Owner / Team:**
 
-\*\*Last Updated:\*\*  
+**Last Updated:**
 
-\*\*Operating Mode:\*\* Personal Lab / Company-Safe Template / Sanitized Export  
+**Operating Mode:** Personal Lab / Company-Safe Template / Sanitized Export
 
 
 
-\## Current Step
+## Current Step
 
 
 
@@ -36,31 +36,31 @@ Example:
 
 
 
-\## Completed So Far
+## Completed So Far
 
 
 
-\- \[ ] Case created
+- [ ] Case created
 
-\- \[ ] Initial alert reviewed
+- [ ] Initial alert reviewed
 
-\- \[ ] Known facts documented
+- [ ] Known facts documented
 
-\- \[ ] Timeline started
+- [ ] Timeline started
 
-\- \[ ] Indicators reviewed
+- [ ] Indicators reviewed
 
-\- \[ ] Findings drafted
+- [ ] Findings drafted
 
-\- \[ ] Report started
+- [ ] Report started
 
-\- \[ ] Human approval items marked
+- [ ] Human approval items marked
 
-\- \[ ] Public/private boundary reviewed
+- [ ] Public/private boundary reviewed
 
 
 
-\## Known Facts
+## Known Facts
 
 
 
@@ -68,15 +68,15 @@ List only confirmed facts.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Analyst Interpretation
+## Analyst Interpretation
 
 
 
@@ -84,15 +84,15 @@ Explain what the facts may indicate.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Assumptions
+## Assumptions
 
 
 
@@ -100,15 +100,15 @@ List anything not confirmed yet.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Missing Information
+## Missing Information
 
 
 
@@ -116,15 +116,15 @@ What still needs to be checked?
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Evidence Collected
+## Evidence Collected
 
 
 
@@ -140,31 +140,31 @@ Do not include restricted evidence unless policy allows it.
 
 
 
-\## Open Questions
+## Open Questions
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
-
-
-
-\## Blockers
+-
 
 
 
-\- 
-
-\- 
-
-\- 
+## Blockers
 
 
 
-\## Recommended Next Step
+-
+
+-
+
+-
+
+
+
+## Recommended Next Step
 
 
 
@@ -180,7 +180,7 @@ Do not include restricted evidence unless policy allows it.
 
 
 
-\## Human Approval Required
+## Human Approval Required
 
 
 
@@ -188,29 +188,29 @@ Mark any action that needs approval before it happens.
 
 
 
-\- \[ ] Block IP/domain
+- [ ] Block IP/domain
 
-\- \[ ] Disable account
+- [ ] Disable account
 
-\- \[ ] Reset password
+- [ ] Reset password
 
-\- \[ ] Delete/quarantine file
+- [ ] Delete/quarantine file
 
-\- \[ ] Isolate endpoint
+- [ ] Isolate endpoint
 
-\- \[ ] Contact user/customer
+- [ ] Contact user/customer
 
-\- \[ ] Escalate to leadership
+- [ ] Escalate to leadership
 
-\- \[ ] Close incident
+- [ ] Close incident
 
-\- \[ ] Publish report
+- [ ] Publish report
 
-\- \[ ] Send external message
+- [ ] Send external message
 
 
 
-\## Safe Handoff Summary
+## Safe Handoff Summary
 
 
 
@@ -226,7 +226,7 @@ Example:
 
 
 
-\## Final Reminder
+## Final Reminder
 
 
 
@@ -234,15 +234,15 @@ Before handing off:
 
 
 
-\- \[ ] Facts are separated from assumptions
+- [ ] Facts are separated from assumptions
 
-\- \[ ] Missing information is clear
+- [ ] Missing information is clear
 
-\- \[ ] Evidence location is documented safely
+- [ ] Evidence location is documented safely
 
-\- \[ ] Approval-required actions are marked
+- [ ] Approval-required actions are marked
 
-\- \[ ] Sensitive data is protected
+- [ ] Sensitive data is protected
 
-\- \[ ] The next analyst can continue without guessing
+- [ ] The next analyst can continue without guessing
 

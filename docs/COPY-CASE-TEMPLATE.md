@@ -1,4 +1,4 @@
-\# Copy Case Template
+# Copy Case Template
 
 
 
@@ -6,11 +6,11 @@ Use this guide to create a new investigation case from the reusable case templat
 
 
 
-\## Purpose
+## Purpose
 
 
 
-The `cases/\_template/` folder provides a clean starting structure for every SOC-style investigation.
+The `cases/_template/` folder provides a clean starting structure for every SOC-style investigation.
 
 
 
@@ -18,27 +18,27 @@ It includes:
 
 
 
-\- Case overview
+- Case overview
 
-\- Handoff notes
+- Handoff notes
 
-\- Timeline
+- Timeline
 
-\- Indicators
+- Indicators
 
-\- Findings
+- Findings
 
-\- Analyst summary
+- Analyst summary
 
-\- Executive summary
+- Executive summary
 
-\- Lessons learned
+- Lessons learned
 
-\- Evidence placeholder folders
+- Evidence placeholder folders
 
 
 
-\## Step 1: Choose a Safe Case Name
+## Step 1: Choose a Safe Case Name
 
 
 
@@ -53,4 +53,4 @@ Recommended format:
 ```text
 
 YYYY-MM-DD-short-case-name
-
+```

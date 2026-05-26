@@ -6,12 +6,12 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 
 ## Report Details
 
-**Case Title:** Suspicious PowerShell Practice Case  
-**Date Prepared:** 2026-05-25  
-**Prepared By:** Tren Patterson  
-**Status:** Draft  
-**Severity:** Medium  
-**Operating Mode:** Personal Lab  
+**Case Title:** Suspicious PowerShell Practice Case
+**Date Prepared:** 2026-05-25
+**Prepared By:** Tren Patterson
+**Status:** Draft
+**Severity:** Medium
+**Operating Mode:** Personal Lab
 
 ## Short Summary
 
@@ -21,12 +21,12 @@ Malicious execution has not been confirmed from the available practice evidence.
 
 ## Alert / Detection Information
 
-**Alert Name:** Suspicious PowerShell Activity  
-**Source System:** Practice EDR / Windows Security Logs  
-**Detection Tool:** Blue Team Command Center Practice Case  
-**Alert Time:** TBD  
-**Reviewed Time:** TBD  
-**Related Playbook:** `playbooks/suspicious-powershell.md`  
+**Alert Name:** Suspicious PowerShell Activity
+**Source System:** Practice EDR / Windows Security Logs
+**Detection Tool:** Blue Team Command Center Practice Case
+**Alert Time:** TBD
+**Reviewed Time:** TBD
+**Related Playbook:** `playbooks/suspicious-powershell.md`
 **Related Checklist:** `checklists/suspicious-powershell-triage-checklist.md`
 
 ## Scope
@@ -87,3 +87,4 @@ Full timeline location:
 
 ```text
 analysis/timeline.md
+```

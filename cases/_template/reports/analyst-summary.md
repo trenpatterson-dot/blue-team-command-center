@@ -1,4 +1,4 @@
-\# Analyst Summary
+# Analyst Summary
 
 
 
@@ -10,25 +10,25 @@ This should be detailed enough for another analyst to understand what happened, 
 
 
 
-\## Report Details
+## Report Details
 
 
 
-\*\*Case Title:\*\*  
+**Case Title:**
 
-\*\*Date Prepared:\*\*  
+**Date Prepared:**
 
-\*\*Prepared By:\*\*  
+**Prepared By:**
 
-\*\*Status:\*\* Draft / Reviewed / Final  
+**Status:** Draft / Reviewed / Final
 
-\*\*Severity:\*\* Low / Medium / High / Critical  
+**Severity:** Low / Medium / High / Critical
 
-\*\*Operating Mode:\*\* Personal Lab / Company-Safe Template / Sanitized Export  
+**Operating Mode:** Personal Lab / Company-Safe Template / Sanitized Export
 
 
 
-\## Short Summary
+## Short Summary
 
 
 
@@ -44,25 +44,25 @@ Example:
 
 
 
-\## Alert / Detection Information
+## Alert / Detection Information
 
 
 
-\*\*Alert Name:\*\*  
+**Alert Name:**
 
-\*\*Source System:\*\*  
+**Source System:**
 
-\*\*Detection Tool:\*\*  
+**Detection Tool:**
 
-\*\*Alert Time:\*\*  
+**Alert Time:**
 
-\*\*Reviewed Time:\*\*  
+**Reviewed Time:**
 
-\*\*Related Playbook:\*\*  
+**Related Playbook:**
 
 
 
-\## Scope
+## Scope
 
 
 
@@ -70,15 +70,15 @@ Document what was reviewed.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Known Facts
+## Known Facts
 
 
 
@@ -86,15 +86,15 @@ List only confirmed facts.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Analyst Interpretation
+## Analyst Interpretation
 
 
 
@@ -106,15 +106,15 @@ Do not overstate the conclusion.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Assumptions
+## Assumptions
 
 
 
@@ -122,15 +122,15 @@ List unconfirmed assumptions.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Missing Information
+## Missing Information
 
 
 
@@ -138,15 +138,15 @@ List gaps that limited the investigation.
 
 
 
-\- 
+-
 
-\- 
+-
 
-\- 
+-
 
 
 
-\## Timeline Summary
+## Timeline Summary
 
 
 
@@ -161,4 +161,4 @@ Full timeline location:
 ```text
 
 analysis/timeline.md
-
+```

@@ -1,4 +1,4 @@
-\# Screenshot Handling
+# Screenshot Handling
 
 
 
@@ -10,7 +10,7 @@ Blue Team Command Center ignores image files by default because screenshots may 
 
 
 
-\## Why Screenshots Are Ignored by Default
+## Why Screenshots Are Ignored by Default
 
 
 
@@ -18,31 +18,31 @@ Screenshots may include:
 
 
 
-\- Usernames
+- Usernames
 
-\- Email addresses
+- Email addresses
 
-\- Hostnames
+- Hostnames
 
-\- IP addresses
+- IP addresses
 
-\- Ticket numbers
+- Ticket numbers
 
-\- Customer names
+- Customer names
 
-\- Internal dashboards
+- Internal dashboards
 
-\- Alert details
+- Alert details
 
-\- Security tool names
+- Security tool names
 
-\- File paths
+- File paths
 
-\- Timestamps tied to real events
+- Timestamps tied to real events
 
-\- Private notes
+- Private notes
 
-\- Company process details
+- Company process details
 
 
 
@@ -50,7 +50,7 @@ Because of that, screenshots should be treated as sensitive evidence unless revi
 
 
 
-\## Default Rule
+## Default Rule
 
 
 
@@ -62,7 +62,7 @@ Screenshots should stay local, private, or inside approved company systems unles
 
 
 
-\## Company Work
+## Company Work
 
 
 
@@ -70,17 +70,17 @@ For company-owned equipment or employer investigations:
 
 
 
-\- Keep screenshots inside approved company systems.
+- Keep screenshots inside approved company systems.
 
-\- Do not move screenshots to personal devices.
+- Do not move screenshots to personal devices.
 
-\- Do not upload screenshots to personal AI tools.
+- Do not upload screenshots to personal AI tools.
 
-\- Do not commit screenshots to a personal repository.
+- Do not commit screenshots to a personal repository.
 
-\- Do not include screenshots in public portfolio material.
+- Do not include screenshots in public portfolio material.
 
-\- Follow company evidence-handling and data-retention rules.
+- Follow company evidence-handling and data-retention rules.
 
 
 
@@ -92,7 +92,7 @@ Use Blue Team Command Center templates to structure notes and reports, but keep 
 
 
 
-\## Personal Lab Work
+## Personal Lab Work
 
 
 
@@ -104,27 +104,27 @@ Before sharing lab screenshots, check for:
 
 
 
-\- Real account names
+- Real account names
 
-\- Personal email addresses
+- Personal email addresses
 
-\- Browser tabs
+- Browser tabs
 
-\- Desktop notifications
+- Desktop notifications
 
-\- File paths with your full name
+- File paths with your full name
 
-\- API keys or tokens
+- API keys or tokens
 
-\- Internal notes
+- Internal notes
 
-\- Unrelated private information
+- Unrelated private information
 
-\- Anything that looks like real customer or company data
+- Anything that looks like real customer or company data
 
 
 
-\## Approved Sanitized Screenshots
+## Approved Sanitized Screenshots
 
 
 
@@ -136,25 +136,25 @@ A sanitized screenshot should:
 
 
 
-\- Show only lab or demo data
+- Show only lab or demo data
 
-\- Avoid real usernames and emails
+- Avoid real usernames and emails
 
-\- Avoid personal file paths
+- Avoid personal file paths
 
-\- Avoid secrets or tokens
+- Avoid secrets or tokens
 
-\- Avoid private browser tabs
+- Avoid private browser tabs
 
-\- Avoid unrelated desktop content
+- Avoid unrelated desktop content
 
-\- Support the written finding or report
+- Support the written finding or report
 
-\- Have a clear purpose
+- Have a clear purpose
 
 
 
-\## Recommended Public Screenshot Folder
+## Recommended Public Screenshot Folder
 
 
 
@@ -178,7 +178,7 @@ That folder should only contain screenshots that were manually reviewed and appr
 
 
 
-\## Screenshot Naming
+## Screenshot Naming
 
 
 
@@ -212,21 +212,21 @@ Avoid names that include:
 
 
 
-\- Real usernames
+- Real usernames
 
-\- Customer names
+- Customer names
 
-\- Ticket numbers
+- Ticket numbers
 
-\- Hostnames
+- Hostnames
 
-\- IP addresses
+- IP addresses
 
-\- Company names
+- Company names
 
 
 
-\## Screenshot Review Checklist
+## Screenshot Review Checklist
 
 
 
@@ -234,25 +234,25 @@ Before using a screenshot, confirm:
 
 
 
-\- The screenshot supports the case or report.
+- The screenshot supports the case or report.
 
-\- Sensitive information has been removed or blurred.
+- Sensitive information has been removed or blurred.
 
-\- The screenshot does not reveal company-only information.
+- The screenshot does not reveal company-only information.
 
-\- The screenshot does not reveal customer or personal data.
+- The screenshot does not reveal customer or personal data.
 
-\- The screenshot does not expose credentials, tokens, or secrets.
+- The screenshot does not expose credentials, tokens, or secrets.
 
-\- The screenshot does not show unrelated browser tabs or desktop items.
+- The screenshot does not show unrelated browser tabs or desktop items.
 
-\- The screenshot is stored in the correct folder.
+- The screenshot is stored in the correct folder.
 
-\- The screenshot is safe for the intended audience.
+- The screenshot is safe for the intended audience.
 
 
 
-\## When Not to Use Screenshots
+## When Not to Use Screenshots
 
 
 
@@ -260,21 +260,21 @@ Do not use screenshots when:
 
 
 
-\- The screenshot includes sensitive company or customer data.
+- The screenshot includes sensitive company or customer data.
 
-\- The screenshot includes real credentials or tokens.
+- The screenshot includes real credentials or tokens.
 
-\- The screenshot adds no evidence value.
+- The screenshot adds no evidence value.
 
-\- The written summary explains the point clearly enough.
+- The written summary explains the point clearly enough.
 
-\- Company policy does not allow screenshot export.
+- Company policy does not allow screenshot export.
 
-\- You are unsure whether the screenshot is safe.
+- You are unsure whether the screenshot is safe.
 
 
 
-\## Safe Analyst Reminder
+## Safe Analyst Reminder
 
 
 

@@ -1,4 +1,4 @@
-\# Start Here
+# Start Here
 
 
 
@@ -10,7 +10,7 @@ Use it to organize investigations, evidence, reports, playbooks, framework mappi
 
 
 
-\## First Decision
+## First Decision
 
 
 
@@ -18,27 +18,11 @@ Before using this system, choose the correct mode:
 
 
 
-1\. Personal Lab Mode
+1. Personal Lab Mode
 
-2\. Company-Safe Template Mode
+2. Company-Safe Template Mode
 
-3\. Sanitized Export Mode
-
-
-
-Read:
-
-
-
-\- `docs/OPERATING-MODES.md`
-
-\- `COMPANY-USE-GUIDE.md`
-
-\- `PORTABILITY-GUIDE.md`
-
-
-
-\## Starting a New Case
+3. Sanitized Export Mode
 
 
 
@@ -46,11 +30,27 @@ Read:
 
 
 
-\- `docs/NEW-CASE-WORKFLOW.md`
+- `docs/OPERATING-MODES.md`
 
-\- `CASE-INTAKE-TEMPLATE.md`
+- `COMPANY-USE-GUIDE.md`
 
-\- `cases/README.md`
+- `PORTABILITY-GUIDE.md`
+
+
+
+## Starting a New Case
+
+
+
+Read:
+
+
+
+- `docs/NEW-CASE-WORKFLOW.md`
+
+- `CASE-INTAKE-TEMPLATE.md`
+
+- `cases/README.md`
 
 
 
@@ -58,11 +58,11 @@ Use the example case as a starting reference:
 
 
 
-\- `cases/example-failed-login-investigation/`
+- `cases/example-failed-login-investigation/`
 
 
 
-\## Choosing a Report
+## Choosing a Report
 
 
 
@@ -70,9 +70,9 @@ Use:
 
 
 
-\- `REPORT-TEMPLATE-LIBRARY.md`
+- `REPORT-TEMPLATE-LIBRARY.md`
 
-\- `templates/`
+- `templates/`
 
 
 
@@ -80,31 +80,31 @@ Common report types:
 
 
 
-\- Alert triage report
+- Alert triage report
 
-\- Incident report
+- Incident report
 
-\- Executive summary
+- Executive summary
 
-\- Lessons learned report
+- Lessons learned report
 
-\- Phishing analysis report
+- Phishing analysis report
 
-\- Detection engineering report
+- Detection engineering report
 
-\- Threat hunting report
+- Threat hunting report
 
-\- Vulnerability remediation report
+- Vulnerability remediation report
 
-\- Audit finding report
+- Audit finding report
 
-\- Shift handoff report
+- Shift handoff report
 
-\- Weekly SOC activity summary
+- Weekly SOC activity summary
 
 
 
-\## Using Playbooks
+## Using Playbooks
 
 
 
@@ -112,7 +112,7 @@ Use:
 
 
 
-\- `playbooks/`
+- `playbooks/`
 
 
 
@@ -120,7 +120,7 @@ Start with the playbook closest to the alert or investigation type.
 
 
 
-\## Before Sharing Anything
+## Before Sharing Anything
 
 
 
@@ -128,19 +128,19 @@ Review:
 
 
 
-\- `docs/public-private-boundary.md`
+- `docs/public-private-boundary.md`
 
-\- `docs/SCREENSHOT-HANDLING.md`
+- `docs/SCREENSHOT-HANDLING.md`
 
-\- `docs/OUTPUTS-HANDLING.md`
+- `docs/OUTPUTS-HANDLING.md`
 
-\- `checklists/public-private-sanitization-checklist.md`
+- `checklists/public-private-sanitization-checklist.md`
 
-\- `docs/repo-readiness-checklist.md`
+- `docs/repo-readiness-checklist.md`
 
 
 
-\## Human Approval Rule
+## Human Approval Rule
 
 
 
@@ -156,49 +156,49 @@ Approval-required actions include:
 
 
 
-\- Blocking IPs or domains
+- Blocking IPs or domains
 
-\- Disabling accounts
+- Disabling accounts
 
-\- Resetting passwords
+- Resetting passwords
 
-\- Deleting or quarantining files
+- Deleting or quarantining files
 
-\- Isolating endpoints
+- Isolating endpoints
 
-\- Contacting users or customers
+- Contacting users or customers
 
-\- Escalating to leadership
+- Escalating to leadership
 
-\- Closing incidents
+- Closing incidents
 
-\- Publishing reports
+- Publishing reports
 
-\- Sending external messages
-
-
-
-\## Clean Workflow
+- Sending external messages
 
 
 
-1\. Choose operating mode.
+## Clean Workflow
 
-2\. Create or open a case.
 
-3\. Document known facts.
 
-4\. Separate assumptions.
+1. Choose operating mode.
 
-5\. Track evidence safely.
+2. Create or open a case.
 
-6\. Use the right playbook.
+3. Document known facts.
 
-7\. Create the right report.
+4. Separate assumptions.
 
-8\. Mark approval-required actions.
+5. Track evidence safely.
 
-9\. Review public/private boundaries.
+6. Use the right playbook.
 
-10\. Close or hand off cleanly.
+7. Create the right report.
+
+8. Mark approval-required actions.
+
+9. Review public/private boundaries.
+
+10. Close or hand off cleanly.
 

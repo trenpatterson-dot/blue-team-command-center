@@ -6,11 +6,11 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 
 ## Finding Summary
 
-**Case Title:** Suspicious PowerShell Practice Case  
-**Date Reviewed:** 2026-05-25  
-**Analyst:** Tren Patterson  
-**Operating Mode:** Personal Lab  
-**Finding Status:** Draft  
+**Case Title:** Suspicious PowerShell Practice Case
+**Date Reviewed:** 2026-05-25
+**Analyst:** Tren Patterson
+**Operating Mode:** Personal Lab
+**Finding Status:** Draft
 
 ## Finding Title
 
@@ -52,9 +52,9 @@ Suspicious PowerShell Activity Requires Command-Line and Process Context Review
 
 | Evidence | Source / Location | What It Shows |
 |---|---|---|
-| Case summary | `CASE.md` | Suspicious PowerShell activity is the focus of the investigation. |
-| Timeline notes | `analysis/timeline.md` | Timeline gaps still need to be filled in. |
-| Indicator notes | `analysis/indicators.md` | Command line, parent process, user, host, network, and file activity still need review. |
+| Case summary | `../CASE.md` | Suspicious PowerShell activity is the focus of the investigation. |
+| Timeline notes | `timeline.md` | Timeline gaps still need to be filled in. |
+| Indicator notes | `indicators.md` | Command line, parent process, user, host, network, and file activity still need review. |
 | Checklist | `checklists/suspicious-powershell-triage-checklist.md` | Triage steps required before disposition. |
 
 ## Analyst Interpretation
@@ -165,11 +165,11 @@ Use this section if the finding shows a detection, logging, or process gap.
 
 Optional mapping if supported by evidence.
 
-**MITRE ATT&CK:** PowerShell, Command and Scripting Interpreter, if evidence supports suspicious script execution  
-**NIST CSF:** Detect, Respond  
-**NIST SP 800-61:** Detection and Analysis  
-**CIS Controls:** Audit Log Management, Malware Defenses, Security Awareness and Skills Training  
-**Other:** Endpoint detection and response monitoring  
+**MITRE ATT&CK:** PowerShell, Command and Scripting Interpreter, if evidence supports suspicious script execution
+**NIST CSF:** Detect, Respond
+**NIST SP 800-61:** Detection and Analysis
+**CIS Controls:** Audit Log Management, Malware Defenses, Security Awareness and Skills Training
+**Other:** Endpoint detection and response monitoring
 
 ## Final Finding Statement
 

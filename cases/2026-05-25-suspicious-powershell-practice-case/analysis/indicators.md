@@ -6,10 +6,10 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 
 ## Indicator Summary
 
-**Case Title:** Suspicious PowerShell Practice Case  
-**Date Reviewed:** 2026-05-25  
-**Analyst:** Tren Patterson  
-**Operating Mode:** Personal Lab  
+**Case Title:** Suspicious PowerShell Practice Case
+**Date Reviewed:** 2026-05-25
+**Analyst:** Tren Patterson
+**Operating Mode:** Personal Lab
 
 ## Indicator Table
 

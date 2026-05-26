@@ -8,31 +8,31 @@
 
 ## Known Facts
 
-- 
+-
 
 ## Analyst Interpretation
 
-- 
+-
 
 ## Assumptions
 
-- 
+-
 
 ## Missing Information
 
-- 
+-
 
 ## Business Impact
 
-- 
+-
 
 ## Risk Statement
 
-- 
+-
 
 ## Recommended Next Steps
 
-- 
+-
 
 ## Human Approval Required
 

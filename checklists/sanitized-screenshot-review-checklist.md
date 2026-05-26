@@ -1,4 +1,4 @@
-\# Sanitized Screenshot Review Checklist
+# Sanitized Screenshot Review Checklist
 
 
 
@@ -6,21 +6,21 @@ Use this checklist before committing, publishing, sending, or sharing screenshot
 
 
 
-\## Screenshot Purpose
+## Screenshot Purpose
 
 
 
-\- \[ ] Screenshot supports a specific case, finding, report, or workflow
+- [ ] Screenshot supports a specific case, finding, report, or workflow
 
-\- \[ ] Screenshot adds evidence value
+- [ ] Screenshot adds evidence value
 
-\- \[ ] Screenshot matches the written explanation
+- [ ] Screenshot matches the written explanation
 
-\- \[ ] Screenshot is needed instead of a plain-English summary
+- [ ] Screenshot is needed instead of a plain-English summary
 
 
 
-\## Sensitive Data Review
+## Sensitive Data Review
 
 
 
@@ -28,59 +28,59 @@ Confirm the screenshot does not show:
 
 
 
-\- \[ ] Real usernames
+- [ ] Real usernames
 
-\- \[ ] Email addresses
+- [ ] Email addresses
 
-\- \[ ] Hostnames
+- [ ] Hostnames
 
-\- \[ ] IP addresses
+- [ ] IP addresses
 
-\- \[ ] Ticket numbers
+- [ ] Ticket numbers
 
-\- \[ ] Customer names
+- [ ] Customer names
 
-\- \[ ] Company names
+- [ ] Company names
 
-\- \[ ] Internal dashboards
+- [ ] Internal dashboards
 
-\- \[ ] Internal URLs
+- [ ] Internal URLs
 
-\- \[ ] Case IDs
+- [ ] Case IDs
 
-\- \[ ] API keys, tokens, passwords, or secrets
+- [ ] API keys, tokens, passwords, or secrets
 
-\- \[ ] Private browser tabs
+- [ ] Private browser tabs
 
-\- \[ ] Desktop notifications
+- [ ] Desktop notifications
 
-\- \[ ] Personal file paths
+- [ ] Personal file paths
 
-\- \[ ] Company-sensitive detection logic
-
-
-
-\## Sanitization Steps
+- [ ] Company-sensitive detection logic
 
 
 
-\- \[ ] Crop unrelated content
-
-\- \[ ] Blur or remove sensitive fields
-
-\- \[ ] Remove browser tabs if not needed
-
-\- \[ ] Remove desktop/taskbar distractions if needed
-
-\- \[ ] Confirm no secrets are visible
-
-\- \[ ] Confirm no customer/user/company data is exposed
-
-\- \[ ] Confirm screenshot is safe for the intended audience
+## Sanitization Steps
 
 
 
-\## Audience Decision
+- [ ] Crop unrelated content
+
+- [ ] Blur or remove sensitive fields
+
+- [ ] Remove browser tabs if not needed
+
+- [ ] Remove desktop/taskbar distractions if needed
+
+- [ ] Confirm no secrets are visible
+
+- [ ] Confirm no customer/user/company data is exposed
+
+- [ ] Confirm screenshot is safe for the intended audience
+
+
+
+## Audience Decision
 
 
 
@@ -88,17 +88,17 @@ Choose one:
 
 
 
-\- \[ ] Private lab only
+- [ ] Private lab only
 
-\- \[ ] Company-approved internal use
+- [ ] Company-approved internal use
 
-\- \[ ] Public / portfolio safe
+- [ ] Public / portfolio safe
 
-\- \[ ] Not safe to share
+- [ ] Not safe to share
 
 
 
-\## Public-Safe Decision
+## Public-Safe Decision
 
 
 
@@ -106,41 +106,41 @@ Only mark public-safe if all are true:
 
 
 
-\- \[ ] Uses demo, lab, or fully sanitized data
+- [ ] Uses demo, lab, or fully sanitized data
 
-\- \[ ] No real users, customers, hosts, IPs, tickets, or company details
+- [ ] No real users, customers, hosts, IPs, tickets, or company details
 
-\- \[ ] No secrets or tokens
+- [ ] No secrets or tokens
 
-\- \[ ] No internal-only tooling details
+- [ ] No internal-only tooling details
 
-\- \[ ] Reviewed by a human
+- [ ] Reviewed by a human
 
-\- \[ ] Stored in an approved public-safe folder
-
-
-
-\## Final Decision
+- [ ] Stored in an approved public-safe folder
 
 
 
-\- \[ ] Approved for intended use
-
-\- \[ ] Needs more sanitization
-
-\- \[ ] Do not use screenshot
-
-\- \[ ] Use written summary instead
+## Final Decision
 
 
 
-\## Reviewer Notes
+- [ ] Approved for intended use
+
+- [ ] Needs more sanitization
+
+- [ ] Do not use screenshot
+
+- [ ] Use written summary instead
 
 
 
-\- 
+## Reviewer Notes
 
-\- 
 
-\- 
+
+-
+
+-
+
+-
 

@@ -13,19 +13,19 @@
 
 ## Known Facts
 
-- 
+-
 
 ## Analyst Interpretation
 
-- 
+-
 
 ## Assumptions
 
-- 
+-
 
 ## Missing Information
 
-- 
+-
 
 ## Scope
 
@@ -43,7 +43,7 @@
 
 ## Recommended Next Steps
 
-- 
+-
 
 ## Human Approval Required
 

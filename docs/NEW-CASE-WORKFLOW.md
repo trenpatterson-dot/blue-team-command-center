@@ -1,4 +1,4 @@
-\# New Case Workflow
+# New Case Workflow
 
 
 
@@ -10,7 +10,7 @@ The goal is to keep every case organized, portable, and safe to review later.
 
 
 
-\## Before Starting
+## Before Starting
 
 
 
@@ -18,11 +18,11 @@ Confirm which mode you are working in:
 
 
 
-\- Personal Lab Mode
+- Personal Lab Mode
 
-\- Company-Safe Template Mode
+- Company-Safe Template Mode
 
-\- Sanitized Export Mode
+- Sanitized Export Mode
 
 
 
@@ -30,7 +30,7 @@ If this is a company investigation, keep real evidence inside approved company s
 
 
 
-\## Step 1: Create a New Case Folder
+## Step 1: Create a New Case Folder
 
 
 
@@ -45,4 +45,4 @@ Recommended format:
 ```text
 
 YYYY-MM-DD-short-case-name
-
+```

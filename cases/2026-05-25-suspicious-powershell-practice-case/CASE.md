@@ -2,38 +2,38 @@
 
 ## Case Overview
 
-**Case Title:** Suspicious PowerShell Practice Case  
-**Case ID / Ticket Reference:** Practice Case  
-**Date Opened:** 2026-05-25  
-**Date Closed:**  
-**Analyst:** Tren Patterson  
-**Team / Queue:** Blue Team Command Center Practice  
-**Status:** Active  
-**Severity:** Medium  
-**Operating Mode:** Personal Lab  
+**Case Title:** Suspicious PowerShell Practice Case
+**Case ID / Ticket Reference:** Practice Case
+**Date Opened:** 2026-05-25
+**Date Closed:**
+**Analyst:** Tren Patterson
+**Team / Queue:** Blue Team Command Center Practice
+**Status:** Active
+**Severity:** Medium
+**Operating Mode:** Personal Lab
 
 ## Alert / Source Information
 
-**Alert Name:** Suspicious PowerShell Activity  
-**Source System:** Practice EDR / Windows Security Logs  
-**Detection Tool:** Blue Team Command Center Practice Case  
-**Alert Time:** TBD  
-**Reviewed Time:** TBD  
-**Timezone:** Local  
-**Related Playbook:** `playbooks/suspicious-powershell.md`  
+**Alert Name:** Suspicious PowerShell Activity
+**Source System:** Practice EDR / Windows Security Logs
+**Detection Tool:** Blue Team Command Center Practice Case
+**Alert Time:** TBD
+**Reviewed Time:** TBD
+**Timezone:** Local
+**Related Playbook:** `playbooks/suspicious-powershell.md`
 **Related Checklist:** `checklists/suspicious-powershell-triage-checklist.md`
 
 ## Impacted Entities
 
 Only demo/lab details are used in this practice case.
 
-**User / Account:** Demo user account  
-**Host / Device:** Demo Windows host  
-**IP Address:** Demo network destination, if applicable  
-**Domain / URL:** Demo remote URL, if applicable  
-**File / Hash:** Demo script or downloaded file, if applicable  
-**Application / Service:** PowerShell  
-**Business Unit / Owner:** Lab / practice environment  
+**User / Account:** Demo user account
+**Host / Device:** Demo Windows host
+**IP Address:** Demo network destination, if applicable
+**Domain / URL:** Demo remote URL, if applicable
+**File / Hash:** Demo script or downloaded file, if applicable
+**Application / Service:** PowerShell
+**Business Unit / Owner:** Lab / practice environment
 
 ## Initial Summary
 
@@ -90,3 +90,4 @@ Use:
 
 ```text
 analysis/timeline.md
+```

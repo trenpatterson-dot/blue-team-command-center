@@ -6,11 +6,11 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 
 ## Finding Summary
 
-**Case Title:** Phishing Triage Practice Case  
-**Date Reviewed:** 2026-05-24  
-**Analyst:** Tren Patterson  
-**Operating Mode:** Personal Lab  
-**Finding Status:** Draft  
+**Case Title:** Phishing Triage Practice Case
+**Date Reviewed:** 2026-05-24
+**Analyst:** Tren Patterson
+**Operating Mode:** Personal Lab
+**Finding Status:** Draft
 
 ## Finding Title
 
@@ -52,9 +52,9 @@ Reported Suspicious Email Requires Phishing Triage Review
 
 | Evidence | Source / Location | What It Shows |
 |---|---|---|
-| Case summary | `CASE.md` | Suspicious email is the focus of the investigation. |
-| Timeline notes | `analysis/timeline.md` | Timeline gaps still need to be filled in. |
-| Indicator notes | `analysis/indicators.md` | Sender, reply-to, authentication, URL, attachment, and user interaction details still need review. |
+| Case summary | `../CASE.md` | Suspicious email is the focus of the investigation. |
+| Timeline notes | `timeline.md` | Timeline gaps still need to be filled in. |
+| Indicator notes | `indicators.md` | Sender, reply-to, authentication, URL, attachment, and user interaction details still need review. |
 | Checklist | `checklists/phishing-triage-checklist.md` | Triage steps required before disposition. |
 
 ## Analyst Interpretation
@@ -162,11 +162,11 @@ Use this section if the finding shows a detection, logging, or process gap.
 
 Optional mapping if supported by evidence.
 
-**MITRE ATT&CK:** T1566 - Phishing, if evidence supports phishing behavior  
-**NIST CSF:** Detect, Respond  
-**NIST SP 800-61:** Detection and Analysis  
-**CIS Controls:** Email and Web Browser Protections, Security Awareness and Skills Training  
-**Other:** Email security monitoring  
+**MITRE ATT&CK:** T1566 - Phishing, if evidence supports phishing behavior
+**NIST CSF:** Detect, Respond
+**NIST SP 800-61:** Detection and Analysis
+**CIS Controls:** Email and Web Browser Protections, Security Awareness and Skills Training
+**Other:** Email security monitoring
 
 ## Final Finding Statement
 

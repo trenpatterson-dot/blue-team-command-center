@@ -2,12 +2,12 @@
 
 ## Handoff Status
 
-**Case Title:** Phishing Triage Practice Case  
-**Status:** Active  
-**Current Owner:** Tren Patterson  
-**Next Owner / Team:** Blue Team Command Center Practice  
-**Last Updated:** 2026-05-24  
-**Operating Mode:** Personal Lab  
+**Case Title:** Phishing Triage Practice Case
+**Status:** Active
+**Current Owner:** Tren Patterson
+**Next Owner / Team:** Blue Team Command Center Practice
+**Last Updated:** 2026-05-24
+**Operating Mode:** Personal Lab
 
 ## Current Step
 

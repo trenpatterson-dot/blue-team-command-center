@@ -6,12 +6,12 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 
 ## Report Details
 
-**Case Title:** Phishing Triage Practice Case  
-**Date Prepared:** 2026-05-24  
-**Prepared By:** Tren Patterson  
-**Status:** Draft  
-**Severity:** Medium  
-**Operating Mode:** Personal Lab  
+**Case Title:** Phishing Triage Practice Case
+**Date Prepared:** 2026-05-24
+**Prepared By:** Tren Patterson
+**Status:** Draft
+**Severity:** Medium
+**Operating Mode:** Personal Lab
 
 ## Short Summary
 
@@ -21,12 +21,12 @@ Maliciousness has not been confirmed from the available practice evidence. User 
 
 ## Alert / Detection Information
 
-**Alert Name:** Reported Suspicious Email  
-**Source System:** Practice Email Security Alert / User Report  
-**Detection Tool:** Blue Team Command Center Practice Case  
-**Alert Time:** TBD  
-**Reviewed Time:** TBD  
-**Related Playbook:** `playbooks/phishing-email-triage.md`  
+**Alert Name:** Reported Suspicious Email
+**Source System:** Practice Email Security Alert / User Report
+**Detection Tool:** Blue Team Command Center Practice Case
+**Alert Time:** TBD
+**Reviewed Time:** TBD
+**Related Playbook:** `playbooks/phishing-email-triage.md`
 **Related Checklist:** `checklists/phishing-triage-checklist.md`
 
 ## Scope
@@ -87,3 +87,4 @@ Full timeline location:
 
 ```text
 analysis/timeline.md
+```

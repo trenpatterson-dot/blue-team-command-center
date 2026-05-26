@@ -2,38 +2,38 @@
 
 ## Case Overview
 
-**Case Title:** Phishing Triage Practice Case  
-**Case ID / Ticket Reference:** Practice Case  
-**Date Opened:** 2026-05-24  
-**Date Closed:**  
-**Analyst:** Tren Patterson  
-**Team / Queue:** Blue Team Command Center Practice  
-**Status:** Active  
-**Severity:** Medium  
-**Operating Mode:** Personal Lab  
+**Case Title:** Phishing Triage Practice Case
+**Case ID / Ticket Reference:** Practice Case
+**Date Opened:** 2026-05-24
+**Date Closed:**
+**Analyst:** Tren Patterson
+**Team / Queue:** Blue Team Command Center Practice
+**Status:** Active
+**Severity:** Medium
+**Operating Mode:** Personal Lab
 
 ## Alert / Source Information
 
-**Alert Name:** Reported Suspicious Email  
-**Source System:** Practice Email Security Alert / User Report  
-**Detection Tool:** Blue Team Command Center Practice Case  
-**Alert Time:** TBD  
-**Reviewed Time:** TBD  
-**Timezone:** Local  
-**Related Playbook:** `playbooks/phishing-email-triage.md`  
+**Alert Name:** Reported Suspicious Email
+**Source System:** Practice Email Security Alert / User Report
+**Detection Tool:** Blue Team Command Center Practice Case
+**Alert Time:** TBD
+**Reviewed Time:** TBD
+**Timezone:** Local
+**Related Playbook:** `playbooks/phishing-email-triage.md`
 **Related Checklist:** `checklists/phishing-triage-checklist.md`
 
 ## Impacted Entities
 
 Only demo/lab details are used in this practice case.
 
-**User / Account:** Demo recipient  
-**Host / Device:** Not applicable  
-**IP Address:** Demo sending source  
-**Domain / URL:** Demo suspicious link  
-**File / Hash:** Demo attachment, if applicable  
-**Application / Service:** Email  
-**Business Unit / Owner:** Lab / practice environment  
+**User / Account:** Demo recipient
+**Host / Device:** Not applicable
+**IP Address:** Demo sending source
+**Domain / URL:** Demo suspicious link
+**File / Hash:** Demo attachment, if applicable
+**Application / Service:** Email
+**Business Unit / Owner:** Lab / practice environment
 
 ## Initial Summary
 
@@ -90,3 +90,4 @@ Use:
 
 ```text
 analysis/timeline.md
+```

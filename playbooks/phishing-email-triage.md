@@ -6,6 +6,7 @@ Use this checklist during phishing triage:
 
 ```text
 checklists/phishing-triage-checklist.md
+```
 
 ## Purpose
 
@@ -87,4 +88,3 @@ Use `templates/PHISHING-ANALYSIS-REPORT.md`.
 - Did controls detect the message before user report?
 - Were user reporting steps clear?
 - Are detections or awareness material worth updating?
-
