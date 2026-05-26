@@ -1,3 +1,20 @@
+## Related Checklist
+
+Use this checklist during suspicious PowerShell triage:
+
+checklists/suspicious-powershell-triage-checklist.md
+
+The checklist helps confirm:
+
+- Full command line
+- Parent process
+- User and host context
+- Network activity
+- File activity
+- Related endpoint alerts
+- Escalation criteria
+- Human approval requirements
+
 # Suspicious PowerShell
 
 ## Purpose
@@ -52,3 +69,35 @@ Use `templates/ALERT-TRIAGE-REPORT.md` or `templates/INCIDENT-REPORT.md`.
 - Should script block logging, constrained language mode, or detection logic be reviewed?
 - Were approved admin scripts easy to distinguish?
 
+
+## Suspicious PowerShell Decision Points
+
+Before closing or escalating a suspicious PowerShell case, confirm:
+
+- [ ] Full command line is reviewed
+- [ ] Parent process is reviewed
+- [ ] User context is reviewed
+- [ ] Host context is reviewed
+- [ ] Network activity is reviewed or marked unavailable
+- [ ] File activity is reviewed or marked unavailable
+- [ ] Related alerts are reviewed or marked unavailable
+- [ ] Facts are separated from assumptions
+- [ ] Missing information is documented
+- [ ] Approval-required actions are clearly marked
+
+## Escalation Reminder
+
+Escalation may be appropriate when:
+
+- PowerShell uses encoded or heavily obfuscated commands
+- PowerShell is launched by Office, browser, archive tool, or unusual parent process
+- Remote payload download is observed
+- Suspicious external network activity is observed
+- Credential access behavior is suspected
+- Activity runs from temp, user profile, or unusual paths
+- Multiple hosts show similar activity
+- A privileged account is involved
+- Related malware or EDR alerts exist
+- The user or admin team denies the activity
+
+Do not isolate endpoints, kill processes, delete files, block IPs, disable accounts, reset passwords, contact users, escalate, close, publish, or send messages without the proper human approval process.
