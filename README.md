@@ -7,7 +7,8 @@ The system is designed to move between computers as a normal folder. The core fi
 ## What This System Does
 
 - Provides repeatable templates for alert triage, incident reporting, threat hunting, phishing analysis, detection engineering, vulnerability remediation, audit findings, executive summaries, and lessons learned.
-- Provides safe investigation playbooks for common SOC scenarios.
+- Provides safe investigation playbooks for failed login, phishing, suspicious PowerShell, malware alert triage, and account compromise scenarios.
+- Includes completed v0.3 workflow chains for malware alert triage and account compromise, with related checklists, playbooks, practice cases, and review artifacts.
 - Separates known facts from analyst interpretation, assumptions, and missing information.
 - Captures recommended next steps without taking action on behalf of the analyst.
 - Supports copy and paste ready reporting into approved systems.
