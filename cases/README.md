@@ -4,6 +4,22 @@ Portfolio-ready SOC/Blue Team investigation cases.
 
 ## Featured Cases
 
+### Malware Alert Practice Case
+
+**Path:** `cases/2026-05-26-malware-alert-practice-case`
+
+A simulated SOC malware alert triage case focused on a suspicious executable, detection-only endpoint protection status, incomplete execution context, and escalation decision-making. This case is portfolio-ready as a simulated workflow example, but it does not include screenshots, logs, EDR exports, sandbox results, binaries, malware samples, packet captures, or raw endpoint evidence.
+
+**Skills shown:**
+
+- Malware alert triage
+- Detection-only status review
+- Endpoint process context review planning
+- File/hash safety handling
+- Evidence gap documentation
+- Human approval gates
+- SOC analyst reporting
+
 ### Suspicious PowerShell Practice Case
 
 **Path:** `cases/2026-05-25-suspicious-powershell-practice-case`

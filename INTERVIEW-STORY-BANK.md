@@ -112,3 +112,40 @@ This story shows that I can investigate suspicious PowerShell carefully, avoid o
 - Evidence gap documentation
 - Human approval gates
 - SOC-style endpoint reporting
+
+---
+
+## Malware Alert Practice Case - Detection-Only Triage
+
+**Project:** Malware Alert Practice Case
+**Case Folder:** `cases/2026-05-26-malware-alert-practice-case`
+
+### Situation
+
+I documented a simulated endpoint malware alert involving a suspicious executable written to a downloads folder and attempted launch from a temporary path. Endpoint protection reported detection-only status.
+
+### Task
+
+My goal was to decide whether the alert could be closed, contained, or escalated while preserving evidence boundaries and avoiding any unsupported malware claims.
+
+### Action
+
+I documented the known facts, preserved the medium severity, treated the fake hash and documentation-safe indicators as simulated values, and called out the missing process tree, execution outcome, file reputation, network success, and related-alert context. I also kept malware execution, sandbox detonation, isolation, deletion, quarantine, blocking, account action, closure, and publishing behind approval.
+
+### Result
+
+The final decision was to escalate for investigation. The case was not treated as confirmed malicious because endpoint protection was detection-only and execution context was incomplete.
+
+### Interview Angle
+
+This story shows that I can triage malware alerts without overreacting or overclaiming: I check action status, preserve evidence boundaries, document what is missing, and escalate when containment or execution status is unclear.
+
+### Skills Demonstrated
+
+- Malware alert triage
+- Detection-only status review
+- Endpoint process context review planning
+- File/hash safety handling
+- Evidence gap documentation
+- Human approval gates
+- SOC-style escalation rationale
