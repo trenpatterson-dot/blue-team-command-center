@@ -9,7 +9,7 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 **Case Title:** Suspicious PowerShell Practice Case
 **Date Prepared:** 2026-05-25
 **Prepared By:** Tren Patterson
-**Status:** Draft
+**Status:** Portfolio draft / simulated evidence only
 **Operating Mode:** Personal Lab
 
 ## Plain-English Summary
@@ -24,8 +24,9 @@ The main lesson is that PowerShell should not be treated as automatically malici
 - The case was documented in Personal Lab Mode.
 - A suspicious PowerShell scenario was written using demo-only details.
 - Known facts, assumptions, and missing information were separated.
-- Timeline, indicators, findings, analyst summary, and executive summary were drafted.
+- Timeline, indicators, findings, analyst summary, and executive summary were documented.
 - No real company or customer data was used.
+- Evidence folders contain placeholder files only.
 - No operational response action was taken.
 
 ## What Went Well

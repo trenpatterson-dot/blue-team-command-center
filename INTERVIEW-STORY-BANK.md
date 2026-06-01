@@ -75,3 +75,40 @@ This story shows that I can handle account compromise triage carefully: I can re
 - Evidence gap documentation
 - Human approval gates
 - SOC-style escalation rationale
+
+---
+
+## Suspicious PowerShell Practice Case - Endpoint Triage
+
+**Project:** Suspicious PowerShell Practice Case
+**Case Folder:** `cases/2026-05-25-suspicious-powershell-practice-case`
+
+### Situation
+
+I documented a simulated endpoint alert involving suspicious PowerShell activity. The case focused on the SOC questions that matter before disposition: full command line, parent process, user context, host context, network activity, file activity, and related endpoint alerts.
+
+### Task
+
+My goal was to build a clean endpoint investigation record without pretending that screenshots, logs, process trees, commands, hashes, or endpoint exports existed.
+
+### Action
+
+I separated known facts from assumptions, kept the severity at medium, documented that malicious execution was not confirmed, and recorded the evidence gaps clearly. I also kept endpoint isolation, process termination, file deletion, blocking, account action, escalation, closure, publishing, and external messaging behind human approval.
+
+### Result
+
+The case became a reusable SOC endpoint investigation workflow for suspicious PowerShell triage. It is useful as a simulated portfolio case, with a clear manual follow-up to add sanitized lab evidence later.
+
+### Interview Angle
+
+This story shows that I can investigate suspicious PowerShell carefully, avoid overclaiming, explain why context matters, and document what evidence is still needed before calling activity malicious or taking response action.
+
+### Skills Demonstrated
+
+- Suspicious PowerShell triage
+- Endpoint investigation workflow
+- Command-line review planning
+- Parent-process analysis planning
+- Evidence gap documentation
+- Human approval gates
+- SOC-style endpoint reporting

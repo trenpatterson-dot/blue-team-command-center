@@ -5,10 +5,10 @@
 **Case Title:** Suspicious PowerShell Practice Case
 **Case ID / Ticket Reference:** Practice Case
 **Date Opened:** 2026-05-25
-**Date Closed:**
+**Date Closed:** Not closed - evidence needed before disposition
 **Analyst:** Tren Patterson
 **Team / Queue:** Blue Team Command Center Practice
-**Status:** Active
+**Status:** Portfolio draft / Practice / Lab / Simulated
 **Severity:** Medium
 **Operating Mode:** Personal Lab
 
@@ -17,11 +17,11 @@
 **Alert Name:** Suspicious PowerShell Activity
 **Source System:** Practice EDR / Windows Security Logs
 **Detection Tool:** Blue Team Command Center Practice Case
-**Alert Time:** TBD
-**Reviewed Time:** TBD
+**Alert Time:** Not documented in current practice evidence
+**Reviewed Time:** Not documented in current practice evidence
 **Timezone:** Local
-**Related Playbook:** `playbooks/suspicious-powershell.md`
-**Related Checklist:** `checklists/suspicious-powershell-triage-checklist.md`
+**Related Playbook:** `../../playbooks/suspicious-powershell.md`
+**Related Checklist:** `../../checklists/suspicious-powershell-triage-checklist.md`
 
 ## Impacted Entities
 
@@ -37,7 +37,7 @@ Only demo/lab details are used in this practice case.
 
 ## Initial Summary
 
-This practice case reviews suspicious PowerShell activity using a SOC-style endpoint triage workflow. The goal is to document the command line, parent process, user context, host context, network activity, file activity, known facts, assumptions, missing information, and safe next steps.
+This practice case documents a SOC-style endpoint triage workflow for suspicious PowerShell activity. It focuses on what an analyst would need to review: command line, parent process, user context, host context, network activity, file activity, related alerts, known facts, assumptions, missing information, and safe next steps.
 
 ## Known Facts
 
@@ -75,14 +75,28 @@ This practice case reviews suspicious PowerShell activity using a SOC-style endp
 
 | Evidence Type | Location / Reference | Notes |
 |---|---|---|
-| Alert | TBD | Practice PowerShell alert summary |
-| Command Line | TBD | Full command line pending |
-| Process Tree | TBD | Parent/child process review pending |
-| Network | TBD | Network activity pending if applicable |
-| File Activity | TBD | File activity pending if applicable |
-| Other | `analysis/timeline.md` | Timeline will be built during analysis |
+| Alert | Not present | Practice PowerShell alert summary is not included as evidence |
+| Command Line | Not present | Full command line is not included as evidence |
+| Process Tree | Not present | Parent/child process evidence is not included |
+| Network | Not present | Network activity evidence is not included |
+| File Activity | Not present | File activity evidence is not included |
+| Evidence gap checklist | `EVIDENCE-NEEDED.md` | Documents missing evidence without inventing artifacts |
+| Timeline notes | `analysis/timeline.md` | Timeline documents current known gaps |
 
-Do not place restricted evidence in this folder unless policy allows it.
+The evidence folders currently contain placeholder files only. Do not place restricted evidence in this folder unless policy allows it.
+
+## Public / Private Evidence Boundary
+
+- This case is safe for portfolio use only as a simulated, evidence-gap practice case.
+- No screenshots, logs, raw notes, command output, process trees, endpoint exports, hashes, or private artifacts are included.
+- Real command lines, hostnames, usernames, file paths, URLs, hashes, endpoint telemetry, and screenshots must stay in approved systems unless sanitized and approved for lab use.
+- Any future evidence must be sanitized, approved, and reviewed before sharing or publishing.
+
+## Analyst Decision
+
+**Decision:** Continue evidence review / no confirmed malicious execution.
+
+**Reason:** Suspicious PowerShell activity requires command-line, parent process, user, host, network, file, and related-alert context before escalation, closure, or operational response.
 
 ## Timeline Reference
 

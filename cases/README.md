@@ -4,6 +4,21 @@ Portfolio-ready SOC/Blue Team investigation cases.
 
 ## Featured Cases
 
+### Suspicious PowerShell Practice Case
+
+**Path:** `cases/2026-05-25-suspicious-powershell-practice-case`
+
+A simulated SOC endpoint investigation workflow focused on suspicious PowerShell triage, command-line review needs, parent-process context, endpoint evidence gaps, and approval-controlled response actions. This case is portfolio-ready as a simulated workflow example, but it does not include screenshots, logs, process trees, commands, or raw endpoint evidence yet.
+
+**Skills shown:**
+
+- Suspicious PowerShell triage
+- Endpoint investigation workflow
+- Command-line and parent-process review planning
+- Evidence gap documentation
+- Human approval gates
+- SOC analyst reporting
+
 ### Account Compromise Practice Case
 
 **Path:** `cases/2026-05-26-account-compromise-practice-case`

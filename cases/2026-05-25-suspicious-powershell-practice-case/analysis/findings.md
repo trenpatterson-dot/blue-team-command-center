@@ -10,7 +10,7 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 **Date Reviewed:** 2026-05-25
 **Analyst:** Tren Patterson
 **Operating Mode:** Personal Lab
-**Finding Status:** Draft
+**Finding Status:** Documented / evidence placeholders only
 
 ## Finding Title
 
@@ -53,9 +53,10 @@ Suspicious PowerShell Activity Requires Command-Line and Process Context Review
 | Evidence | Source / Location | What It Shows |
 |---|---|---|
 | Case summary | `../CASE.md` | Suspicious PowerShell activity is the focus of the investigation. |
-| Timeline notes | `timeline.md` | Timeline gaps still need to be filled in. |
+| Timeline notes | `timeline.md` | Timeline documents current missing context. |
 | Indicator notes | `indicators.md` | Command line, parent process, user, host, network, and file activity still need review. |
-| Checklist | `checklists/suspicious-powershell-triage-checklist.md` | Triage steps required before disposition. |
+| Evidence gap checklist | `../EVIDENCE-NEEDED.md` | Confirms logs, screenshots, raw notes, commands, process trees, and endpoint exports are not present. |
+| Checklist | `../../../checklists/suspicious-powershell-triage-checklist.md` | Triage steps required before disposition. |
 
 ## Analyst Interpretation
 
@@ -152,8 +153,6 @@ Mark any action that requires approval.
 - [ ] Send external message
 
 ## Detection / Control Notes
-
-Use this section if the finding shows a detection, logging, or process gap.
 
 - Existing detection: Practice EDR / Windows log alert
 - Gap identified: Full command line, parent process, user context, host context, network activity, and file activity are not yet documented

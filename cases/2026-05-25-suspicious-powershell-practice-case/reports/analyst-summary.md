@@ -9,7 +9,7 @@ This is a personal lab/practice case. No real company, customer, or restricted d
 **Case Title:** Suspicious PowerShell Practice Case
 **Date Prepared:** 2026-05-25
 **Prepared By:** Tren Patterson
-**Status:** Draft
+**Status:** Portfolio draft / simulated evidence only
 **Severity:** Medium
 **Operating Mode:** Personal Lab
 
@@ -24,10 +24,10 @@ Malicious execution has not been confirmed from the available practice evidence.
 **Alert Name:** Suspicious PowerShell Activity
 **Source System:** Practice EDR / Windows Security Logs
 **Detection Tool:** Blue Team Command Center Practice Case
-**Alert Time:** TBD
-**Reviewed Time:** TBD
-**Related Playbook:** `playbooks/suspicious-powershell.md`
-**Related Checklist:** `checklists/suspicious-powershell-triage-checklist.md`
+**Alert Time:** Not documented in current practice evidence
+**Reviewed Time:** Not documented in current practice evidence
+**Related Playbook:** `../../playbooks/suspicious-powershell.md`
+**Related Checklist:** `../../checklists/suspicious-powershell-triage-checklist.md`
 
 ## Scope
 
@@ -49,6 +49,7 @@ Reviewed:
 - The case involves command-line or endpoint activity.
 - User, host, command line, network, and file details are demo placeholders.
 - No real company or customer data is included.
+- Evidence folders contain placeholder files only; no screenshots, logs, raw notes, commands, process trees, or endpoint exports are present.
 - Malicious activity has not been confirmed.
 - No operational response action has been taken.
 

@@ -3,7 +3,7 @@
 ## Handoff Status
 
 **Case Title:** Suspicious PowerShell Practice Case
-**Status:** Active
+**Status:** Portfolio draft / Practice / Lab / Simulated
 **Current Owner:** Tren Patterson
 **Next Owner / Team:** Blue Team Command Center Practice
 **Last Updated:** 2026-05-25
@@ -11,7 +11,7 @@
 
 ## Current Step
 
-The suspicious PowerShell practice case has been documented from intake through initial reporting. The case still needs final review before it is closed.
+The suspicious PowerShell practice case has been documented from intake through initial reporting. The case is portfolio-usable as a simulated endpoint investigation workflow, but evidence remains missing and must not be implied.
 
 ## Completed So Far
 
@@ -20,10 +20,10 @@ The suspicious PowerShell practice case has been documented from intake through 
 - [x] Known facts documented
 - [x] Timeline started
 - [x] Indicators reviewed
-- [x] Findings drafted
-- [x] Analyst summary drafted
-- [x] Executive summary drafted
-- [x] Lessons learned drafted
+- [x] Findings documented
+- [x] Analyst summary documented
+- [x] Executive summary documented
+- [x] Lessons learned documented
 - [x] Human approval items marked
 - [x] Public/private boundary reviewed
 
@@ -69,11 +69,12 @@ The suspicious PowerShell practice case has been documented from intake through 
 | Case summary | `CASE.md` | Main case intake and known facts |
 | Timeline | `analysis/timeline.md` | Timeline and investigation gaps |
 | Indicators | `analysis/indicators.md` | Demo command-line, process, user, host, network, and file details |
-| Findings | `analysis/findings.md` | Draft finding and risk logic |
+| Findings | `analysis/findings.md` | Finding and risk logic |
 | Analyst summary | `reports/analyst-summary.md` | Technical analyst report |
 | Executive summary | `reports/executive-summary.md` | Manager-friendly report |
 | Lessons learned | `reports/lessons-learned.md` | Workflow improvement notes |
-| Checklist | `checklists/suspicious-powershell-triage-checklist.md` | Required PowerShell triage review steps |
+| Evidence gap checklist | `EVIDENCE-NEEDED.md` | Placeholder-only evidence status and manual evidence needs |
+| Checklist | `../../checklists/suspicious-powershell-triage-checklist.md` | Required PowerShell triage review steps |
 
 ## Open Questions
 
@@ -89,6 +90,7 @@ The suspicious PowerShell practice case has been documented from intake through 
 
 ## Blockers
 
+- Evidence folders currently contain only `.gitkeep` placeholders.
 - No real lab endpoint evidence has been added yet.
 - Exact command-line details are placeholders.
 - Parent process details are placeholders.
@@ -124,7 +126,7 @@ The following would require approval in a real environment:
 
 ## Safe Handoff Summary
 
-This practice case is ready for final review. The workflow successfully moved from case intake to timeline, indicators, findings, analyst summary, executive summary, and lessons learned. The case remains demo-only and does not include real company or customer data.
+This practice case is ready for portfolio review as a simulated endpoint investigation workflow. It moved from case intake to timeline, indicators, findings, analyst summary, executive summary, and lessons learned. The case remains demo-only, does not include real company or customer data, and does not include endpoint evidence beyond placeholders.
 
 ## Final Reminder
 
