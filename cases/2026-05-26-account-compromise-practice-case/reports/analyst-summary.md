@@ -9,7 +9,7 @@ This is a practice, lab, and simulated case. No real company, customer, user, ho
 **Case Title:** Account Compromise Practice Case
 **Date Prepared:** 2026-05-26
 **Prepared By:** Tren Patterson
-**Status:** Draft
+**Status:** Portfolio draft / simulated evidence only
 **Severity:** Medium
 **Operating Mode:** Personal Lab
 
@@ -56,6 +56,7 @@ Reviewed:
 - The account is a normal user account, not an admin account.
 - All user, host, IP, domain, device, and mailbox values are fictional or reserved examples.
 - No real evidence or private data is included.
+- Evidence folders contain placeholder files only; no screenshots, logs, raw notes, or exports are present.
 - No account changes were made.
 - No operational action was taken.
 

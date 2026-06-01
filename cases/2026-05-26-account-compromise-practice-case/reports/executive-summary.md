@@ -9,7 +9,7 @@ This is a practice, lab, and simulated case. No real company, customer, user, ho
 **Case Title:** Account Compromise Practice Case
 **Date Prepared:** 2026-05-26
 **Prepared By:** Tren Patterson
-**Status:** Draft
+**Status:** Portfolio draft / simulated evidence only
 **Severity:** Medium
 **Operating Mode:** Personal Lab
 
@@ -53,6 +53,7 @@ Explain why:
 - Suspicious mailbox activity was reported.
 - The account is a normal user account, not an admin account.
 - All indicators are fake or documentation-safe.
+- Evidence folders contain placeholder files only; no screenshots, logs, raw notes, or exports are present.
 - No account changes were made.
 - No response action has been taken.
 

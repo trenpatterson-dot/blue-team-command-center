@@ -9,7 +9,7 @@ This is a practice, lab, and simulated case. No real company, customer, user, ho
 **Case Title:** Account Compromise Practice Case
 **Date Prepared:** 2026-05-26
 **Prepared By:** Tren Patterson
-**Status:** Draft
+**Status:** Portfolio draft / simulated evidence only
 **Operating Mode:** Personal Lab
 
 ## Plain-English Summary
@@ -27,6 +27,7 @@ The main lesson is that a successful unusual login followed by MFA activity and 
 - The account was a normal user account, not an admin account.
 - Fake and documentation-safe indicators were used.
 - No real evidence or private data was added.
+- Evidence folders contain placeholder files only.
 - No account changes were made.
 - No operational response action was taken.
 - The analyst decision was to escalate for investigation.

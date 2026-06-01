@@ -3,7 +3,7 @@
 ## Handoff Status
 
 **Case Title:** Account Compromise Practice Case
-**Status:** Practice / Lab / Simulated
+**Status:** Portfolio draft / Practice / Lab / Simulated
 **Current Owner:** Tren Patterson
 **Next Owner / Team:** Blue Team Command Center Practice
 **Last Updated:** 2026-05-26
@@ -71,10 +71,11 @@ The account compromise practice case has been documented from intake through ini
 | Case summary | `CASE.md` | Main case intake and known facts |
 | Timeline | `analysis/timeline.md` | Simulated event order and gaps |
 | Indicators | `analysis/indicators.md` | Fake/sanitized account, login, MFA, mailbox, and network values |
-| Findings | `analysis/findings.md` | Draft finding and risk logic |
+| Findings | `analysis/findings.md` | Finding and risk logic |
 | Analyst summary | `reports/analyst-summary.md` | Technical analyst report |
 | Executive summary | `reports/executive-summary.md` | Manager-friendly report |
 | Lessons learned | `reports/lessons-learned.md` | Workflow improvement notes |
+| Evidence gap checklist | `EVIDENCE-NEEDED.md` | Placeholder-only evidence status and manual evidence needs |
 | Checklist | `../../checklists/account-compromise-triage-checklist.md` | Required account compromise review steps |
 
 ## Open Questions
@@ -89,6 +90,7 @@ The account compromise practice case has been documented from intake through ini
 
 ## Blockers
 
+- Evidence folders currently contain only `.gitkeep` placeholders.
 - No sanitized lab identity logs have been added.
 - No screenshots have been added.
 - No exports or raw notes are present.

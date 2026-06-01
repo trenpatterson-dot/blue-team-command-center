@@ -10,7 +10,7 @@ This is a practice, lab, and simulated case. No real company, customer, user, ho
 **Date Reviewed:** 2026-05-26
 **Analyst:** Tren Patterson
 **Operating Mode:** Personal Lab
-**Finding Status:** Draft
+**Finding Status:** Documented / evidence placeholders only
 
 ## Finding Title
 
@@ -56,6 +56,7 @@ Possible Account Compromise Requires Investigation Due to Successful Unusual Log
 | Case summary | `../CASE.md` | Simulated account compromise scenario and analyst decision |
 | Timeline notes | `timeline.md` | Alert sequence and missing context |
 | Indicator notes | `indicators.md` | Fake/sanitized login, MFA, mailbox, device, and network values |
+| Evidence gap checklist | `../EVIDENCE-NEEDED.md` | Confirms logs, screenshots, raw notes, and exports are not present |
 | Checklist | `../../checklists/account-compromise-triage-checklist.md` | Required account compromise review steps |
 | Playbook | `../../playbooks/account-compromise.md` | Review-only account compromise guidance |
 

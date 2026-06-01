@@ -38,3 +38,40 @@ This story shows that I can investigate identity alerts, avoid jumping to conclu
 - Evidence handling
 - SOC-style documentation
 - Public/private evidence separation
+
+---
+
+## Account Compromise Practice Case - Risky Sign-In Triage
+
+**Project:** Account Compromise Practice Case
+**Case Folder:** `cases/2026-05-26-account-compromise-practice-case`
+
+### Situation
+
+I documented a simulated account compromise alert involving a successful login from an unusual location, repeated MFA prompts, and suspicious mailbox activity for a normal user account.
+
+### Task
+
+My goal was to assess whether the pattern required escalation while keeping the case review-only, preserving approval gates, and avoiding any invented or sensitive evidence.
+
+### Action
+
+I separated known facts from assumptions, documented the timeline from 2026-05-26 09:58 through 11:00 local, reviewed the fake/sanitized indicators, and noted that the evidence folders contained only placeholder files. I kept account disablement, password reset, MFA reset, session revocation, user contact, closure, and publishing behind human approval.
+
+### Result
+
+The final decision was to escalate for investigation. The case was not treated as confirmed compromise because user confirmation, MFA results, session details, mailbox details, device context, and related alerts were still missing.
+
+### Interview Angle
+
+This story shows that I can handle account compromise triage carefully: I can recognize a concerning identity pattern, avoid overclaiming, document evidence gaps, and keep response actions controlled until an authorized review is complete.
+
+### Skills Demonstrated
+
+- Account compromise triage
+- Risky sign-in review
+- MFA fatigue awareness
+- Mailbox activity review
+- Evidence gap documentation
+- Human approval gates
+- SOC-style escalation rationale

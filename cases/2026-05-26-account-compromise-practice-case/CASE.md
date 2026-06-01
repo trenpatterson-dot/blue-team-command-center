@@ -5,10 +5,10 @@
 **Case Title:** Account Compromise Practice Case
 **Case ID / Ticket Reference:** Practice Case
 **Date Opened:** 2026-05-26
-**Date Closed:**
+**Date Closed:** Not closed - escalated for investigation
 **Analyst:** Tren Patterson
 **Team / Queue:** Blue Team Command Center Practice
-**Status:** Practice / Lab / Simulated
+**Status:** Portfolio draft / Practice / Lab / Simulated
 **Severity:** Medium
 **Operating Mode:** Personal Lab
 
@@ -83,12 +83,15 @@ No account changes were made. No password reset, MFA reset, session revocation, 
 
 ## Evidence Collected
 
+The evidence folders currently contain placeholder files only. No screenshots, raw logs, raw notes, exports, or private artifacts are included in this case folder.
+
 | Evidence Type | Location / Reference | Notes |
 |---|---|---|
 | Alert | `analysis/timeline.md` | Simulated risky sign-in summary only |
 | Identity / Login | `analysis/indicators.md` | Fake/sanitized login values |
 | MFA / Authentication | `analysis/findings.md` | Practice MFA review notes |
 | Email / Cloud | `analysis/indicators.md` | Simulated mailbox activity only |
+| Evidence gap checklist | `EVIDENCE-NEEDED.md` | Documents missing evidence without inventing artifacts |
 | Checklist | `../../checklists/account-compromise-triage-checklist.md` | Required account compromise review steps |
 | Playbook | `../../playbooks/account-compromise.md` | Analyst-led account compromise guidance |
 
@@ -98,7 +101,7 @@ Do not place restricted evidence in this folder unless policy allows it.
 
 - This case is safe for practice because it uses fictional and documentation-safe values only.
 - Real identity logs, email exports, cloud exports, endpoint logs, screenshots, packet captures, ticket IDs, usernames, hostnames, IP addresses, domains, or internal system names must stay in approved company systems.
-- Screenshots are not included. Any future screenshot must be sanitized and reviewed before use.
+- Screenshots, logs, and raw notes are not included. Any future evidence must be sanitized, approved, and reviewed before use.
 - This case should not be treated as evidence of a real incident.
 
 ## Analyst Decision
