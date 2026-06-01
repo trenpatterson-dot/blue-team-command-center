@@ -4,6 +4,22 @@ Portfolio-ready SOC/Blue Team investigation cases.
 
 ## Featured Cases
 
+### Account Compromise Practice Case
+
+**Path:** `cases/2026-05-26-account-compromise-practice-case`
+
+A simulated SOC investigation focused on risky sign-in activity, unusual login behavior, repeated MFA prompts, suspicious mailbox activity, and escalation decision-making.
+
+**Skills shown:**
+
+- Account compromise triage
+- Risky sign-in investigation
+- MFA fatigue analysis
+- Mailbox activity review
+- Escalation decision writing
+- Evidence gap documentation
+- SOC analyst reporting
+
 ### SOC IAM Identity Alert Investigation
 
 **Path:** `cases/2026-05-25-soc-iam-identity-alert-investigation`
