@@ -1,70 +1,82 @@
-# Findings — SOC IAM Identity Alert Investigation
+# Findings - SOC IAM Identity Alert Investigation
 
-## Finding 1 — Repeated Failed Authentication Attempts Require Review
+## Finding 1 - Repeated Failed Authentication Attempts Require Review
 
 ### Summary
-Repeated failed login attempts were identified and reviewed as part of an identity-based investigation.
+
+Windows Security logs were filtered for Event ID 4625, and six failed logon events were observed in controlled lab evidence.
 
 ### Security Significance
-Failed authentication activity can indicate user error, brute-force attempts, password spraying, stale credentials, or unauthorized access attempts.
+
+Failed authentication activity can indicate user error, brute-force attempts, password spraying, stale credentials, service-account misconfiguration, or unauthorized access attempts. A SOC/IAM analyst should review the volume, account context, source context, time window, and whether the failures were followed by successful authentication.
 
 ### Evidence
-Pending screenshot evidence.
 
-Expected screenshots:
-- Failed login filter
-- Failed login event details
-- Timeline or query view
+- `02-event-viewer-security-filter-4625`
+- `03-failed-login-event-details-redacted`
+- `07-investigation-timeline`
 
 ### Risk
-Medium, depending on account privilege level, source reputation, volume, and whether a successful login followed.
+
+Medium in a production environment, depending on account privilege level, source reputation, event volume, MFA status, lockout behavior, and whether a successful login followed.
 
 ### Recommendation
+
 Review authentication logs, correlate source activity, confirm whether the account is privileged, and validate MFA/account lockout controls.
 
 ---
 
-## Finding 2 — Successful Login After Failed Attempts Increases Risk
+## Finding 2 - Successful Login Context Is Required for Failed-Logon Triage
 
 ### Summary
-A successful authentication event following failed attempts can increase concern because it may indicate a guessed, reused, or compromised password.
+
+Windows Security logs were reviewed for Event ID 4624 to provide successful logon context alongside the failed logon review.
 
 ### Security Significance
-SOC analysts should not review failed logins in isolation. Correlation with successful logins helps determine whether the activity remained unsuccessful or possibly resulted in account access.
+
+SOC analysts should not review failed logons in isolation. Correlation with successful logons helps determine whether the activity remained unsuccessful or may have resulted in account access. A successful authentication event following failed attempts can increase concern because it may indicate a guessed, reused, or compromised password.
 
 ### Evidence
-Pending screenshot evidence.
 
-Expected screenshots:
-- Successful login comparison
-- Timeline showing failed and successful authentication context
+- `04-successful-login-context-4624-filter`
+- `07-investigation-timeline`
 
 ### Risk
-Medium to High if the successful login came from an unusual source, unknown device, impossible travel condition, or privileged account.
+
+Medium to High in a production environment if the successful login came from an unusual source, unknown device, impossible travel condition, or privileged account.
 
 ### Recommendation
+
 Correlate failed and successful authentication events, verify user legitimacy, review MFA status, and escalate if the activity appears unauthorized.
 
 ---
 
-## Finding 3 — IAM Controls Reduce Authentication Attack Risk
+## Finding 3 - Account Policy and IAM Controls Reduce Authentication Attack Risk
 
 ### Summary
-IAM controls such as MFA, account lockout, least privilege, and conditional access reduce the impact of identity-based attacks.
+
+Local account policy was reviewed using `net accounts`, showing lockout threshold, lockout duration, observation window, and password policy context.
 
 ### Security Significance
-Identity is a common attack path. Strong authentication controls help prevent failed-login activity from becoming account compromise.
+
+Identity is a common attack path. MFA, account lockout, least privilege, conditional access, privileged access review, and strong logging help reduce the chance that failed-logon activity becomes account compromise.
 
 ### Evidence
-Pending screenshot evidence.
 
-Expected screenshots:
-- Account policy or lockout settings
-- IAM triage checklist
-- Access-control review notes
+- `05-account-policy-or-lockout-context`
+- `06-query-notes-failed-login-analysis`
+- `08-public-private-boundary-check`
 
 ### Risk
-Medium if controls are weak, missing, or undocumented.
+
+Medium in a production environment if controls are weak, missing, misconfigured, or undocumented.
 
 ### Recommendation
+
 Enforce MFA where possible, configure account lockout thresholds, review privileged access, monitor repeated failed authentication attempts, and maintain clear logging for SOC triage.
+
+---
+
+## Overall Conclusion
+
+This case remains controlled lab evidence with no confirmed compromise. The investigation demonstrates the SOC/IAM triage process: identify failed authentication activity, correlate successful logon context, review account policy, document the event logic, and preserve a clean public/private evidence boundary before publishing.

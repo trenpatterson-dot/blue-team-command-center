@@ -35,3 +35,26 @@ Failed logins:
 ```text
 Event ID: 4625
 Log: Windows Logs > Security
+```
+
+Successful logins:
+
+```text
+Event ID: 4624
+Log: Windows Logs > Security
+```
+
+Account lockout:
+
+```text
+Event ID: 4740
+Log: Windows Logs > Security
+```
+
+## SOC/IAM Correlation Notes
+
+- Compare failed logons against successful logons in the same time window.
+- Review whether a single account or multiple accounts were targeted.
+- Check whether the account is privileged, stale, shared, or service-related.
+- Validate MFA, account lockout, and password policy context before closing the alert.
+- Escalate if repeated failures are followed by a suspicious successful logon or if privileged access is involved.
