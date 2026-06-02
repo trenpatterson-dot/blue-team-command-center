@@ -185,3 +185,39 @@ This story shows that I can triage endpoint alerts carefully: I review process a
 - Evidence gap documentation
 - Human approval gates
 - SOC-style escalation rationale
+
+---
+
+## Vulnerability Finding Practice Case - Remediation Planning Triage
+
+**Project:** Vulnerability Finding Practice Case
+**Case Folder:** `cases/2026-05-27-vulnerability-finding-practice-case`
+
+### Situation
+
+I documented a simulated vulnerability finding for an outdated web service on LAB-WEB-040 at 192.0.2.80. The scenario stated that the service may be externally reachable, which raised the priority for remediation planning.
+
+### Task
+
+My goal was to triage the finding without running scans, inventing CVEs or CVSS scores, or implying proof that was not present in the case evidence.
+
+### Action
+
+I documented the known facts, preserved the high severity, labeled the host, IP, service, reported version, and fixed version as fictional or documentation-safe, and called out the missing reachability evidence, asset owner, patch status, compensating controls, exception status, and validation evidence. I also kept live scanning, exploitability validation, patching, firewall changes, ticket creation, owner contact, escalation, closure, and publishing behind human approval.
+
+### Result
+
+The final decision was to escalate for remediation planning. The case was not treated as an independently validated vulnerability because scan exports, reachability proof, CVE/CVSS validation, and remediation evidence were not present.
+
+### Interview Angle
+
+This story shows that I can handle vulnerability findings responsibly: I separate report intake from validation, avoid inventing severity evidence, document what is missing, and move toward approved remediation planning when exposure could matter.
+
+### Skills Demonstrated
+
+- Vulnerability finding triage
+- Exposure and reachability review planning
+- Remediation planning handoff
+- Evidence gap documentation
+- Human approval gates
+- SOC/vulnerability management reporting

@@ -4,6 +4,21 @@ Portfolio-ready SOC/Blue Team investigation cases.
 
 ## Featured Cases
 
+### Vulnerability Finding Practice Case
+
+**Path:** `cases/2026-05-27-vulnerability-finding-practice-case`
+
+A simulated SOC/vulnerability management finding case focused on an outdated web service, possible external reachability, high-severity remediation planning, and approval-controlled review. This case is portfolio-ready as a simulated workflow example, but it does not include screenshots, logs, scan exports, CVEs, CVSS scores, affected-host proof, port/service evidence, remediation proof, validation evidence, or raw vulnerability evidence.
+
+**Skills shown:**
+
+- Vulnerability finding triage
+- Exposure and reachability review planning
+- Remediation planning handoff
+- Evidence gap documentation
+- Human approval gates
+- SOC/vulnerability management reporting
+
 ### Endpoint Alert Practice Case
 
 **Path:** `cases/2026-05-27-endpoint-alert-practice-case`
