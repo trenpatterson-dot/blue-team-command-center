@@ -8,9 +8,11 @@ This is a practice, lab, and simulated case. No real company, customer, user, ho
 
 ## Current Status
 
-**Status:** Practice / Lab / Simulated
+**Status:** Portfolio draft / Practice / Lab / Simulated
 **Severity:** Medium
 **Decision:** Escalate for investigation
+
+Evidence folders contain placeholder files only; no screenshots, logs, raw notes, endpoint telemetry exports, process-tree exports, file activity evidence, network activity evidence, EDR exports, packet captures, or private artifacts are present.
 
 No malware was executed. No containment, endpoint isolation, process termination, file deletion/quarantine, account action, user contact, external message, escalation, incident closure, or report publishing occurred.
 

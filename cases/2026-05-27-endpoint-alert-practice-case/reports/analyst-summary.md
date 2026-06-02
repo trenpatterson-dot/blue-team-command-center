@@ -9,7 +9,7 @@ This is a practice, lab, and simulated case. No real company, customer, user, ho
 **Case Title:** Endpoint Alert Practice Case
 **Date Prepared:** 2026-05-27
 **Prepared By:** Tren Patterson
-**Status:** Draft
+**Status:** Portfolio draft / simulated evidence only
 **Severity:** Medium
 **Operating Mode:** Personal Lab
 
@@ -57,6 +57,7 @@ Reviewed:
 - Endpoint protection status is detection-only.
 - All user, host, IP, domain, process, file, and hash values are fictional or reserved examples.
 - No real evidence or private data is included.
+- Evidence folders contain placeholder files only; no screenshots, logs, raw notes, endpoint telemetry exports, process-tree exports, file activity evidence, network activity evidence, EDR exports, packet captures, or private artifacts are present.
 - No malware was executed.
 - No containment or endpoint action was taken.
 

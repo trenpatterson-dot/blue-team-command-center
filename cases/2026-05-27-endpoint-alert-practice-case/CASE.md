@@ -5,10 +5,10 @@
 **Case Title:** Endpoint Alert Practice Case
 **Case ID / Ticket Reference:** Practice Case
 **Date Opened:** 2026-05-27
-**Date Closed:**
+**Date Closed:** Not closed - escalated for investigation
 **Analyst:** Tren Patterson
 **Team / Queue:** Blue Team Command Center Practice
-**Status:** Practice / Lab / Simulated
+**Status:** Portfolio draft / Practice / Lab / Simulated
 **Severity:** Medium
 **Operating Mode:** Personal Lab
 
@@ -86,12 +86,15 @@ No malware was executed by the analyst. No containment, endpoint isolation, proc
 
 ## Evidence Collected
 
+The evidence folders currently contain placeholder files only. No screenshots, raw logs, raw notes, EDR exports, endpoint telemetry exports, process-tree exports, packet captures, binaries, malware samples, scan results, or private artifacts are included in this case folder.
+
 | Evidence Type | Location / Reference | Notes |
 |---|---|---|
 | Alert | `analysis/timeline.md` | Simulated alert summary only |
 | Process Context | `analysis/findings.md` | Practice process review notes |
 | File / Hash | `analysis/indicators.md` | Fake hash label, not a real incident hash |
 | Network Context | `analysis/indicators.md` | Reserved example IP and documentation-safe domain only |
+| Evidence gap checklist | `EVIDENCE-NEEDED.md` | Documents missing evidence without inventing artifacts |
 | Checklist | `../../checklists/endpoint-alert-triage-checklist.md` | Required endpoint alert review steps |
 | Playbook | `../../playbooks/endpoint-alert-triage.md` | Analyst-led endpoint alert triage guidance |
 
@@ -101,7 +104,7 @@ Do not place restricted evidence in this folder unless policy allows it.
 
 - This case is safe for practice because it uses fictional and documentation-safe values only.
 - Real logs, EDR exports, screenshots, binaries, packet captures, malware samples, scan results, hashes, ticket IDs, usernames, hostnames, IP addresses, domains, or internal system names must stay in approved company systems.
-- Screenshots are not included. Any future screenshot must be sanitized and reviewed before use.
+- Screenshots, logs, raw notes, endpoint telemetry, process trees, file activity evidence, network activity evidence, and EDR exports are not included. Any future evidence must be sanitized, approved, and reviewed before use.
 - This case should not be treated as evidence of a real incident.
 
 ## Human Approval Gates

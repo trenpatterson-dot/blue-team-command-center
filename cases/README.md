@@ -4,6 +4,21 @@ Portfolio-ready SOC/Blue Team investigation cases.
 
 ## Featured Cases
 
+### Endpoint Alert Practice Case
+
+**Path:** `cases/2026-05-27-endpoint-alert-practice-case`
+
+A simulated SOC endpoint alert triage case focused on suspicious process activity, detection-only endpoint protection status, temporary-directory file write context, and escalation decision-making. This case is portfolio-ready as a simulated workflow example, but it does not include screenshots, logs, EDR exports, endpoint telemetry exports, process-tree exports, packet captures, or raw endpoint evidence.
+
+**Skills shown:**
+
+- Endpoint alert triage
+- Detection-only status review
+- Process and file context review planning
+- Evidence gap documentation
+- Human approval gates
+- SOC analyst reporting
+
 ### Malware Alert Practice Case
 
 **Path:** `cases/2026-05-26-malware-alert-practice-case`

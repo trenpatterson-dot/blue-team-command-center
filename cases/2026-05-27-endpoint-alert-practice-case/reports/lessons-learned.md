@@ -22,6 +22,7 @@ This practice case reviewed a simulated endpoint alert for suspicious process ac
 ## Safety Observations
 
 - No real evidence was stored in the case folder.
+- Evidence folders contain placeholder files only.
 - No screenshots, logs, raw notes, packet captures, binaries, exports, malware samples, scan results, or private evidence were added.
 - No malware was executed.
 - No containment, endpoint isolation, process termination, file deletion/quarantine, account action, user contact, external message, escalation, incident closure, or report publishing occurred.

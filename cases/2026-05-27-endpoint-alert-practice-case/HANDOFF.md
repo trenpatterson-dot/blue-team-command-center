@@ -3,7 +3,7 @@
 ## Handoff Status
 
 **Case Title:** Endpoint Alert Practice Case
-**Status:** Practice / Lab / Simulated
+**Status:** Portfolio draft / Practice / Lab / Simulated
 **Current Owner:** Tren Patterson
 **Next Owner / Team:** Blue Team Command Center Practice
 **Last Updated:** 2026-05-27
@@ -22,10 +22,10 @@ The endpoint alert practice case has been documented from intake through initial
 - [x] Missing information documented
 - [x] Timeline started
 - [x] Indicators reviewed
-- [x] Findings drafted
-- [x] Analyst summary drafted
-- [x] Executive summary drafted
-- [x] Lessons learned drafted
+- [x] Findings documented
+- [x] Analyst summary documented
+- [x] Executive summary documented
+- [x] Lessons learned documented
 - [x] Human approval items marked
 - [x] Public/private boundary reviewed
 
@@ -75,10 +75,11 @@ The endpoint alert practice case has been documented from intake through initial
 | Case summary | `CASE.md` | Main case intake and known facts |
 | Timeline | `analysis/timeline.md` | Simulated event order and gaps |
 | Indicators | `analysis/indicators.md` | Fictional host, user, process, file, and documentation-safe network values |
-| Findings | `analysis/findings.md` | Draft finding and risk logic |
+| Findings | `analysis/findings.md` | Finding and risk logic |
 | Analyst summary | `reports/analyst-summary.md` | Technical analyst report |
 | Executive summary | `reports/executive-summary.md` | Manager-friendly report |
 | Lessons learned | `reports/lessons-learned.md` | Workflow improvement notes |
+| Evidence gap checklist | `EVIDENCE-NEEDED.md` | Placeholder-only evidence status and manual evidence needs |
 | Checklist | `../../checklists/endpoint-alert-triage-checklist.md` | Required endpoint alert triage steps |
 
 ## Open Questions
@@ -93,9 +94,10 @@ The endpoint alert practice case has been documented from intake through initial
 
 ## Blockers
 
+- Evidence folders currently contain only `.gitkeep` placeholders.
 - No sanitized lab endpoint logs have been added.
 - No screenshots have been added.
-- No exports, raw notes, packet captures, binaries, malware samples, scan results, or private evidence are present.
+- No exports, raw notes, packet captures, binaries, malware samples, scan results, endpoint telemetry exports, process-tree exports, or private evidence are present.
 - User contact has not been approved.
 - Endpoint action has not been approved.
 - Escalation has not been approved.

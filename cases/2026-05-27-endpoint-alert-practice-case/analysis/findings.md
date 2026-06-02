@@ -6,6 +6,8 @@ A simulated practice endpoint alert reported suspicious process activity on LAB-
 
 Endpoint protection reported detection-only status. No malware was executed by the analyst, and no containment or endpoint action was performed.
 
+Evidence folders contain placeholder files only. No screenshots, raw logs, raw notes, endpoint telemetry exports, process-tree exports, packet captures, binaries, malware samples, scan results, or private artifacts are present in this case folder.
+
 ## Alert / Detection Review
 
 - Source reviewed: Practice EDR Alert.

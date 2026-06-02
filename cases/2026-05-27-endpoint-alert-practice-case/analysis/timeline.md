@@ -17,6 +17,7 @@ All times are local and simulated for practice.
 
 ## Timeline Notes
 
+- Evidence folders contain only `.gitkeep` placeholders.
 - No malware was executed.
 - No containment, endpoint isolation, process termination, file deletion/quarantine, account action, user contact, external message, escalation, incident closure, or report publishing occurred.
 - Any future operational step requires human approval.

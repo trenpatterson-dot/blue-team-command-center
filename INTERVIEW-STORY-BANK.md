@@ -149,3 +149,39 @@ This story shows that I can triage malware alerts without overreacting or overcl
 - Evidence gap documentation
 - Human approval gates
 - SOC-style escalation rationale
+
+---
+
+## Endpoint Alert Practice Case - Detection-Only Process Triage
+
+**Project:** Endpoint Alert Practice Case
+**Case Folder:** `cases/2026-05-27-endpoint-alert-practice-case`
+
+### Situation
+
+I documented a simulated endpoint alert involving suspicious process activity on LAB-WKS-027. The alert described a script interpreter launched from an unusual parent process, attempted file write activity into a temporary directory, and detection-only endpoint protection status.
+
+### Task
+
+My goal was to determine the right triage decision while preserving the evidence boundary and avoiding unsupported claims about malicious activity.
+
+### Action
+
+I documented the known facts, preserved the medium severity, kept the fictional user, host, process, file, hash, IP, and domain values clearly labeled, and recorded the missing process tree, command line, file write result, persistence status, user context, network result, and related-alert context. I also kept containment, endpoint isolation, process termination, file deletion, account action, sensitive evidence collection, escalation, closure, and publishing behind approval.
+
+### Result
+
+The final decision was to escalate for investigation. The case was not treated as confirmed malicious because the process context and detection-only status require authorized review before endpoint response.
+
+### Interview Angle
+
+This story shows that I can triage endpoint alerts carefully: I review process and file context, recognize why detection-only status matters, document missing evidence, and avoid taking endpoint action without approval.
+
+### Skills Demonstrated
+
+- Endpoint alert triage
+- Detection-only status review
+- Process and file context review planning
+- Evidence gap documentation
+- Human approval gates
+- SOC-style escalation rationale
