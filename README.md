@@ -1,3 +1,4 @@
+
 # Blue Team Command Center
 
 Blue Team Command Center is a portable, Markdown-first workbench for SOC and blue-team analysis. It helps an analyst intake cases, organize evidence notes, follow playbooks, map work to common frameworks, draft reports, and prepare decision-support summaries.
@@ -8,10 +9,29 @@ The system is designed to move between computers as a normal folder. The core fi
 
 - Provides repeatable templates for alert triage, incident reporting, threat hunting, phishing analysis, detection engineering, vulnerability remediation, audit findings, executive summaries, and lessons learned.
 - Provides safe investigation playbooks for failed login, phishing, suspicious PowerShell, malware alert triage, and account compromise scenarios.
-- Includes completed v0.3 workflow chains for malware alert triage and account compromise, with related checklists, playbooks, practice cases, and review artifacts.
+- Includes a v0.5 featured SOC case portfolio covering IAM alerts, account compromise, suspicious PowerShell, malware alerts, endpoint alerts, and vulnerability finding/remediation planning.
 - Separates known facts from analyst interpretation, assumptions, and missing information.
 - Captures recommended next steps without taking action on behalf of the analyst.
 - Supports copy and paste ready reporting into approved systems.
+
+
+## v0.5 Featured SOC Case Portfolio
+
+This repo now includes a featured SOC case portfolio index at:
+
+`cases/README.md`
+
+The featured cases show a practical blue-team investigation progression:
+
+- SOC IAM Identity Alert Investigation
+- Account Compromise Practice Case
+- Suspicious PowerShell Practice Case
+- Malware Alert Practice Case
+- Endpoint Alert Practice Case
+- Vulnerability Finding Practice Case
+
+Together, these cases demonstrate identity alert triage, account compromise review, endpoint investigation workflow, malware alert triage, evidence-gap documentation, vulnerability remediation planning, public/private evidence boundaries, and human approval gates.
+
 
 ## What This System Must Not Do
 
