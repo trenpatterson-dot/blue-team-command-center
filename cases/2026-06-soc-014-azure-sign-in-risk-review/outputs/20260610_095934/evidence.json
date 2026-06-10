@@ -1,0 +1,139 @@
+{
+  "evidence_map": {
+    "project_name": "2026 06 Soc 014 Azure Sign In Risk Review",
+    "lab_type": "detection engineering",
+    "platform": "standalone",
+    "source_ip": [],
+    "target_ip": [],
+    "hostnames": [],
+    "usernames": [],
+    "tools_used": [],
+    "commands_seen": [],
+    "ports_open": [],
+    "ports_closed": [],
+    "protocols_seen": [],
+    "scan_type": [],
+    "rule_ids": [],
+    "mitre_techniques": [
+      "T1078",
+      "T1087",
+      "T1110",
+      "T1110.004"
+    ],
+    "screenshots_present": [],
+    "timestamps": [],
+    "findings_confirmed": [
+      "Azure sign-in risk summary",
+      "Simulated sign-in event CSV",
+      "KQL-style risky sign-in query",
+      "Command history",
+      "Investigation notes",
+      "Screenshot evidence",
+      "Failed sign-ins from an unfamiliar location",
+      "Successful sign-ins from expected sources",
+      "MFA requirement and result",
+      "User and sign-in risk indicators",
+      "Conditional Access recommendations",
+      "MITRE ATT&CK mapping"
+    ],
+    "unresolved_gaps": [
+      "command history",
+      "screenshots"
+    ]
+  },
+  "tools_used": [],
+  "commands_seen": [],
+  "indicators_found": {
+    "ips": [
+      "198.51.100.24",
+      "203.0.113.88"
+    ],
+    "domains": [
+      "HANDOFF.md",
+      "README.md",
+      "azure-risky-signins.kql",
+      "azure-signin-events.csv",
+      "azure-signin-risk-summary.md",
+      "command-history.md",
+      "contoso.local",
+      "investigation-notes.md"
+    ],
+    "hashes": [],
+    "usernames": [],
+    "cves": [],
+    "other": []
+  },
+  "findings": [
+    {
+      "finding": "Azure sign-in risk summary",
+      "significance": ""
+    },
+    {
+      "finding": "Simulated sign-in event CSV",
+      "significance": ""
+    },
+    {
+      "finding": "KQL-style risky sign-in query",
+      "significance": ""
+    },
+    {
+      "finding": "Command history",
+      "significance": ""
+    },
+    {
+      "finding": "Investigation notes",
+      "significance": ""
+    },
+    {
+      "finding": "Screenshot evidence",
+      "significance": ""
+    },
+    {
+      "finding": "Failed sign-ins from an unfamiliar location",
+      "significance": ""
+    },
+    {
+      "finding": "Successful sign-ins from expected sources",
+      "significance": ""
+    },
+    {
+      "finding": "MFA requirement and result",
+      "significance": ""
+    },
+    {
+      "finding": "User and sign-in risk indicators",
+      "significance": ""
+    },
+    {
+      "finding": "Conditional Access recommendations",
+      "significance": ""
+    },
+    {
+      "finding": "MITRE ATT&CK mapping",
+      "significance": ""
+    },
+    {
+      "finding": "Microsoft Entra ID concepts",
+      "significance": ""
+    },
+    {
+      "finding": "Azure sign-in log review",
+      "significance": ""
+    },
+    {
+      "finding": "KQL-style query documentation",
+      "significance": ""
+    }
+  ],
+  "sequence_of_actions": [
+    "Reviewed the Azure sign-in risk summary.",
+    "Identified the affected user account.",
+    "Reviewed failed sign-ins from unfamiliar source indicators.",
+    "Compared suspicious activity against expected successful sign-ins.",
+    "Reviewed MFA status and Conditional Access behavior.",
+    "Checked whether the activity suggested account compromise.",
+    "Mapped the behavior to MITRE ATT&CK.",
+    "Documented security impact and remediation recommendations."
+  ],
+  "screenshots": []
+}

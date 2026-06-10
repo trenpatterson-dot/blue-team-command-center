@@ -1,0 +1,18 @@
+{
+  "project_name": "2026 06 Soc 014 Azure Sign In Risk Review",
+  "lab_type": "detection engineering",
+  "platform": "standalone",
+  "source_inventory": [
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-014-azure-sign-in-risk-review\\COMMANDS.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-014-azure-sign-in-risk-review\\evidence\\azure-signin-events.csv",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-014-azure-sign-in-risk-review\\evidence\\azure-signin-risk-summary.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-014-azure-sign-in-risk-review\\evidence\\command-history.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-014-azure-sign-in-risk-review\\HANDOFF.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-014-azure-sign-in-risk-review\\notes\\investigation-notes.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-014-azure-sign-in-risk-review\\README.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-014-azure-sign-in-risk-review\\screenshots\\SCREENSHOT-INDEX.md"
+  ],
+  "screenshots": [],
+  "probable_task_type": "detection engineering",
+  "summary": "2026 06 Soc 014 Azure Sign In Risk Review is a detection engineering exercise documented under standalone."
+}
