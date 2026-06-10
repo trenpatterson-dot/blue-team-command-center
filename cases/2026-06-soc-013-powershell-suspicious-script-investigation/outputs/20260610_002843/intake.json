@@ -1,0 +1,18 @@
+{
+  "project_name": "2026 06 Soc 013 Powershell Suspicious Script Investigation",
+  "lab_type": "malware analysis",
+  "platform": "standalone",
+  "source_inventory": [
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-013-powershell-suspicious-script-investigation\\COMMANDS.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-013-powershell-suspicious-script-investigation\\evidence\\command-history.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-013-powershell-suspicious-script-investigation\\evidence\\powershell-alert-summary.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-013-powershell-suspicious-script-investigation\\evidence\\powershell-events.csv",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-013-powershell-suspicious-script-investigation\\HANDOFF.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-013-powershell-suspicious-script-investigation\\notes\\investigation-notes.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-013-powershell-suspicious-script-investigation\\README.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-013-powershell-suspicious-script-investigation\\screenshots\\SCREENSHOT-INDEX.md"
+  ],
+  "screenshots": [],
+  "probable_task_type": "malware analysis",
+  "summary": "2026 06 Soc 013 Powershell Suspicious Script Investigation is a malware analysis exercise documented under standalone."
+}

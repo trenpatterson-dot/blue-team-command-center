@@ -1,0 +1,139 @@
+{
+  "evidence_map": {
+    "project_name": "2026 06 Soc 013 Powershell Suspicious Script Investigation",
+    "lab_type": "malware analysis",
+    "platform": "standalone",
+    "source_ip": [],
+    "target_ip": [],
+    "hostnames": [],
+    "usernames": [],
+    "tools_used": [
+      "powershell"
+    ],
+    "commands_seen": [],
+    "ports_open": [],
+    "ports_closed": [],
+    "protocols_seen": [],
+    "scan_type": [],
+    "rule_ids": [],
+    "mitre_techniques": [
+      "T1027",
+      "T1059.001",
+      "T1105",
+      "T1204.002"
+    ],
+    "screenshots_present": [],
+    "timestamps": [],
+    "findings_confirmed": [
+      "PowerShell alert summary",
+      "Simulated PowerShell event evidence",
+      "KQL-style hunting query",
+      "Command history",
+      "Investigation notes",
+      "Screenshot evidence",
+      "PowerShell command-line activity",
+      "Script block style evidence",
+      "Suspicious download behavior",
+      "Process execution patterns",
+      "MITRE ATT&CK mapping",
+      "Analyst triage notes"
+    ],
+    "unresolved_gaps": [
+      "command history",
+      "screenshots"
+    ]
+  },
+  "tools_used": [
+    "powershell"
+  ],
+  "commands_seen": [],
+  "indicators_found": {
+    "ips": [],
+    "domains": [
+      "HANDOFF.md",
+      "README.md",
+      "command-history.md",
+      "investigation-notes.md",
+      "powershell-alert-summary.md",
+      "powershell-events.csv",
+      "powershell-suspicious-script-hunt.kql"
+    ],
+    "hashes": [],
+    "usernames": [],
+    "cves": [],
+    "other": []
+  },
+  "findings": [
+    {
+      "finding": "PowerShell alert summary",
+      "significance": ""
+    },
+    {
+      "finding": "Simulated PowerShell event evidence",
+      "significance": ""
+    },
+    {
+      "finding": "KQL-style hunting query",
+      "significance": ""
+    },
+    {
+      "finding": "Command history",
+      "significance": ""
+    },
+    {
+      "finding": "Investigation notes",
+      "significance": ""
+    },
+    {
+      "finding": "Screenshot evidence",
+      "significance": ""
+    },
+    {
+      "finding": "PowerShell command-line activity",
+      "significance": ""
+    },
+    {
+      "finding": "Script block style evidence",
+      "significance": ""
+    },
+    {
+      "finding": "Suspicious download behavior",
+      "significance": ""
+    },
+    {
+      "finding": "Process execution patterns",
+      "significance": ""
+    },
+    {
+      "finding": "MITRE ATT&CK mapping",
+      "significance": ""
+    },
+    {
+      "finding": "Analyst triage notes",
+      "significance": ""
+    },
+    {
+      "finding": "Windows endpoint investigation concepts",
+      "significance": ""
+    },
+    {
+      "finding": "CSV evidence review",
+      "significance": ""
+    },
+    {
+      "finding": "KQL-style query documentation",
+      "significance": ""
+    }
+  ],
+  "sequence_of_actions": [
+    "Reviewed the PowerShell alert summary.",
+    "Identified the affected host and user.",
+    "Reviewed suspicious PowerShell command-line activity.",
+    "Checked for download behavior and encoded or bypass-style arguments.",
+    "Compared suspicious activity against normal PowerShell usage.",
+    "Reviewed KQL-style hunting logic.",
+    "Mapped the activity to MITRE ATT&CK.",
+    "Documented findings, impact, and response recommendations."
+  ],
+  "screenshots": []
+}
