@@ -1,0 +1,6 @@
+﻿SigninLogs
+| where TimeGenerated > ago(30m)
+| where ResultType != 0
+| summarize FailedAttempts=count(), AccountsTargeted=dcount(UserPrincipalName), FirstSeen=min(TimeGenerated), LastSeen=max(TimeGenerated) by IPAddress
+| where FailedAttempts >= 8 or AccountsTargeted >= 3
+| order by AccountsTargeted desc, FailedAttempts desc

@@ -1,0 +1,18 @@
+{
+  "project_name": "2026 06 Soc 015 Sentinel Detection Rule Tuning Review",
+  "lab_type": "detection engineering",
+  "platform": "standalone",
+  "source_inventory": [
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-015-sentinel-detection-rule-tuning-review\\COMMANDS.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-015-sentinel-detection-rule-tuning-review\\evidence\\command-history.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-015-sentinel-detection-rule-tuning-review\\evidence\\detection-rule-summary.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-015-sentinel-detection-rule-tuning-review\\evidence\\signin-alert-review.csv",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-015-sentinel-detection-rule-tuning-review\\HANDOFF.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-015-sentinel-detection-rule-tuning-review\\notes\\investigation-notes.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-015-sentinel-detection-rule-tuning-review\\README.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-015-sentinel-detection-rule-tuning-review\\screenshots\\SCREENSHOT-INDEX.md"
+  ],
+  "screenshots": [],
+  "probable_task_type": "detection engineering",
+  "summary": "2026 06 Soc 015 Sentinel Detection Rule Tuning Review is a detection engineering exercise documented under standalone."
+}

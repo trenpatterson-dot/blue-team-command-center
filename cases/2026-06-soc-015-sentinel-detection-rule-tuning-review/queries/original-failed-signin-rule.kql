@@ -1,0 +1,6 @@
+﻿SigninLogs
+| where TimeGenerated > ago(30m)
+| where ResultType != 0
+| summarize FailedAttempts=count() by UserPrincipalName, IPAddress
+| where FailedAttempts >= 3
+| order by FailedAttempts desc

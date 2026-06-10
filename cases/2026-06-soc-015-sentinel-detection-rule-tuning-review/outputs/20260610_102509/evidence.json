@@ -1,0 +1,136 @@
+{
+  "evidence_map": {
+    "project_name": "2026 06 Soc 015 Sentinel Detection Rule Tuning Review",
+    "lab_type": "detection engineering",
+    "platform": "standalone",
+    "source_ip": [],
+    "target_ip": [],
+    "hostnames": [],
+    "usernames": [],
+    "tools_used": [],
+    "commands_seen": [],
+    "ports_open": [],
+    "ports_closed": [],
+    "protocols_seen": [],
+    "scan_type": [],
+    "rule_ids": [],
+    "mitre_techniques": [
+      "T1078",
+      "T1110",
+      "T1110.003",
+      "T1110.004"
+    ],
+    "screenshots_present": [],
+    "timestamps": [],
+    "findings_confirmed": [
+      "Detection rule summary",
+      "Simulated sign-in alert review CSV",
+      "Original KQL-style rule",
+      "Tuned KQL-style rule",
+      "Command history",
+      "Investigation notes",
+      "Screenshot evidence",
+      "Failed sign-in alert volume",
+      "False positive patterns",
+      "Suspicious source IP behavior",
+      "Threshold tuning",
+      "KQL-style detection logic"
+    ],
+    "unresolved_gaps": [
+      "command history",
+      "screenshots"
+    ]
+  },
+  "tools_used": [],
+  "commands_seen": [],
+  "indicators_found": {
+    "ips": [],
+    "domains": [
+      "HANDOFF.md",
+      "README.md",
+      "command-history.md",
+      "detection-rule-summary.md",
+      "investigation-notes.md",
+      "original-failed-signin-rule.kql",
+      "signin-alert-review.csv",
+      "tuned-failed-signin-rule.kql"
+    ],
+    "hashes": [],
+    "usernames": [],
+    "cves": [],
+    "other": []
+  },
+  "findings": [
+    {
+      "finding": "Detection rule summary",
+      "significance": ""
+    },
+    {
+      "finding": "Simulated sign-in alert review CSV",
+      "significance": ""
+    },
+    {
+      "finding": "Original KQL-style rule",
+      "significance": ""
+    },
+    {
+      "finding": "Tuned KQL-style rule",
+      "significance": ""
+    },
+    {
+      "finding": "Command history",
+      "significance": ""
+    },
+    {
+      "finding": "Investigation notes",
+      "significance": ""
+    },
+    {
+      "finding": "Screenshot evidence",
+      "significance": ""
+    },
+    {
+      "finding": "Failed sign-in alert volume",
+      "significance": ""
+    },
+    {
+      "finding": "False positive patterns",
+      "significance": ""
+    },
+    {
+      "finding": "Suspicious source IP behavior",
+      "significance": ""
+    },
+    {
+      "finding": "Threshold tuning",
+      "significance": ""
+    },
+    {
+      "finding": "KQL-style detection logic",
+      "significance": ""
+    },
+    {
+      "finding": "Analyst recommendation notes",
+      "significance": ""
+    },
+    {
+      "finding": "MITRE ATT&CK mapping",
+      "significance": ""
+    },
+    {
+      "finding": "Microsoft Sentinel concepts",
+      "significance": ""
+    }
+  ],
+  "sequence_of_actions": [
+    "Reviewed the original Sentinel-style failed sign-in detection rule.",
+    "Reviewed alert evidence to identify noisy patterns.",
+    "Compared low-value failed sign-in activity against suspicious patterns.",
+    "Identified source IP and account patterns that should increase alert confidence.",
+    "Recommended a tuned KQL-style rule with better thresholding.",
+    "Documented false-positive reasoning.",
+    "Mapped the detection scenario to MITRE ATT&CK.",
+    "Documented security impact and recommendations."
+  ],
+  "screenshots": []
+}
