@@ -14,6 +14,31 @@ The system is designed to move between computers as a normal folder. The core fi
 - Captures recommended next steps without taking action on behalf of the analyst.
 - Supports copy and paste ready reporting into approved systems.
 
+## Microsoft SOC Analyst Series
+
+This documented case sequence presents a focused Microsoft SOC analyst workflow:
+
+**Sentinel -> Defender -> PowerShell -> Azure Identity -> Detection Tuning -> Incident Reporting -> AI-Assisted SOC Workflow**
+
+| Case ID | Case Name | Skill Demonstrated | Link to Case Folder |
+| --- | --- | --- | --- |
+| SOC-011 | Microsoft Sentinel Alert Triage | SIEM alert review, KQL-based investigation, and triage documentation | [Open case](cases/2026-06-soc-011-microsoft-sentinel-alert-triage/) |
+| SOC-012 | Microsoft Defender EDR Alert Investigation | Endpoint alert investigation, process review, and evidence correlation | [Open case](cases/2026-06-soc-012-microsoft-defender-edr-alert-investigation/) |
+| SOC-013 | PowerShell Suspicious Script Investigation | PowerShell command analysis, process context review, and suspicious activity assessment | [Open case](cases/2026-06-soc-013-powershell-suspicious-script-investigation/) |
+| SOC-014 | Azure Sign-In Risk Review | Azure identity sign-in analysis, risk review, and authentication context assessment | [Open case](cases/2026-06-soc-014-azure-sign-in-risk-review/) |
+| SOC-015 | Sentinel Detection Rule Tuning Review | Detection logic review, false-positive analysis, and tuning recommendations | [Open case](cases/2026-06-soc-015-sentinel-detection-rule-tuning-review/) |
+| SOC-016 | Incident Report / Executive Summary | Technical incident reporting and concise executive communication | [Open case](cases/2026-06-soc-016-incident-report-executive-summary/) |
+| SOC-017 | AI-Assisted SOC Workflow Review | AI-assisted analysis with analyst validation, documented limitations, and human approval | [Open case](cases/2026-06-soc-017-ai-assisted-soc-workflow-review/) |
+
+### What This Series Demonstrates
+
+- SIEM alert triage using Microsoft Sentinel.
+- Endpoint investigation using Microsoft Defender EDR context.
+- PowerShell analysis based on documented command and process evidence.
+- Identity and Azure sign-in risk review.
+- Detection tuning focused on false-positive reduction without weakening review controls.
+- Incident report writing for technical and executive audiences.
+- Responsible AI-assisted SOC workflow in which the analyst validates outputs and retains the approval boundary for decisions and actions.
 
 ## v0.5 Featured SOC Case Portfolio
 
@@ -31,7 +56,6 @@ The featured cases show a practical blue-team investigation progression:
 - Vulnerability Finding Practice Case
 
 Together, these cases demonstrate identity alert triage, account compromise review, endpoint investigation workflow, malware alert triage, evidence-gap documentation, vulnerability remediation planning, public/private evidence boundaries, and human approval gates.
-
 
 ## What This System Must Not Do
 
