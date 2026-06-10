@@ -1,0 +1,5 @@
+﻿SecurityEvent
+| where TimeGenerated > ago(24h)
+| where UserPrincipalName == "analyst3@contoso.local" or AccountName == "analyst3"
+| project TimeGenerated, SourceSystem, EventType, AccountName, UserPrincipalName, DeviceName, IPAddress, CommandLine
+| order by TimeGenerated asc

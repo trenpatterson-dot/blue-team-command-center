@@ -1,0 +1,22 @@
+{
+  "project_name": "2026 06 Soc 017 Ai Assisted Soc Workflow Review",
+  "lab_type": "malware analysis",
+  "platform": "standalone",
+  "source_inventory": [
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-017-ai-assisted-soc-workflow-review\\ai-review\\ai-assisted-summary-draft.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-017-ai-assisted-soc-workflow-review\\ai-review\\ai-limitations.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-017-ai-assisted-soc-workflow-review\\ai-review\\analyst-validation-checklist.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-017-ai-assisted-soc-workflow-review\\COMMANDS.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-017-ai-assisted-soc-workflow-review\\evidence\\command-history.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-017-ai-assisted-soc-workflow-review\\evidence\\correlated-events.csv",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-017-ai-assisted-soc-workflow-review\\evidence\\security-alert-summary.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-017-ai-assisted-soc-workflow-review\\HANDOFF.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-017-ai-assisted-soc-workflow-review\\notes\\investigation-notes.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-017-ai-assisted-soc-workflow-review\\README.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-017-ai-assisted-soc-workflow-review\\report\\final-analyst-determination.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-017-ai-assisted-soc-workflow-review\\report\\incident-report-draft.md"
+  ],
+  "screenshots": [],
+  "probable_task_type": "malware analysis",
+  "summary": "2026 06 Soc 017 Ai Assisted Soc Workflow Review is a malware analysis exercise documented under standalone."
+}
