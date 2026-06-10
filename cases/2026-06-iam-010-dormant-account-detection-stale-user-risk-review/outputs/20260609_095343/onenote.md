@@ -1,0 +1,12 @@
+## Lab Recap
+- **Lab Name:** 2026-06-iam-010-dormant-account-detection-stale-user-risk-review
+- **Platform:** Standalone
+- **Lab Type:** Detection Engineering
+- **Date Completed:** Not specified in the task payload
+- **Objective:** Review and analyze a simulated account list to identify dormant accounts with stale user risk.
+- **Tools Used:** Not explicitly mentioned in the task payload, but may include tools for account management and analysis.
+- **What I Did:** Analyzed a provided account list to identify dormant accounts based on last logon/sign-in date and enabled/disabled status. Checked group membership and privilege access for selected accounts.
+- **What I Found / Results:** Identified several dormant accounts with stale user risk, including their usernames, last logon/sign-in dates, enabled/disabled status, and group memberships. Made recommendations for further investigation or remediation.
+- **What Clicked / What I Learned:** The importance of regularly reviewing account activity to identify dormant accounts and potential security risks. The need for a systematic approach to analyze account data effectively.
+- **Difficulty:** Moderate, as it required understanding the provided account list structure and interpreting the relevant data.
+- **Screens

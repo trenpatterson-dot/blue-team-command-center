@@ -1,0 +1,80 @@
+{
+  "evidence_map": {
+    "project_name": "2026 06 Iam 010 Dormant Account Detection Stale User Risk Review",
+    "lab_type": "detection engineering",
+    "platform": "standalone",
+    "source_ip": [],
+    "target_ip": [],
+    "hostnames": [],
+    "usernames": [],
+    "tools_used": [],
+    "commands_seen": [],
+    "ports_open": [],
+    "ports_closed": [],
+    "protocols_seen": [],
+    "scan_type": [],
+    "rule_ids": [],
+    "mitre_techniques": [],
+    "screenshots_present": [],
+    "timestamps": [],
+    "findings_confirmed": [
+      "User/account list",
+      "Last logon or last sign-in date",
+      "Enabled/disabled status",
+      "Group membership",
+      "Privileged access check",
+      "Recommendation notes"
+    ],
+    "unresolved_gaps": [
+      "command history",
+      "screenshots"
+    ]
+  },
+  "tools_used": [],
+  "commands_seen": [],
+  "indicators_found": {
+    "ips": [],
+    "domains": [
+      "HANDOFF.md",
+      "README.md"
+    ],
+    "hashes": [],
+    "usernames": [],
+    "cves": [],
+    "other": []
+  },
+  "findings": [
+    {
+      "finding": "User/account list",
+      "significance": ""
+    },
+    {
+      "finding": "Last logon or last sign-in date",
+      "significance": ""
+    },
+    {
+      "finding": "Enabled/disabled status",
+      "significance": ""
+    },
+    {
+      "finding": "Group membership",
+      "significance": ""
+    },
+    {
+      "finding": "Privileged access check",
+      "significance": ""
+    },
+    {
+      "finding": "Recommendation notes",
+      "significance": ""
+    }
+  ],
+  "sequence_of_actions": [
+    "Account list or simulated account review data",
+    "Stale enabled account example",
+    "Last logon/sign-in field",
+    "Group membership or privilege check",
+    "Recommendation/remediation note"
+  ],
+  "screenshots": []
+}

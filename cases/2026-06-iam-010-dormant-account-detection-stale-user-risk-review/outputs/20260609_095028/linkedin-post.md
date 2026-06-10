@@ -1,0 +1,1 @@
+Revision needed: missing confirmed findings, command history, screenshots. Add evidence before drafting a public post.

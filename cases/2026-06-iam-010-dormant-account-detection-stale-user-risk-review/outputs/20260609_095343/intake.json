@@ -1,0 +1,14 @@
+{
+  "project_name": "2026 06 Iam 010 Dormant Account Detection Stale User Risk Review",
+  "lab_type": "detection engineering",
+  "platform": "standalone",
+  "source_inventory": [
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-iam-010-dormant-account-detection-stale-user-risk-review\\evidence\\dormant-account-review.csv",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-iam-010-dormant-account-detection-stale-user-risk-review\\evidence\\evidence-notes.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-iam-010-dormant-account-detection-stale-user-risk-review\\HANDOFF.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-iam-010-dormant-account-detection-stale-user-risk-review\\README.md"
+  ],
+  "screenshots": [],
+  "probable_task_type": "detection engineering",
+  "summary": "2026 06 Iam 010 Dormant Account Detection Stale User Risk Review is a detection engineering exercise documented under standalone."
+}

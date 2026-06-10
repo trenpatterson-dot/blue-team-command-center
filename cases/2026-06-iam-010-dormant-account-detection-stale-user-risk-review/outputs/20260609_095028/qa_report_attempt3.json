@@ -1,0 +1,21 @@
+{
+  "passed": false,
+  "issues": [
+    {
+      "output": "readme",
+      "check": "README STRUCTURE",
+      "detail": "README is missing required sections: ## Overview, ## Objective, ## Tools Used, ## Environment / Lab Setup, ## Investigation Steps, ## Key Findings, ## Security Impact"
+    },
+    {
+      "output": "onenote",
+      "check": "FORMAT",
+      "detail": "OneNote recap is missing required fields: Lab Name:, Platform:, Lab Type:, Date Completed:"
+    }
+  ],
+  "revision_notes": {
+    "readme": "Rewrite the README with the required evidence-first sections and no placeholders.",
+    "onenote": "Restore the structured recap template and fill every required field."
+  },
+  "secrets_found": false,
+  "confidence": "medium"
+}

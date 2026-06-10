@@ -1,0 +1,55 @@
+{
+  "evidence_map": {
+    "project_name": "2026 06 Iam 010 Dormant Account Detection Stale User Risk Review",
+    "lab_type": "detection engineering",
+    "platform": "standalone",
+    "source_ip": [],
+    "target_ip": [],
+    "hostnames": [],
+    "usernames": [],
+    "tools_used": [
+      "powershell"
+    ],
+    "commands_seen": [],
+    "ports_open": [],
+    "ports_closed": [],
+    "protocols_seen": [],
+    "scan_type": [],
+    "rule_ids": [],
+    "mitre_techniques": [],
+    "screenshots_present": [],
+    "timestamps": [],
+    "findings_confirmed": [],
+    "unresolved_gaps": [
+      "confirmed findings",
+      "command history",
+      "screenshots"
+    ]
+  },
+  "tools_used": [
+    "powershell"
+  ],
+  "commands_seen": [],
+  "indicators_found": {
+    "ips": [],
+    "domains": [
+      "HANDOFF.md",
+      "README.md",
+      "admin.review",
+      "temp.contractor"
+    ],
+    "hashes": [],
+    "usernames": [],
+    "cves": [],
+    "other": []
+  },
+  "findings": [],
+  "sequence_of_actions": [
+    "Account list or simulated account review data",
+    "Stale enabled account example",
+    "Last logon/sign-in field",
+    "Group membership or privilege check",
+    "Recommendation/remediation note"
+  ],
+  "screenshots": []
+}

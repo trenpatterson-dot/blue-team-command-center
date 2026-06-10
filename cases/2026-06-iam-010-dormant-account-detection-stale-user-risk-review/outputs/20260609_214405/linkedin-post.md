@@ -1,0 +1,3 @@
+Completed investigation into the dormant account detection lab, focusing on identifying stale user risk. Utilized PowerShell to review Active Directory data and uncovered several enabled accounts with extended periods of inactivity. Additionally, I identified dormant accounts holding privileged group memberships and contractor or temporary accounts requiring review.
+
+The findings were documented in the Blue Team Command Center case documentation, including a CSV evidence review and manual IAM access review methodology. However, command history and screenshots are still missing from the evidence. #Cybersecurity #DetectionEngineering #BlueTeam #SOCAnalyst #ActiveDirectoryReview #StaleUserRisk #InvestigationFindings

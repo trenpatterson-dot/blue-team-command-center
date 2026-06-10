@@ -1,0 +1,138 @@
+{
+  "evidence_map": {
+    "project_name": "2026 06 Iam 010 Dormant Account Detection Stale User Risk Review",
+    "lab_type": "detection engineering",
+    "platform": "standalone",
+    "source_ip": [],
+    "target_ip": [],
+    "hostnames": [],
+    "usernames": [],
+    "tools_used": [
+      "powershell"
+    ],
+    "commands_seen": [],
+    "ports_open": [],
+    "ports_closed": [],
+    "protocols_seen": [],
+    "scan_type": [],
+    "rule_ids": [],
+    "mitre_techniques": [],
+    "screenshots_present": [],
+    "timestamps": [],
+    "findings_confirmed": [
+      "Enabled accounts with long periods of inactivity",
+      "Dormant accounts with privileged group membership",
+      "Contractor or temporary accounts that should be reviewed",
+      "Accounts that require owner validation, disabling, or privilege removal",
+      "PowerShell command history",
+      "Simulated Active Directory review",
+      "CSV evidence review",
+      "Manual IAM access review methodology",
+      "Blue Team Command Center case documentation",
+      "evidence/dormant-account-review.csv",
+      "evidence/evidence-notes.md",
+      "evidence/commands/commands-used.txt"
+    ],
+    "unresolved_gaps": [
+      "command history",
+      "screenshots"
+    ]
+  },
+  "tools_used": [
+    "powershell"
+  ],
+  "commands_seen": [],
+  "indicators_found": {
+    "ips": [],
+    "domains": [
+      "HANDOFF.md",
+      "README.md",
+      "admin.review",
+      "commands-used.txt",
+      "dormant-account-review.csv",
+      "evidence-notes.md",
+      "j.smith",
+      "temp.contractor"
+    ],
+    "hashes": [],
+    "usernames": [],
+    "cves": [],
+    "other": []
+  },
+  "findings": [
+    {
+      "finding": "Enabled accounts with long periods of inactivity",
+      "significance": ""
+    },
+    {
+      "finding": "Dormant accounts with privileged group membership",
+      "significance": ""
+    },
+    {
+      "finding": "Contractor or temporary accounts that should be reviewed",
+      "significance": ""
+    },
+    {
+      "finding": "Accounts that require owner validation, disabling, or privilege removal",
+      "significance": ""
+    },
+    {
+      "finding": "PowerShell command history",
+      "significance": ""
+    },
+    {
+      "finding": "Simulated Active Directory review",
+      "significance": ""
+    },
+    {
+      "finding": "CSV evidence review",
+      "significance": ""
+    },
+    {
+      "finding": "Manual IAM access review methodology",
+      "significance": ""
+    },
+    {
+      "finding": "Blue Team Command Center case documentation",
+      "significance": ""
+    },
+    {
+      "finding": "evidence/dormant-account-review.csv",
+      "significance": ""
+    },
+    {
+      "finding": "evidence/evidence-notes.md",
+      "significance": ""
+    },
+    {
+      "finding": "evidence/commands/commands-used.txt",
+      "significance": ""
+    },
+    {
+      "finding": "The account analyst3 was enabled and had not logged in for 142 days.",
+      "significance": ""
+    },
+    {
+      "finding": "The account svc_backup was enabled, had not logged in for 211 days, and belonged to Backup Operators.",
+      "significance": ""
+    },
+    {
+      "finding": "The account temp.contractor was enabled and had not logged in for 97 days.",
+      "significance": ""
+    }
+  ],
+  "sequence_of_actions": [
+    "Account list or simulated account review data",
+    "Stale enabled account example",
+    "Last logon/sign-in field",
+    "Group membership or privilege check",
+    "Recommendation/remediation note",
+    "Reviewed the simulated account inventory.",
+    "Checked account status for enabled users.",
+    "Compared last logon activity against stale-account thresholds.",
+    "Identified dormant accounts with no recent activity.",
+    "Reviewed privileged group membership for elevated access exposure.",
+    "Documented findings, risk, and recommended remediation actions."
+  ],
+  "screenshots": []
+}
