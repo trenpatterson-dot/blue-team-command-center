@@ -1,0 +1,137 @@
+{
+  "evidence_map": {
+    "project_name": "2026 06 Soc 011 Microsoft Sentinel Alert Triage",
+    "lab_type": "detection engineering",
+    "platform": "standalone",
+    "source_ip": [],
+    "target_ip": [],
+    "hostnames": [],
+    "usernames": [],
+    "tools_used": [],
+    "commands_seen": [],
+    "ports_open": [],
+    "ports_closed": [],
+    "protocols_seen": [],
+    "scan_type": [],
+    "rule_ids": [],
+    "mitre_techniques": [
+      "T1078",
+      "T1110",
+      "T1110.003"
+    ],
+    "screenshots_present": [],
+    "timestamps": [],
+    "findings_confirmed": [
+      "Sentinel-style alert summary",
+      "Simulated sign-in log events",
+      "KQL-style failed sign-in query",
+      "Investigation notes",
+      "Repeated failed sign-ins",
+      "Affected user account activity",
+      "Suspicious external source IP behavior",
+      "Whether successful authentication occurred after failures",
+      "MITRE ATT&CK mapping and remediation steps",
+      "Microsoft Sentinel concepts",
+      "KQL-style query documentation",
+      "Simulated Microsoft Entra ID sign-in log evidence"
+    ],
+    "unresolved_gaps": [
+      "command history",
+      "screenshots"
+    ]
+  },
+  "tools_used": [],
+  "commands_seen": [],
+  "indicators_found": {
+    "ips": [
+      "198.51.100.24",
+      "203.0.113.45"
+    ],
+    "domains": [
+      "HANDOFF.md",
+      "README.md",
+      "contoso.local",
+      "investigation-notes.md",
+      "sentinel-alert-summary.md",
+      "sentinel-failed-signins.kql",
+      "signin-log-events.csv"
+    ],
+    "hashes": [],
+    "usernames": [],
+    "cves": [],
+    "other": []
+  },
+  "findings": [
+    {
+      "finding": "Sentinel-style alert summary",
+      "significance": ""
+    },
+    {
+      "finding": "Simulated sign-in log events",
+      "significance": ""
+    },
+    {
+      "finding": "KQL-style failed sign-in query",
+      "significance": ""
+    },
+    {
+      "finding": "Investigation notes",
+      "significance": ""
+    },
+    {
+      "finding": "Repeated failed sign-ins",
+      "significance": ""
+    },
+    {
+      "finding": "Affected user account activity",
+      "significance": ""
+    },
+    {
+      "finding": "Suspicious external source IP behavior",
+      "significance": ""
+    },
+    {
+      "finding": "Whether successful authentication occurred after failures",
+      "significance": ""
+    },
+    {
+      "finding": "MITRE ATT&CK mapping and remediation steps",
+      "significance": ""
+    },
+    {
+      "finding": "Microsoft Sentinel concepts",
+      "significance": ""
+    },
+    {
+      "finding": "KQL-style query documentation",
+      "significance": ""
+    },
+    {
+      "finding": "Simulated Microsoft Entra ID sign-in log evidence",
+      "significance": ""
+    },
+    {
+      "finding": "CSV evidence review",
+      "significance": ""
+    },
+    {
+      "finding": "MITRE ATT&CK mapping",
+      "significance": ""
+    },
+    {
+      "finding": "Blue Team Command Center documentation workflow",
+      "significance": ""
+    }
+  ],
+  "sequence_of_actions": [
+    "Reviewed the Sentinel-style alert summary.",
+    "Identified the affected user account.",
+    "Reviewed failed sign-in activity from the suspicious source IP.",
+    "Checked whether any successful sign-in occurred from the same suspicious source.",
+    "Compared the activity pattern against brute force and password spraying behavior.",
+    "Reviewed the KQL-style query used to identify repeated failed sign-ins.",
+    "Mapped the behavior to MITRE ATT&CK.",
+    "Documented the security impact and recommended remediation actions."
+  ],
+  "screenshots": []
+}

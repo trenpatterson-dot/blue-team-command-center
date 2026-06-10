@@ -1,0 +1,134 @@
+{
+  "evidence_map": {
+    "project_name": "2026 06 Soc 011 Microsoft Sentinel Alert Triage",
+    "lab_type": "detection engineering",
+    "platform": "standalone",
+    "source_ip": [],
+    "target_ip": [],
+    "hostnames": [],
+    "usernames": [],
+    "tools_used": [],
+    "commands_seen": [],
+    "ports_open": [],
+    "ports_closed": [],
+    "protocols_seen": [],
+    "scan_type": [],
+    "rule_ids": [],
+    "mitre_techniques": [
+      "T1078",
+      "T1110",
+      "T1110.003"
+    ],
+    "screenshots_present": [],
+    "timestamps": [],
+    "findings_confirmed": [
+      "Sentinel-style alert summary",
+      "Simulated sign-in log events",
+      "KQL-style failed sign-in query",
+      "Investigation notes",
+      "Microsoft Sentinel concepts",
+      "KQL-style query documentation",
+      "Simulated sign-in log evidence",
+      "MITRE ATT&CK mapping",
+      "Blue Team Command Center documentation workflow",
+      "`evidence/sentinel-alert-summary.md`",
+      "`evidence/signin-log-events.csv`",
+      "`queries/sentinel-failed-signins.kql`"
+    ],
+    "unresolved_gaps": [
+      "command history",
+      "screenshots"
+    ]
+  },
+  "tools_used": [],
+  "commands_seen": [],
+  "indicators_found": {
+    "ips": [
+      "203.0.113.45"
+    ],
+    "domains": [
+      "HANDOFF.md",
+      "README.md",
+      "contoso.local",
+      "investigation-notes.md",
+      "sentinel-alert-summary.md",
+      "sentinel-failed-signins.kql",
+      "signin-log-events.csv"
+    ],
+    "hashes": [],
+    "usernames": [],
+    "cves": [],
+    "other": []
+  },
+  "findings": [
+    {
+      "finding": "Sentinel-style alert summary",
+      "significance": ""
+    },
+    {
+      "finding": "Simulated sign-in log events",
+      "significance": ""
+    },
+    {
+      "finding": "KQL-style failed sign-in query",
+      "significance": ""
+    },
+    {
+      "finding": "Investigation notes",
+      "significance": ""
+    },
+    {
+      "finding": "Microsoft Sentinel concepts",
+      "significance": ""
+    },
+    {
+      "finding": "KQL-style query documentation",
+      "significance": ""
+    },
+    {
+      "finding": "Simulated sign-in log evidence",
+      "significance": ""
+    },
+    {
+      "finding": "MITRE ATT&CK mapping",
+      "significance": ""
+    },
+    {
+      "finding": "Blue Team Command Center documentation workflow",
+      "significance": ""
+    },
+    {
+      "finding": "`evidence/sentinel-alert-summary.md`",
+      "significance": ""
+    },
+    {
+      "finding": "`evidence/signin-log-events.csv`",
+      "significance": ""
+    },
+    {
+      "finding": "`queries/sentinel-failed-signins.kql`",
+      "significance": ""
+    },
+    {
+      "finding": "`notes/investigation-notes.md`",
+      "significance": ""
+    },
+    {
+      "finding": "The user `analyst3@contoso.local` had repeated failed sign-ins.",
+      "significance": ""
+    },
+    {
+      "finding": "The source IP `203.0.113.45` generated multiple failures in a short period.",
+      "significance": ""
+    }
+  ],
+  "sequence_of_actions": [
+    "Reviewed the Sentinel-style alert summary.",
+    "Identified the affected user account.",
+    "Reviewed failed sign-in activity by source IP.",
+    "Checked for successful authentication after the failed attempts.",
+    "Mapped the behavior to MITRE ATT&CK.",
+    "Documented impact, findings, and recommended remediation."
+  ],
+  "screenshots": []
+}

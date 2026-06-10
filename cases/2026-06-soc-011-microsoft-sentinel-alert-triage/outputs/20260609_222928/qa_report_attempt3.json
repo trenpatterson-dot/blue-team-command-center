@@ -1,0 +1,15 @@
+{
+  "passed": false,
+  "issues": [
+    {
+      "output": "readme",
+      "check": "README STRUCTURE",
+      "detail": "README is missing required sections: ## Overview, ## Objective, ## Tools Used, ## Environment / Lab Setup, ## Investigation Steps, ## Key Findings, ## Security Impact"
+    }
+  ],
+  "revision_notes": {
+    "readme": "Rewrite the README with the required evidence-first sections and no placeholders."
+  },
+  "secrets_found": false,
+  "confidence": "medium"
+}

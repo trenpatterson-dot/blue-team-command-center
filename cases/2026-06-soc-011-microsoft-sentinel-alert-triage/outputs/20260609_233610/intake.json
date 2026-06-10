@@ -1,0 +1,19 @@
+{
+  "project_name": "2026 06 Soc 011 Microsoft Sentinel Alert Triage",
+  "lab_type": "detection engineering",
+  "platform": "standalone",
+  "source_inventory": [
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-011-microsoft-sentinel-alert-triage\\COMMANDS.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-011-microsoft-sentinel-alert-triage\\evidence\\command-history.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-011-microsoft-sentinel-alert-triage\\evidence\\commands\\commands-used.txt",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-011-microsoft-sentinel-alert-triage\\evidence\\sentinel-alert-summary.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-011-microsoft-sentinel-alert-triage\\evidence\\signin-log-events.csv",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-011-microsoft-sentinel-alert-triage\\HANDOFF.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-011-microsoft-sentinel-alert-triage\\notes\\investigation-notes.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-011-microsoft-sentinel-alert-triage\\README.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-011-microsoft-sentinel-alert-triage\\screenshots\\SCREENSHOT-INDEX.md"
+  ],
+  "screenshots": [],
+  "probable_task_type": "detection engineering",
+  "summary": "2026 06 Soc 011 Microsoft Sentinel Alert Triage is a detection engineering exercise documented under standalone."
+}
