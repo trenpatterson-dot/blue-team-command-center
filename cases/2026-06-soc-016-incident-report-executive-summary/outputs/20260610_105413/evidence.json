@@ -1,0 +1,145 @@
+{
+  "evidence_map": {
+    "project_name": "2026 06 Soc 016 Incident Report Executive Summary",
+    "lab_type": "incident response",
+    "platform": "standalone",
+    "source_ip": [],
+    "target_ip": [],
+    "hostnames": [],
+    "usernames": [],
+    "tools_used": [
+      "powershell"
+    ],
+    "commands_seen": [],
+    "ports_open": [],
+    "ports_closed": [],
+    "protocols_seen": [],
+    "scan_type": [],
+    "rule_ids": [],
+    "mitre_techniques": [
+      "T1027",
+      "T1059.001",
+      "T1105",
+      "T1204.002"
+    ],
+    "screenshots_present": [],
+    "timestamps": [],
+    "findings_confirmed": [
+      "Incident summary",
+      "Timeline evidence",
+      "Key evidence notes",
+      "Command history",
+      "Analyst notes",
+      "Incident report",
+      "Executive summary",
+      "Screenshot evidence",
+      "Affected user and device",
+      "Timeline of activity",
+      "Evidence supporting the finding",
+      "Security impact"
+    ],
+    "unresolved_gaps": [
+      "command history",
+      "screenshots"
+    ]
+  },
+  "tools_used": [
+    "powershell"
+  ],
+  "commands_seen": [],
+  "indicators_found": {
+    "ips": [
+      "203.0.113.77"
+    ],
+    "domains": [
+      "HANDOFF.md",
+      "README.md",
+      "analyst-notes.md",
+      "cmd.exe",
+      "command-history.md",
+      "executive-summary.md",
+      "incident-report.md",
+      "incident-summary.md",
+      "key-evidence.md",
+      "timeline.csv"
+    ],
+    "hashes": [],
+    "usernames": [],
+    "cves": [],
+    "other": []
+  },
+  "findings": [
+    {
+      "finding": "Incident summary",
+      "significance": ""
+    },
+    {
+      "finding": "Timeline evidence",
+      "significance": ""
+    },
+    {
+      "finding": "Key evidence notes",
+      "significance": ""
+    },
+    {
+      "finding": "Command history",
+      "significance": ""
+    },
+    {
+      "finding": "Analyst notes",
+      "significance": ""
+    },
+    {
+      "finding": "Incident report",
+      "significance": ""
+    },
+    {
+      "finding": "Executive summary",
+      "significance": ""
+    },
+    {
+      "finding": "Screenshot evidence",
+      "significance": ""
+    },
+    {
+      "finding": "Affected user and device",
+      "significance": ""
+    },
+    {
+      "finding": "Timeline of activity",
+      "significance": ""
+    },
+    {
+      "finding": "Evidence supporting the finding",
+      "significance": ""
+    },
+    {
+      "finding": "Security impact",
+      "significance": ""
+    },
+    {
+      "finding": "MITRE ATT&CK mapping",
+      "significance": ""
+    },
+    {
+      "finding": "Containment and remediation recommendations",
+      "significance": ""
+    },
+    {
+      "finding": "Executive summary writing",
+      "significance": ""
+    }
+  ],
+  "sequence_of_actions": [
+    "Reviewed the simulated incident summary.",
+    "Identified the affected endpoint and user.",
+    "Reviewed the event timeline.",
+    "Documented key evidence supporting the suspicious activity.",
+    "Assessed potential security impact.",
+    "Mapped the behavior to MITRE ATT&CK.",
+    "Created an analyst incident report.",
+    "Created a short executive summary.",
+    "Documented containment and remediation recommendations."
+  ],
+  "screenshots": []
+}

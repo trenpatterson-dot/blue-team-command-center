@@ -1,0 +1,20 @@
+{
+  "project_name": "2026 06 Soc 016 Incident Report Executive Summary",
+  "lab_type": "incident response",
+  "platform": "standalone",
+  "source_inventory": [
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-016-incident-report-executive-summary\\COMMANDS.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-016-incident-report-executive-summary\\evidence\\command-history.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-016-incident-report-executive-summary\\evidence\\incident-summary.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-016-incident-report-executive-summary\\evidence\\timeline.csv",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-016-incident-report-executive-summary\\HANDOFF.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-016-incident-report-executive-summary\\notes\\analyst-notes.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-016-incident-report-executive-summary\\README.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-016-incident-report-executive-summary\\report\\executive-summary.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-016-incident-report-executive-summary\\report\\incident-report.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-016-incident-report-executive-summary\\screenshots\\SCREENSHOT-INDEX.md"
+  ],
+  "screenshots": [],
+  "probable_task_type": "incident response",
+  "summary": "2026 06 Soc 016 Incident Report Executive Summary is a incident response exercise documented under standalone."
+}

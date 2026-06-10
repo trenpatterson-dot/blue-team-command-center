@@ -1,0 +1,1 @@
+Investigated and confirmed findings from the 2026-06 Soc-016 Incident Report Executive Summary, a standalone incident response exercise. Identified affected user and device, reviewed event timeline, and key evidence notes using PowerShell. Unfortunately, command history and screenshot evidence are missing for this report. #Cybersecurity #IncidentResponse #SOCAnalyst #BlueTeam

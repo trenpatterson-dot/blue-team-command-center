@@ -1,0 +1,15 @@
+{
+  "passed": false,
+  "issues": [
+    {
+      "output": "linkedin",
+      "check": "STYLE VIOLATION",
+      "detail": "LinkedIn output should be narrative prose with hashtags at the end only."
+    }
+  ],
+  "revision_notes": {
+    "linkedin": "Rewrite as a concise first-person LinkedIn post with no markdown headers or bullet lists."
+  },
+  "secrets_found": false,
+  "confidence": "medium"
+}
