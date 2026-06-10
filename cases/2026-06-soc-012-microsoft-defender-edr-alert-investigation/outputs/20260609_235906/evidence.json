@@ -1,0 +1,141 @@
+{
+  "evidence_map": {
+    "project_name": "2026 06 Soc 012 Microsoft Defender Edr Alert Investigation",
+    "lab_type": "phishing",
+    "platform": "standalone",
+    "source_ip": [],
+    "target_ip": [],
+    "hostnames": [],
+    "usernames": [],
+    "tools_used": [
+      "powershell"
+    ],
+    "commands_seen": [],
+    "ports_open": [],
+    "ports_closed": [],
+    "protocols_seen": [],
+    "scan_type": [],
+    "rule_ids": [],
+    "mitre_techniques": [
+      "T1027",
+      "T1059.001",
+      "T1204.002",
+      "T1566.001"
+    ],
+    "screenshots_present": [],
+    "timestamps": [],
+    "findings_confirmed": [
+      "Defender-style alert summary",
+      "Simulated endpoint process events",
+      "Advanced Hunting KQL-style query",
+      "Command history",
+      "Investigation notes",
+      "Screenshot evidence",
+      "Suspicious PowerShell execution",
+      "Parent and child process relationships",
+      "Encoded or unusual command-line activity",
+      "Affected endpoint and user context",
+      "MITRE ATT&CK mapping",
+      "Containment and remediation actions"
+    ],
+    "unresolved_gaps": [
+      "command history",
+      "screenshots"
+    ]
+  },
+  "tools_used": [
+    "powershell"
+  ],
+  "commands_seen": [],
+  "indicators_found": {
+    "ips": [],
+    "domains": [
+      "HANDOFF.md",
+      "README.md",
+      "command-history.md",
+      "defender-alert-summary.md",
+      "defender-suspicious-powershell.kql",
+      "device-process-events.csv",
+      "investigation-notes.md",
+      "powershell.exe",
+      "winword.exe"
+    ],
+    "hashes": [],
+    "usernames": [],
+    "cves": [],
+    "other": []
+  },
+  "findings": [
+    {
+      "finding": "Defender-style alert summary",
+      "significance": ""
+    },
+    {
+      "finding": "Simulated endpoint process events",
+      "significance": ""
+    },
+    {
+      "finding": "Advanced Hunting KQL-style query",
+      "significance": ""
+    },
+    {
+      "finding": "Command history",
+      "significance": ""
+    },
+    {
+      "finding": "Investigation notes",
+      "significance": ""
+    },
+    {
+      "finding": "Screenshot evidence",
+      "significance": ""
+    },
+    {
+      "finding": "Suspicious PowerShell execution",
+      "significance": ""
+    },
+    {
+      "finding": "Parent and child process relationships",
+      "significance": ""
+    },
+    {
+      "finding": "Encoded or unusual command-line activity",
+      "significance": ""
+    },
+    {
+      "finding": "Affected endpoint and user context",
+      "significance": ""
+    },
+    {
+      "finding": "MITRE ATT&CK mapping",
+      "significance": ""
+    },
+    {
+      "finding": "Containment and remediation actions",
+      "significance": ""
+    },
+    {
+      "finding": "Microsoft Defender for Endpoint concepts",
+      "significance": ""
+    },
+    {
+      "finding": "Advanced Hunting KQL-style query documentation",
+      "significance": ""
+    },
+    {
+      "finding": "Simulated endpoint process event evidence",
+      "significance": ""
+    }
+  ],
+  "sequence_of_actions": [
+    "Reviewed the Defender-style alert summary.",
+    "Identified the affected device and user.",
+    "Reviewed suspicious PowerShell execution details.",
+    "Analyzed parent and child process relationships.",
+    "Checked command-line arguments for encoded or suspicious behavior.",
+    "Reviewed KQL-style hunting logic.",
+    "Mapped the activity to MITRE ATT&CK.",
+    "Documented security impact and response recommendations."
+  ],
+  "screenshots": []
+}

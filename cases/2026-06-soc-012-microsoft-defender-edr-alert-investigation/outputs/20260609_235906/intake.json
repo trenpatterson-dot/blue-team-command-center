@@ -1,0 +1,18 @@
+{
+  "project_name": "2026 06 Soc 012 Microsoft Defender Edr Alert Investigation",
+  "lab_type": "phishing",
+  "platform": "standalone",
+  "source_inventory": [
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-012-microsoft-defender-edr-alert-investigation\\COMMANDS.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-012-microsoft-defender-edr-alert-investigation\\evidence\\command-history.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-012-microsoft-defender-edr-alert-investigation\\evidence\\defender-alert-summary.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-012-microsoft-defender-edr-alert-investigation\\evidence\\device-process-events.csv",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-012-microsoft-defender-edr-alert-investigation\\HANDOFF.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-012-microsoft-defender-edr-alert-investigation\\notes\\investigation-notes.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-012-microsoft-defender-edr-alert-investigation\\README.md",
+    "C:\\Users\\trenp\\blue-team-command-center\\cases\\2026-06-soc-012-microsoft-defender-edr-alert-investigation\\screenshots\\SCREENSHOT-INDEX.md"
+  ],
+  "screenshots": [],
+  "probable_task_type": "phishing",
+  "summary": "2026 06 Soc 012 Microsoft Defender Edr Alert Investigation is a phishing exercise documented under standalone."
+}
