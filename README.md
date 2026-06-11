@@ -1,23 +1,23 @@
 
 # Blue Team Command Center
 
-Blue Team Command Center is a Microsoft-focused SOC analyst portfolio built around documented lab investigations and case studies. The featured series demonstrates alert triage, incident investigation, MITRE ATT&CK mapping, evidence-based reporting, and AI-assisted analysis with human analyst review and approval boundaries.
+Blue Team Command Center is a Microsoft-focused SOC analyst portfolio built around documented lab investigations and case studies. The featured series demonstrates alert triage, incident investigation, MITRE ATT&CK mapping, evidence-based reporting, and analyst-controlled automation.
 
 ## Recruiter Snapshot
 
 - **Target roles:** Microsoft SOC Analyst, Security Operations Analyst, and Blue Team Analyst.
-- **Investigation focus:** Microsoft Sentinel alerts, Microsoft Defender endpoint context, suspicious PowerShell, Azure identity risk, and detection tuning.
+- **Investigation focus:** Microsoft Sentinel alerts, Microsoft Defender XDR endpoint context, suspicious PowerShell, Azure identity risk, detection tuning, and Logic Apps SOC automation.
 - **Analyst workflow:** Triage the alert, separate facts from interpretation, map observed behavior to MITRE ATT&CK where supported, document evidence gaps, and communicate findings.
 - **Reporting:** Technical case notes, investigation summaries, recommended next steps, and executive-ready incident communication.
-- **AI boundary:** AI may assist with organizing or reviewing documented information, but a human analyst validates the output and retains approval authority for decisions and actions.
+- **AI and automation boundary:** AI or automation may assist with organizing, enriching, routing, or reviewing documented information, but a human analyst validates the output and retains approval authority for decisions and actions.
 
-> **Portfolio boundary:** SOC-011 through SOC-017 are lab and case-study artifacts. They demonstrate investigation method, documentation discipline, and analyst judgment; they do not represent production SOC employment, unrestricted enterprise tool access, or authority to act on live systems.
+> **Portfolio boundary:** SOC-011 through SOC-020 are lab and case-study artifacts. They demonstrate investigation method, documentation discipline, and analyst judgment; they do not represent production SOC employment, unrestricted enterprise tool access, tenant ownership, live customer data access, or authority to act on live systems.
 
 ## Microsoft SOC Analyst Portfolio Series
 
-The seven-case sequence follows a practical Microsoft security operations progression:
+The ten-case sequence follows a practical Microsoft security operations progression:
 
-**Sentinel -> Defender -> PowerShell -> Azure Identity -> Detection Tuning -> Incident Reporting -> AI-Assisted SOC Workflow**
+**Sentinel -> Defender -> PowerShell -> Azure Identity -> Detection Tuning -> Incident Reporting -> AI-Assisted Review -> Sentinel Investigation -> Defender XDR Investigation -> Logic Apps Automation**
 
 | Case | Investigation Focus | Recruiter-Relevant Skills |
 | --- | --- | --- |
@@ -28,6 +28,9 @@ The seven-case sequence follows a practical Microsoft security operations progre
 | [SOC-015: Sentinel Detection Rule Tuning Review](cases/2026-06-soc-015-sentinel-detection-rule-tuning-review/) | Review detection quality and false positives | Detection logic, tuning recommendations, coverage preservation, and validation planning |
 | [SOC-016: Incident Report / Executive Summary](cases/2026-06-soc-016-incident-report-executive-summary/) | Convert investigation findings into clear reporting | Technical reporting, evidence-based conclusions, executive communication, and next steps |
 | [SOC-017: AI-Assisted SOC Workflow Review](cases/2026-06-soc-017-ai-assisted-soc-workflow-review/) | Evaluate responsible AI support in a SOC workflow | AI-assisted synthesis, analyst verification, limitation tracking, and human approval boundaries |
+| [SOC-018: Microsoft Sentinel Alert Investigation](cases/2026-06-soc-018-microsoft-sentinel-alert-investigation/) | Investigate a suspicious sign-in alert through final reporting | Sign-in log review, entity investigation, timeline creation, severity assessment, and analyst disposition |
+| [SOC-019: Microsoft Defender XDR Investigation](cases/2026-06-soc-019-microsoft-defender-xdr-investigation/) | Investigate suspicious PowerShell execution on an endpoint | Defender XDR triage, process-tree review, command analysis, ATT&CK mapping, and incident reporting |
+| [SOC-020: Microsoft Logic Apps SOC Automation](cases/2026-06-soc-020-microsoft-logic-apps-soc-automation/) | Support a Sentinel / Defender XDR alert workflow | Evidence collection, analyst notification, incident note drafting, failure handling, and human approval boundaries |
 
 ## What This Repository Provides
 
