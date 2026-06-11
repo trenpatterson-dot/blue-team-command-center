@@ -13,6 +13,22 @@ Blue Team Command Center is a Microsoft-focused SOC analyst portfolio built arou
 
 > **Portfolio boundary:** SOC-011 through SOC-021 are lab and case-study artifacts. They demonstrate investigation method, documentation discipline, and analyst judgment; they do not represent production SOC employment, unrestricted enterprise tool access, tenant ownership, live customer data access, legal or compliance authority, or authority to act on live systems.
 
+## Featured Recruiter Path: SOC-018 to SOC-021
+
+This four-project sequence presents one connected Microsoft Security Analyst story:
+
+| Stage | Project | Analyst Value |
+| --- | --- | --- |
+| Detect and triage | [SOC-018: Microsoft Sentinel Alert Investigation](cases/2026-06-soc-018-microsoft-sentinel-alert-investigation/) | Reviewed sign-in evidence, built a timeline, mapped MITRE ATT&CK, and documented severity and disposition |
+| Investigate the endpoint | [SOC-019: Microsoft Defender XDR Investigation](cases/2026-06-soc-019-microsoft-defender-xdr-investigation/) | Analyzed process context, PowerShell behavior, device activity, and escalation indicators |
+| Improve the workflow | [SOC-020: Microsoft Logic Apps SOC Automation](cases/2026-06-soc-020-microsoft-logic-apps-soc-automation/) | Designed evidence collection, analyst notification, draft documentation, failure handling, and human approval gates |
+| Reduce data risk | [SOC-021: Microsoft Purview Data Governance Security Review](cases/2026-06-soc-021-microsoft-purview-data-governance-security-review/) | Assessed sensitive data exposure, DLP gaps, access governance, audit visibility, and recommendations requiring owner approval |
+
+Recruiter and interview resources:
+
+- [Microsoft SOC portfolio series guide](docs/microsoft-soc-portfolio-series.md)
+- [SOC-018 to SOC-021 interview story bank](docs/interview-story-bank.md)
+
 ## Microsoft SOC Analyst Portfolio Series
 
 The eleven-case sequence follows a practical Microsoft security operations progression:
