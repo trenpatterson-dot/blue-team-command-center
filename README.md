@@ -1,21 +1,21 @@
 
 # Blue Team Command Center
 
-Blue Team Command Center is a Microsoft-focused SOC analyst portfolio built around documented lab investigations and case studies. The featured series demonstrates alert triage, incident investigation, MITRE ATT&CK mapping, evidence-based reporting, analyst-controlled automation, and data governance risk review.
+Blue Team Command Center is a Microsoft-focused SOC analyst portfolio built around documented lab investigations and case studies. The featured series demonstrates alert triage, incident investigation, MITRE ATT&CK mapping, evidence-based reporting, analyst-controlled automation, data governance risk review, and Azure security posture assessment.
 
 ## Recruiter Snapshot
 
 - **Target roles:** Microsoft SOC Analyst, Security Operations Analyst, and Blue Team Analyst.
-- **Investigation focus:** Microsoft Sentinel alerts, Microsoft Defender XDR endpoint context, suspicious PowerShell, Azure identity risk, detection tuning, Logic Apps SOC automation, and Microsoft Purview data governance.
+- **Investigation focus:** Microsoft Sentinel alerts, Microsoft Defender XDR endpoint context, suspicious PowerShell, Azure identity risk, detection tuning, Logic Apps SOC automation, Microsoft Purview data governance, and Azure IAM / RBAC security posture.
 - **Analyst workflow:** Triage the alert, separate facts from interpretation, map observed behavior to MITRE ATT&CK where supported, document evidence gaps, and communicate findings.
 - **Reporting:** Technical case notes, investigation summaries, recommended next steps, and executive-ready incident communication.
 - **AI and automation boundary:** AI or automation may assist with organizing, enriching, routing, or reviewing documented information, but a human analyst validates the output and retains approval authority for decisions and actions.
 
-> **Portfolio boundary:** SOC-011 through SOC-021 are lab and case-study artifacts. They demonstrate investigation method, documentation discipline, and analyst judgment; they do not represent production SOC employment, unrestricted enterprise tool access, tenant ownership, live customer data access, legal or compliance authority, or authority to act on live systems.
+> **Portfolio boundary:** SOC-011 through SOC-022 are lab and case-study artifacts. They demonstrate investigation method, documentation discipline, and analyst judgment; they do not represent production SOC employment, unrestricted enterprise tool access, tenant ownership, live customer data access, legal or compliance authority, or authority to act on live systems.
 
-## Featured Recruiter Path: SOC-018 to SOC-021
+## Featured Recruiter Path: SOC-018 to SOC-022
 
-This four-project sequence presents one connected Microsoft Security Analyst story:
+This five-project sequence presents one connected Microsoft Security Analyst story:
 
 | Stage | Project | Analyst Value |
 | --- | --- | --- |
@@ -23,6 +23,7 @@ This four-project sequence presents one connected Microsoft Security Analyst sto
 | Investigate the endpoint | [SOC-019: Microsoft Defender XDR Investigation](cases/2026-06-soc-019-microsoft-defender-xdr-investigation/) | Analyzed process context, PowerShell behavior, device activity, and escalation indicators |
 | Improve the workflow | [SOC-020: Microsoft Logic Apps SOC Automation](cases/2026-06-soc-020-microsoft-logic-apps-soc-automation/) | Designed evidence collection, analyst notification, draft documentation, failure handling, and human approval gates |
 | Reduce data risk | [SOC-021: Microsoft Purview Data Governance Security Review](cases/2026-06-soc-021-microsoft-purview-data-governance-security-review/) | Assessed sensitive data exposure, DLP gaps, access governance, audit visibility, and recommendations requiring owner approval |
+| Review cloud posture | [SOC-022: Azure Security Posture / IAM & RBAC Governance Review](cases/2026-06-soc-022-azure-security-posture-iam-rbac-review/) | Assessed Azure RBAC, IAM and access governance, least privilege, privileged access, Conditional Access / MFA, Defender for Cloud-style recommendations, diagnostic and audit logging, and cloud misconfiguration risk |
 
 Recruiter and interview resources:
 
@@ -31,9 +32,9 @@ Recruiter and interview resources:
 
 ## Microsoft SOC Analyst Portfolio Series
 
-The eleven-case sequence follows a practical Microsoft security operations progression:
+The twelve-case sequence follows a practical Microsoft security operations progression:
 
-**Sentinel -> Defender -> PowerShell -> Azure Identity -> Detection Tuning -> Incident Reporting -> AI-Assisted Review -> Sentinel Investigation -> Defender XDR Investigation -> Logic Apps Automation -> Purview Data Governance**
+**Sentinel -> Defender -> PowerShell -> Azure Identity -> Detection Tuning -> Incident Reporting -> AI-Assisted Review -> Sentinel Investigation -> Defender XDR Investigation -> Logic Apps Automation -> Purview Data Governance -> Azure Security Posture**
 
 | Case | Investigation Focus | Recruiter-Relevant Skills |
 | --- | --- | --- |
@@ -48,6 +49,7 @@ The eleven-case sequence follows a practical Microsoft security operations progr
 | [SOC-019: Microsoft Defender XDR Investigation](cases/2026-06-soc-019-microsoft-defender-xdr-investigation/) | Investigate suspicious PowerShell execution on an endpoint | Defender XDR triage, process-tree review, command analysis, ATT&CK mapping, and incident reporting |
 | [SOC-020: Microsoft Logic Apps SOC Automation](cases/2026-06-soc-020-microsoft-logic-apps-soc-automation/) | Support a Sentinel / Defender XDR alert workflow | Evidence collection, analyst notification, incident note drafting, failure handling, and human approval boundaries |
 | [SOC-021: Microsoft Purview Data Governance Security Review](cases/2026-06-soc-021-microsoft-purview-data-governance-security-review/) | Review sensitive data risk across SharePoint, OneDrive, Teams, and Exchange | Sensitive data discovery, sensitivity labels, DLP gaps, access governance, audit visibility, and analyst recommendations |
+| [SOC-022: Azure Security Posture / IAM & RBAC Governance Review](cases/2026-06-soc-022-azure-security-posture-iam-rbac-review/) | Review identity, access, resource exposure, and monitoring risk in Microsoft Azure | Azure RBAC, IAM and access governance, least privilege, privileged access, Conditional Access / MFA, Defender for Cloud-style recommendations, diagnostic and audit logging, and cloud misconfiguration risk |
 
 ## What This Repository Provides
 
