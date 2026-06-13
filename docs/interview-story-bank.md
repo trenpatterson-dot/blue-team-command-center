@@ -1,4 +1,4 @@
-# Microsoft SOC Interview Story Bank: SOC-018 to SOC-021
+# Microsoft / Azure Security Interview Story Bank: SOC-018 to SOC-023
 
 Use these stories for SOC Analyst and Security Analyst interviews. Keep the wording grounded in simulated case studies and portfolio investigations.
 
@@ -148,6 +148,80 @@ Say: “I completed a lab-based Purview security review using simulated, sanitiz
 
 Do not claim tenant ownership, real employee data access, legal advice, compliance certification, or authority to enforce policy.
 
+## SOC-022: Azure IAM / RBAC Security Posture Review
+
+### Situation
+
+A lab-based Microsoft Azure security posture review used simulated evidence showing broad Owner and Contributor assignments, stale users and service principals, standing privileged access, possible storage and network exposure, and incomplete diagnostic coverage.
+
+### Task
+
+Assess the IAM, Azure RBAC, access governance, least-privilege, resource-exposure, and monitoring risks, then prioritize analyst recommendations without changing production access or cloud resources.
+
+### Action
+
+- Compared subscription-level Owner and Contributor assignments with documented business need and narrower scope options.
+- Reviewed inactive users, service-principal ownership, privileged-access duration, and recurring access-review evidence.
+- Assessed simulated storage public-access settings, an internet-exposed RDP rule, diagnostic settings, and alerts for privileged role changes.
+- Connected identity, resource, and logging findings to Defender for Cloud-style posture recommendations.
+- Distinguished cloud misconfiguration risk from proof of exploitation, unauthorized access, or data exposure.
+- Recommended owner validation, least-privilege scope, governed groups, time-bound privilege, centralized logging, and accountable remediation tracking.
+
+### Result
+
+Documented elevated Azure security posture risk and a prioritized review path for cloud, identity, resource, and incident-response owners. The result supported remediation planning but did not claim compromise, production impact, or completed changes.
+
+### Tools / Concepts
+
+Microsoft Azure, Microsoft Entra ID, Azure RBAC, IAM, access governance, least privilege, privileged access, service principals, Defender for Cloud-style recommendations, diagnostic logs, audit logs, cloud security, evidence collection, analyst recommendations.
+
+### Recruiter-Friendly Takeaway
+
+I can review Azure access and posture evidence as a connected security problem: who has access, at what scope, to which resources, with what monitoring and governance.
+
+### Safe Wording Boundary
+
+Say: “I completed a lab-based Azure IAM and RBAC security posture review using simulated, sanitized evidence and documented least-privilege and monitoring recommendations.”
+
+Do not claim live tenant ownership, production access changes, real customer data access, confirmed exploitation, or authority to accept cloud risk.
+
+## SOC-023: Conditional Access / MFA Risk Review
+
+### Situation
+
+A simulated Microsoft Entra ID environment had broad MFA registration, but Conditional Access evidence showed possible gaps involving privileged-role coverage, excluded accounts, report-only risk controls, legacy authentication, and emergency access monitoring.
+
+### Task
+
+Determine whether identity protections were consistently enforced and recommend safer policy improvements without changing Conditional Access, disabling identities, or claiming account compromise.
+
+### Action
+
+- Separated MFA method registration from policy requirement and sign-in evidence showing whether the requirement was satisfied.
+- Reviewed Conditional Access policy state, assignments, exclusions, grant controls, privileged-role coverage, and sign-in results.
+- Assessed risky-sign-in handling, legacy-authentication exposure, and exception governance.
+- Reviewed emergency access exclusions as a lockout-safety requirement while checking monitoring and periodic-test evidence.
+- Mapped relevant identity risks to MITRE ATT&CK, including Valid Accounts, password attacks, MFA request generation, and Conditional Access policy modification.
+- Recommended report-only analysis, pilot groups, dependency validation, rollback planning, recurring exclusion review, and authorized owner approval.
+
+### Result
+
+Documented elevated identity-control risk and prioritized privileged-role protection, exclusion governance, legacy-authentication migration, risky-sign-in handling, and emergency-account alerting. The evidence did not prove successful bypass or account compromise.
+
+### Tools / Concepts
+
+Microsoft Entra ID, Conditional Access, MFA, identity protection, risky sign-ins, legacy authentication, emergency access, access governance, cloud identity security, MITRE ATT&CK, evidence collection, analyst recommendations.
+
+### Recruiter-Friendly Takeaway
+
+I can evaluate whether identity controls work in practice by reviewing enforcement, exceptions, risk signals, authentication paths, and operational safety boundaries.
+
+### Safe Wording Boundary
+
+Say: “I completed a simulated Conditional Access and MFA risk review and documented controlled, owner-approved policy recommendations.”
+
+Do not claim employer tenant access, live policy administration, successful attack prevention, confirmed compromise, or authority to enforce identity changes.
+
 ## Cross-Series Interview Close
 
-“Together, these projects show how I approach Microsoft security work: start with the alert, validate identity and endpoint evidence, document severity and escalation criteria, improve repetitive workflow safely, and extend the same evidence-based thinking to sensitive data and access governance. The work is lab-based, and I keep final operational, legal, compliance, and policy decisions with authorized people.”
+“Together, these projects show how I approach Microsoft and Azure security work: start with the alert, validate identity and endpoint evidence, document severity and escalation criteria, improve repetitive workflow safely, extend evidence-based analysis to sensitive data and cloud access governance, and evaluate whether identity controls are consistently enforced. The work is lab-based, and I keep final operational, access, policy, legal, and compliance decisions with authorized people.”

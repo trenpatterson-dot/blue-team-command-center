@@ -1,13 +1,15 @@
-# Microsoft SOC Portfolio Series: SOC-018 to SOC-021
+# Microsoft / Azure Security Portfolio Series: SOC-018 to SOC-023
 
 ## Series Overview
 
-SOC-018 through SOC-021 form a connected, lab-based Microsoft Security Analyst portfolio series:
+SOC-018 through SOC-023 form a connected, lab-based Microsoft and Azure Security Analyst portfolio series:
 
 1. Detect and triage suspicious identity activity in Microsoft Sentinel.
 2. Investigate endpoint behavior in Microsoft Defender XDR.
 3. Design a Logic Apps workflow intended to reduce repetitive SOC work while preserving human approval.
 4. Review Microsoft Purview findings for sensitive data, DLP, access governance, and audit risk.
+5. Assess Microsoft Azure security posture across IAM, Azure RBAC, privileged access, resource exposure, and monitoring.
+6. Review Microsoft Entra ID Conditional Access and MFA controls for identity-protection gaps.
 
 The series is designed for SOC Analyst and Security Analyst applications, recruiter conversations, interviews, LinkedIn positioning, and portfolio review.
 
@@ -22,6 +24,11 @@ The series is designed for SOC Analyst and Security Analyst applications, recrui
 - I can document escalation criteria and evidence gaps.
 - I can design SOC automation that supports an analyst workflow without replacing human judgment.
 - I can connect security operations with data governance, DLP, access governance, and audit visibility.
+- I can review Microsoft Azure IAM and Azure RBAC assignments for least-privilege and access-governance risk.
+- I can connect identity, resource exposure, diagnostic logging, and Defender for Cloud-style recommendations into a cloud security posture review.
+- I can distinguish MFA registration from actual Conditional Access enforcement.
+- I can assess policy exclusions, privileged-role coverage, risky sign-ins, legacy authentication, and emergency access monitoring.
+- I can prioritize cloud security and identity-protection recommendations while leaving production changes with authorized owners.
 - I can communicate the same case to technical, executive, recruiter, and general audiences.
 
 ## Connected Analyst Story
@@ -32,6 +39,8 @@ The series is designed for SOC Analyst and Security Analyst applications, recrui
 | [SOC-019](../cases/2026-06-soc-019-microsoft-defender-xdr-investigation/) | Does PowerShell execution indicate endpoint compromise? | Reviewed process tree, command line, parent process, device timeline, and follow-on behavior | Simulated alert documented as benign administrative activity with monitoring recommendations |
 | [SOC-020](../cases/2026-06-soc-020-microsoft-logic-apps-soc-automation/) | How can repetitive alert handling be standardized safely? | Designed field extraction, evidence checklist, notification, draft notes, failure handling, and approval gates | Documentation-first workflow design that stops before final disposition or containment |
 | [SOC-021](../cases/2026-06-soc-021-microsoft-purview-data-governance-security-review/) | Where does sensitive Microsoft 365 data create governance risk? | Reviewed simulated labels, sharing, DLP coverage, retention consistency, and audit visibility | Elevated risk documented for authorized owner review without claiming breach or noncompliance |
+| [SOC-022](../cases/2026-06-soc-022-azure-security-posture-iam-rbac-review/) | Where do Azure identity, access, exposure, and monitoring controls create security posture risk? | Reviewed simulated Azure RBAC, IAM, privileged access, storage and network exposure, diagnostic coverage, and posture recommendations | Elevated posture risk documented with prioritized owner validation and least-privilege recommendations |
+| [SOC-023](../cases/2026-06-soc-023-azure-conditional-access-mfa-risk-review/) | Does broad MFA adoption provide consistent identity protection? | Reviewed simulated Conditional Access scope, enforcement, exclusions, risky sign-ins, legacy authentication, and emergency access monitoring | Elevated identity-control risk documented with controlled policy-improvement recommendations |
 
 ## Project-by-Project Summary
 
@@ -67,7 +76,23 @@ The lab-based review examines simulated Microsoft Purview findings across ShareP
 
 **Skills shown:** Microsoft Purview, data governance, sensitive information types, sensitivity labels, DLP, access governance, audit logs, insider risk considerations, risk review, and analyst recommendations.
 
-## Tools and Concepts Demonstrated
+### SOC-022: Azure Security Posture / IAM & RBAC Governance Review
+
+**Focus:** Cloud security posture, identity and access governance, and least privilege.
+
+The lab-based review assesses simulated Microsoft Azure evidence for broad Owner and Contributor assignments, stale users and service principals, standing privileged access, storage and network exposure, incomplete diagnostic logging, and overdue Defender for Cloud-style recommendations. The analysis prioritizes IAM and Azure RBAC risk without claiming exploitation or making production changes.
+
+**Skills shown:** Microsoft Azure, Microsoft Entra ID, Azure RBAC, IAM, access governance, least privilege, privileged access, cloud security, diagnostic logs, audit logs, Defender for Cloud-style posture management, evidence collection, and analyst recommendations.
+
+### SOC-023: Azure Conditional Access / MFA Risk Review
+
+**Focus:** Cloud identity protection and sign-in control governance.
+
+The simulated review separates MFA registration from policy enforcement and examines Conditional Access coverage, privileged roles, excluded identities, risky sign-ins, legacy authentication, and emergency access accounts. Recommendations use report-only analysis, pilot testing, rollback planning, and authorized owner approval as control boundaries.
+
+**Skills shown:** Microsoft Entra ID, Conditional Access, MFA, identity protection, risky sign-ins, legacy authentication, emergency access, access-control gaps, MITRE ATT&CK, cloud identity governance, and analyst recommendations.
+
+## Microsoft / Azure Tool Map
 
 | Area | Tools and Concepts |
 | --- | --- |
@@ -78,28 +103,42 @@ The lab-based review examines simulated Microsoft Purview findings across ShareP
 | Automation | Logic Apps, trigger design, normalized inputs, notifications, draft notes, failure handling |
 | Data security | Microsoft Purview, sensitive information types, sensitivity labels, DLP, retention, insider risk |
 | Governance | SharePoint, OneDrive, Teams, Exchange, access governance, audit visibility, owner review |
+| Cloud platform | Microsoft Azure, subscriptions, resource groups, storage accounts, network security groups |
+| Identity and access | Microsoft Entra ID, IAM, Azure RBAC, least privilege, service principals, privileged access |
+| Cloud security posture | Defender for Cloud-style recommendations, resource exposure, diagnostic settings, audit logging |
+| Identity protection | Conditional Access, MFA enforcement, risky sign-ins, exclusions, legacy authentication, emergency access |
 | Communication | Technical summaries, executive summaries, recruiter language, LinkedIn drafts, interview stories |
 
 ## Recruiter Keyword Map
 
 | Recruiter Keyword | Portfolio Evidence |
 | --- | --- |
-| SOC Analyst | Four connected simulated cases covering triage, investigation, automation, and governance |
-| Security Analyst | Evidence review, risk analysis, recommendations, and stakeholder boundaries |
+| SOC Analyst | Six connected simulated cases covering triage, investigation, automation, data governance, cloud security, and identity protection |
+| Security Analyst | Evidence review, risk analysis, cloud control assessment, recommendations, and stakeholder boundaries |
 | Microsoft Sentinel | SOC-018 sign-in alert investigation and SOC-020 workflow input |
 | Defender XDR | SOC-019 endpoint investigation and SOC-020 workflow input |
 | Microsoft Purview | SOC-021 sensitive data and governance review |
 | Logic Apps | SOC-020 SOC automation design |
+| Microsoft Azure | SOC-022 cloud security posture review and SOC-023 Azure identity-control review |
+| Microsoft Entra ID | SOC-022 identity inventory and SOC-023 Conditional Access, MFA, and risky-sign-in review |
+| Azure RBAC | SOC-022 Owner, Contributor, scope, privileged-access, and recertification analysis |
+| IAM | SOC-022 identity lifecycle, service-principal ownership, least privilege, and access governance |
+| Conditional Access | SOC-023 policy scope, exclusions, report-only evaluation, and controlled enforcement planning |
+| MFA | SOC-018 authentication context, SOC-022 privileged-access coverage, and SOC-023 enforcement analysis |
 | SIEM | Sentinel alert intake, timeline analysis, severity, and disposition |
 | Alert triage | SOC-018 and SOC-019 evidence-based alert review |
 | Incident response | Escalation criteria, monitoring, reporting, and authorized containment boundaries |
-| Evidence collection | Authentication, process, device, alert, sharing, label, DLP, and audit context |
-| MITRE ATT&CK | Identity and PowerShell technique mapping with analyst validation |
+| Evidence collection | Authentication, process, device, alert, sharing, label, DLP, role, policy, resource, and audit context |
+| MITRE ATT&CK | Identity, PowerShell, valid-account, password-attack, and MFA-related mapping with analyst validation |
 | Data governance | SOC-021 classification, retention, sharing, and ownership review |
 | DLP | SOC-021 coverage-gap and simulation-mode recommendations |
-| Access governance | SharePoint groups, OneDrive links, guests, owners, and recertification |
+| Access governance | SOC-021 Microsoft 365 access review plus SOC-022 Azure role scope, ownership, and recertification |
+| Least privilege | SOC-020 workflow permissions and SOC-022 Azure RBAC scope reduction |
+| Cloud security | SOC-022 exposure, posture, logging, privileged access, and recommendation tracking |
+| Identity protection | SOC-023 policy enforcement, risky sign-ins, exclusions, legacy authentication, and emergency access |
 | Automation | SOC-020 standardized enrichment, notification, and documentation |
 | Analyst workflow | Detect, investigate, document, recommend, escalate, and retain human approval |
+| Analyst recommendations | Evidence-based next steps that require authorized owner validation and approval |
 | Escalation criteria | Explicit conditions for deeper investigation, containment requests, or stakeholder review |
 
 ## Interview Talking Points
@@ -119,6 +158,14 @@ The lab-based review examines simulated Microsoft Purview findings across ShareP
 ### How I Handle Data Governance
 
 “I separate security risk from legal or compliance conclusions. I can identify broad access, external sharing, missing labels, DLP gaps, and audit needs, but authorized data owners and privacy, legal, compliance, or HR stakeholders make final policy decisions.”
+
+### How I Review Azure Access
+
+“I start with identity, role, scope, and business need. I look for broad Azure RBAC assignments, stale access, unowned service principals, standing privilege, and missing review evidence. I recommend least-privilege changes, but authorized cloud and identity owners validate dependencies and approve production access changes.”
+
+### How I Review Conditional Access and MFA
+
+“I separate MFA registration from actual enforcement. I review which identities and applications are covered, which exclusions exist, how risky sign-ins are handled, whether legacy authentication remains, and whether emergency accounts are monitored. Policy changes should be tested in report-only mode and pilot groups with rollback planning.”
 
 ### How I Communicate Uncertainty
 
@@ -166,26 +213,48 @@ The lab-based review examines simulated Microsoft Purview findings across ShareP
 
 **Result:** Documented elevated governance risk, prioritized owner review, and separated security recommendations from legal, privacy, compliance, HR, and policy decisions.
 
+### Azure IAM and RBAC Security Posture Review
+
+**Situation:** Simulated Azure findings showed broad role assignments, stale access, standing privilege, resource exposure, and monitoring gaps.
+
+**Task:** Prioritize cloud security risk and recommend safer IAM and Azure RBAC controls without changing production access.
+
+**Action:** Reviewed role scope, identity ownership, privileged access, storage and network exposure, diagnostic settings, and Defender for Cloud-style recommendations.
+
+**Result:** Documented elevated posture risk and prioritized least-privilege, owner-validation, logging, and governance recommendations.
+
+### Conditional Access and MFA Risk Review
+
+**Situation:** A simulated Microsoft Entra ID environment had broad MFA registration but inconsistent Conditional Access enforcement.
+
+**Task:** Identify identity-protection gaps without changing policies or claiming account compromise.
+
+**Action:** Reviewed privileged-role coverage, exclusions, risky-sign-in handling, legacy authentication, emergency access monitoring, and policy-governance evidence.
+
+**Result:** Documented elevated identity-control risk and recommended report-only analysis, controlled pilots, rollback planning, and owner-approved remediation.
+
 ## Resume Bullet Ideas
 
 Use these only as portfolio-project bullets, not as claims of production employment:
 
-- Built a four-project Microsoft Security Analyst portfolio covering Sentinel alert triage, Defender XDR endpoint investigation, Logic Apps SOC automation, and Purview data governance.
+- Built a six-project Microsoft and Azure Security Analyst portfolio covering Sentinel alert triage, Defender XDR investigation, Logic Apps automation, Purview data governance, Azure IAM / RBAC posture, and Conditional Access / MFA risk.
 - Investigated simulated Microsoft Sentinel sign-in activity by building a timeline, reviewing MFA and follow-on behavior, mapping MITRE ATT&CK, and documenting severity and disposition.
 - Analyzed a simulated Defender XDR PowerShell alert using process-tree, command-line, device-timeline, and escalation-context review.
 - Designed a documentation-first Logic Apps analyst workflow for evidence collection, notification, incident note drafting, failure handling, and human approval.
 - Assessed simulated Microsoft Purview findings across SharePoint, OneDrive, Teams, and Exchange for sensitive data, DLP, access governance, and audit risk.
+- Reviewed simulated Microsoft Azure IAM and Azure RBAC findings for excessive privilege, stale access, service-principal ownership, resource exposure, diagnostic coverage, and least-privilege opportunities.
+- Assessed simulated Microsoft Entra ID Conditional Access and MFA evidence for privileged-role coverage, exclusions, risky sign-ins, legacy authentication, and emergency-access monitoring.
 - Produced technical, executive, recruiter, and general-audience documentation while preserving evidence and authority boundaries.
 
 ## LinkedIn Positioning Ideas
 
 ### Series Post
 
-“I completed a four-part Microsoft Security Analyst portfolio series that follows a connected workflow: Sentinel alert triage, Defender XDR endpoint investigation, Logic Apps SOC automation, and Purview data governance. Each project is a simulated case study focused on evidence-based analysis, clear escalation criteria, and human approval.”
+“I completed a six-part Microsoft and Azure Security Analyst portfolio series that follows a connected workflow: Sentinel alert triage, Defender XDR endpoint investigation, Logic Apps SOC automation, Purview data governance, Azure IAM / RBAC security posture, and Conditional Access / MFA risk review. Each project is a simulated case study focused on evidence-based analysis, clear escalation criteria, analyst recommendations, and human approval.”
 
 ### Skills Post
 
-“The series helped me practice how Microsoft security tools connect: Sentinel surfaces identity risk, Defender XDR adds endpoint context, Logic Apps can standardize repetitive analyst work, and Purview extends security thinking into sensitive data, DLP, access governance, and audit visibility.”
+“The series helped me practice how Microsoft security tools connect: Sentinel surfaces identity risk, Defender XDR adds endpoint context, Logic Apps can standardize repetitive analyst work, Purview extends analysis into sensitive data and DLP, Azure RBAC supports least-privilege governance, and Entra Conditional Access and MFA strengthen cloud identity protection.”
 
 ### Interview-Readiness Post
 
@@ -199,6 +268,8 @@ Use these only as portfolio-project bullets, not as claims of production employm
 - Do not imply access to real customer, employee, or company data.
 - Do not claim measured production outcomes such as reduced mean time to respond unless evidence exists.
 - Do not describe ATT&CK mappings, DLP matches, or alerts as proof of malicious intent.
+- Do not describe posture findings, risky sign-ins, broad roles, or policy gaps as proof of exploitation, bypass, or account compromise.
 - Do not claim legal, privacy, compliance, HR, or regulatory authority.
 - Describe Logic Apps as a workflow design; do not imply it was deployed to production.
-- Keep closure, escalation, containment, access changes, policy enforcement, and external communication under human or authorized stakeholder approval.
+- Describe SOC-022 and SOC-023 as lab-based reviews using simulated and sanitized evidence.
+- Keep closure, escalation, containment, access changes, Azure RBAC changes, Conditional Access enforcement, MFA policy changes, risk acceptance, and external communication under human or authorized stakeholder approval.

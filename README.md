@@ -29,7 +29,7 @@ This six-project sequence presents one connected Microsoft Security Analyst stor
 Recruiter and interview resources:
 
 - [Microsoft SOC portfolio series guide](docs/microsoft-soc-portfolio-series.md)
-- [SOC-018 to SOC-021 interview story bank](docs/interview-story-bank.md)
+- [SOC-018 to SOC-023 interview story bank](docs/interview-story-bank.md)
 
 ## Microsoft SOC Analyst Portfolio Series
 
