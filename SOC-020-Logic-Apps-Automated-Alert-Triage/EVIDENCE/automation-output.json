@@ -1,0 +1,10 @@
+{
+  "incidentId": "INC-1001",
+  "status": "Evidence Collected",
+  "host": "TREN",
+  "user": "trenp",
+  "powershellEventsReviewed": 10,
+  "processesReviewed": 20,
+  "analystReviewRequired": true,
+  "mitreTechnique": "T1059.001"
+}

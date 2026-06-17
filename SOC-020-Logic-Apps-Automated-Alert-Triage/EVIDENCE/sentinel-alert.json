@@ -1,0 +1,10 @@
+{
+  "incidentId": "INC-1001",
+  "alertName": "Suspicious PowerShell Execution",
+  "severity": "Medium",
+  "user": "jdoe",
+  "hostname": "WS-104",
+  "timestamp": "2026-06-17T14:22:00Z",
+  "technique": "T1059.001",
+  "status": "New"
+}
