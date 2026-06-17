@@ -52,7 +52,7 @@ The thirteen-case sequence follows a practical Microsoft security operations pro
 | [SOC-021: Microsoft Purview Data Governance Security Review](cases/2026-06-soc-021-microsoft-purview-data-governance-security-review/) | Review sensitive data risk across SharePoint, OneDrive, Teams, and Exchange | Sensitive data discovery, sensitivity labels, DLP gaps, access governance, audit visibility, and analyst recommendations |
 | [SOC-022: Azure Security Posture / IAM & RBAC Governance Review](cases/2026-06-soc-022-azure-security-posture-iam-rbac-review/) | Review identity, access, resource exposure, and monitoring risk in Microsoft Azure | Azure RBAC, IAM and access governance, least privilege, privileged access, Conditional Access / MFA, Defender for Cloud-style recommendations, diagnostic and audit logging, and cloud misconfiguration risk |
 | [SOC-023: Azure Conditional Access / MFA Risk Review](cases/2026-06-soc-023-azure-conditional-access-mfa-risk-review/) | Review identity protection and sign-in control gaps in Microsoft Azure | Conditional Access, MFA enforcement, risky sign-in review, access-control gaps, cloud identity governance, and analyst recommendations |
-
+| SOC-020 | Logic Apps Automated Alert Triage | Microsoft Sentinel, Logic Apps, PowerShell, Security Automation, MITRE ATT&CK |
 ## What This Repository Provides
 
 Beyond the featured series, Blue Team Command Center is a portable, Markdown-first workbench for SOC and blue-team analysis. It supports case intake, evidence organization, investigation playbooks, framework mapping, report drafting, and decision-support summaries.
