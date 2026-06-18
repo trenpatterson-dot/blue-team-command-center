@@ -1,0 +1,137 @@
+{
+  "case_id": "AI-SEC-001",
+  "case_name": "Securing an AI Assistant for SOC Operations",
+  "case_type": "lab_case_study",
+  "production_changes_performed": false,
+  "live_tenant_access_used": false,
+  "review_date": "2026-06-17",
+  "scope": [
+    "prompt_injection",
+    "sensitive_data_leakage",
+    "tool_abuse",
+    "over_permissioned_access",
+    "human_approval_controls",
+    "audit_logging",
+    "ai_governance"
+  ],
+  "risks": [
+    {
+      "id": "AI-RISK-001",
+      "title": "Prompt injection changes assistant behavior or suppresses escalation",
+      "likelihood": "High",
+      "impact": "High",
+      "rating": "Critical",
+      "owner": "SOC engineering / AI platform owner",
+      "status": "Open",
+      "recommended_controls": [
+        "Treat alert text and retrieved documents as untrusted input",
+        "Test prompt injection across alerts, URLs, command lines, and documents",
+        "Log detected injection attempts",
+        "Require source-based incident reasoning"
+      ]
+    },
+    {
+      "id": "AI-RISK-002",
+      "title": "Sensitive security or identity data leaks through outputs or logs",
+      "likelihood": "Medium",
+      "impact": "High",
+      "rating": "High",
+      "owner": "Security / privacy / data protection",
+      "status": "Open",
+      "recommended_controls": [
+        "Define redaction rules",
+        "Block secrets before submission where practical",
+        "Restrict access to conversation history",
+        "Approve retention and purge requirements"
+      ]
+    },
+    {
+      "id": "AI-RISK-003",
+      "title": "Assistant tool access modifies cases or workflows without approval",
+      "likelihood": "Medium",
+      "impact": "High",
+      "rating": "High",
+      "owner": "SOC platform owner",
+      "status": "Open",
+      "recommended_controls": [
+        "Default tools to read-only",
+        "Separate read and write capabilities",
+        "Require human approval for ticket updates and notifications",
+        "Log all tool calls and denials"
+      ]
+    },
+    {
+      "id": "AI-RISK-004",
+      "title": "Service identity has broader data access than required",
+      "likelihood": "Medium",
+      "impact": "High",
+      "rating": "High",
+      "owner": "Identity and access owner",
+      "status": "Open",
+      "recommended_controls": [
+        "Scope access to approved workspaces and indexes",
+        "Review app registration consent grants",
+        "Use least-privilege roles",
+        "Run recurring access reviews"
+      ]
+    },
+    {
+      "id": "AI-RISK-005",
+      "title": "Analyst accepts unsupported AI output as verified incident fact",
+      "likelihood": "High",
+      "impact": "Medium",
+      "rating": "High",
+      "owner": "SOC manager",
+      "status": "Open",
+      "recommended_controls": [
+        "Require citations for factual claims",
+        "Label outputs as drafts",
+        "Train analysts to verify evidence",
+        "Add approval gates before final incident updates"
+      ]
+    },
+    {
+      "id": "AI-RISK-006",
+      "title": "Audit logs do not capture AI-specific events",
+      "likelihood": "Medium",
+      "impact": "Medium",
+      "rating": "Medium",
+      "owner": "Detection engineering / compliance",
+      "status": "Open",
+      "recommended_controls": [
+        "Log prompt category and session metadata",
+        "Capture source documents and tool calls",
+        "Capture denied actions and approval identity",
+        "Monitor unusual tool-call patterns"
+      ]
+    },
+    {
+      "id": "AI-RISK-007",
+      "title": "Knowledge-base poisoning influences assistant guidance",
+      "likelihood": "Medium",
+      "impact": "Medium",
+      "rating": "Medium",
+      "owner": "Documentation owner / SOC engineering",
+      "status": "Open",
+      "recommended_controls": [
+        "Require document ownership",
+        "Track source freshness and approval status",
+        "Restrict retrieval to approved repositories",
+        "Flag stale or ownerless documents"
+      ]
+    }
+  ],
+  "deployment_readiness": {
+    "status": "Not ready for production",
+    "required_before_production": [
+      "Prompt injection testing completed",
+      "Data protection review approved",
+      "Tool permission review approved",
+      "Human approval workflow documented",
+      "AI-specific audit logging enabled",
+      "Governance owners assigned",
+      "Risk acceptance documented by authorized owners"
+    ]
+  },
+  "evidence_boundary": "Simulated portfolio evidence only. No real customer data, production prompts, credentials, tenant IDs, tokens, or live incident records are included."
+}
