@@ -95,3 +95,5 @@ A completed SOC/IAM investigation focused on failed Windows logon activity, succ
 - Account policy review with `net accounts`
 - Evidence handling and public/private boundary control
 - SOC-style reporting and handoff writing
+
+- **DEFENDER‑002 — Microsoft Defender for Identity Investigation:** Identity threat investigation using Microsoft Defender for Identity. This case demonstrates how to triage a suspicious lateral‑movement alert, analyze privileged accounts and logon activity, map the behavior to MITRE ATT&CK techniques, and develop remediation recommendations.
