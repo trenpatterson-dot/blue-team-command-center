@@ -1,0 +1,17 @@
+{
+  "project": "PURVIEW-001",
+  "risks": [
+    {
+      "risk": "Sensitive data exfiltration",
+      "severity": "High"
+    },
+    {
+      "risk": "Unauthorized cloud storage usage",
+      "severity": "High"
+    },
+    {
+      "risk": "Insider threat activity",
+      "severity": "Medium"
+    }
+  ]
+}

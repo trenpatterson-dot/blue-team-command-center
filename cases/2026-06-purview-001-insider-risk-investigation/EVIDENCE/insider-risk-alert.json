@@ -1,0 +1,9 @@
+{
+  "alertId": "IR-1001",
+  "severity": "High",
+  "user": "jdoe",
+  "activity": "Sensitive file transfer",
+  "destination": "Personal Cloud Storage",
+  "status": "Under Investigation",
+  "riskType": "Data Exfiltration"
+}
