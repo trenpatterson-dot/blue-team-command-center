@@ -1,0 +1,25 @@
+{
+  "project": "ENTRA-001",
+  "review": "Conditional Access Security Review",
+  "policiesReviewed": [
+    "Require MFA for privileged users",
+    "Block legacy authentication",
+    "Require compliant device for sensitive applications",
+    "Enable risk-based sign-in controls"
+  ],
+  "findings": [
+    {
+      "finding": "MFA should be enforced for all privileged users",
+      "severity": "High"
+    },
+    {
+      "finding": "Legacy authentication should be blocked",
+      "severity": "High"
+    },
+    {
+      "finding": "Risk-based sign-in controls should be enabled",
+      "severity": "Medium"
+    }
+  ],
+  "status": "Review completed"
+}
