@@ -31,6 +31,18 @@ Recruiter and interview resources:
 - [Microsoft SOC portfolio series guide](docs/microsoft-soc-portfolio-series.md)
 - [SOC-018 to SOC-023 interview story bank](docs/interview-story-bank.md)
 
+## Newest Security Review Cases
+
+These newer case studies extend the portfolio into SOC automation, AI security, identity attack paths, Microsoft Purview insider-risk review, and Microsoft Entra Conditional Access governance.
+
+| Case | Review Focus | Recruiter-Relevant Skills |
+| --- | --- | --- |
+| [SOC-020: Microsoft Logic Apps SOC Automation](cases/2026-06-soc-020-microsoft-logic-apps-soc-automation/) | Support a Sentinel / Defender XDR alert workflow | Logic Apps workflow design, analyst notification, incident note drafting, failure handling, and human approval gates |
+| [AI-SEC-001: Securing an AI Assistant](cases/2026-06-ai-sec-001-securing-an-ai-assistant/) | Review an AI assistant before SOC production use | Prompt injection risk, sensitive data leakage controls, tool abuse prevention, human approval gates, audit logging, and AI governance |
+| [IAM-011: Identity Attack Path Review](cases/2026-06-iam-011-identity-attack-path-review/) | Review identity attack paths across privileged access and Conditional Access gaps | Entra ID risk review, privileged account review, attack-path documentation, Conditional Access recommendations, and remediation planning |
+| [PURVIEW-001: Microsoft Purview Insider Risk Investigation](cases/2026-06-purview-001-insider-risk-investigation/) | Review insider-risk and data-loss scenarios using Microsoft Purview framing | Insider-risk analysis, DLP review, sensitive-data handling, audit evidence review, and owner-approved remediation planning |
+| [ENTRA-001: Conditional Access Security Review](cases/2026-06-entra-001-conditional-access-security-review/) | Review Conditional Access, MFA, legacy authentication, sign-in risk, and remediation planning | Microsoft Entra ID policy review, MFA assessment, legacy-authentication risk, risky sign-in analysis, and identity-control governance |
+
 ## Microsoft SOC Analyst Portfolio Series
 
 The thirteen-case sequence follows a practical Microsoft security operations progression:

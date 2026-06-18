@@ -1,0 +1,33 @@
+{
+  "case_id": "IAM-011",
+  "case_name": "Identity Attack Path Review",
+  "case_type": "simulated_portfolio_review",
+  "production_changes_performed": false,
+  "risks": [
+    {
+      "id": "IAM-011-01",
+      "risk": "MFA gap on privileged or high-risk access path",
+      "severity": "High",
+      "recommended_action": "Validate MFA and Conditional Access enforcement with the identity owner."
+    },
+    {
+      "id": "IAM-011-02",
+      "risk": "Standing privileged access",
+      "severity": "High",
+      "recommended_action": "Review administrative role assignments and move toward approved time-bound access where possible."
+    },
+    {
+      "id": "IAM-011-03",
+      "risk": "Over-permissioned service account",
+      "severity": "High",
+      "recommended_action": "Confirm owner, scope permissions, and monitor service account activity."
+    },
+    {
+      "id": "IAM-011-04",
+      "risk": "Stale account with remaining access",
+      "severity": "Medium",
+      "recommended_action": "Review account lifecycle evidence before disabling or removing access."
+    }
+  ],
+  "evidence_boundary": "Simulated case data only. No production identity system changes were performed."
+}
