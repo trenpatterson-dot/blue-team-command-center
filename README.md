@@ -3,21 +3,21 @@
 
 Portfolio Website: https://cybersecurity-site-portfolio.vercel.app/
 
-Blue Team Command Center is a Microsoft-focused SOC analyst portfolio built around documented lab investigations and case studies. The featured series demonstrates alert triage, incident investigation, MITRE ATT&CK mapping, evidence-based reporting, analyst-controlled automation, data governance risk review, Azure security posture assessment, cloud identity protection review, and cyber threat intelligence reporting.
+Blue Team Command Center is a Microsoft-focused SOC analyst portfolio built around documented lab investigations and case studies. The featured series demonstrates alert triage, incident investigation, MITRE ATT&CK mapping, evidence-based reporting, analyst-controlled automation, data governance risk review, Azure security posture assessment, cloud identity protection review, risky sign-in investigation, and cyber threat intelligence reporting.
 
 ## Recruiter Snapshot
 
 - **Target roles:** Microsoft SOC Analyst, Security Operations Analyst, and Blue Team Analyst.
-- **Investigation focus:** Microsoft Sentinel alerts, Microsoft Defender XDR endpoint context, suspicious PowerShell, Azure identity risk, detection tuning, Logic Apps SOC automation, Microsoft Purview data governance, Azure IAM / RBAC security posture, Conditional Access / MFA risk, and CTI threat actor TTP tracking.
+- **Investigation focus:** Microsoft Sentinel alerts, Microsoft Defender XDR endpoint context, suspicious PowerShell, Azure identity risk, detection tuning, Logic Apps SOC automation, Microsoft Purview data governance, Azure IAM / RBAC security posture, Conditional Access / MFA risk, Identity Protection risky sign-in triage, and CTI threat actor TTP tracking.
 - **Analyst workflow:** Triage the alert, separate facts from interpretation, map observed behavior to MITRE ATT&CK where supported, document evidence gaps, and communicate findings.
 - **Reporting:** Technical case notes, investigation summaries, recommended next steps, and executive-ready incident communication.
 - **AI and automation boundary:** AI or automation may assist with organizing, enriching, routing, or reviewing documented information, but a human analyst validates the output and retains approval authority for decisions and actions.
 
-> **Portfolio boundary:** SOC-011 through SOC-023 and CTI-001 are lab and case-study artifacts. They demonstrate investigation method, documentation discipline, and analyst judgment; they do not represent production SOC employment, unrestricted enterprise tool access, tenant ownership, live customer data access, legal or compliance authority, real-world attribution authority, or authority to act on live systems.
+> **Portfolio boundary:** SOC-011 through SOC-024 and CTI-001 are lab and case-study artifacts. They demonstrate investigation method, documentation discipline, and analyst judgment; they do not represent production SOC employment, unrestricted enterprise tool access, tenant ownership, live customer data access, legal or compliance authority, real-world attribution authority, or authority to act on live systems.
 
-## Featured Recruiter Path: SOC-018 to SOC-023
+## Featured Recruiter Path: SOC-018 to SOC-024
 
-This six-project sequence presents one connected Microsoft Security Analyst story:
+This seven-project sequence presents one connected Microsoft Security Analyst story:
 
 | Stage | Project | Analyst Value |
 | --- | --- | --- |
@@ -27,6 +27,7 @@ This six-project sequence presents one connected Microsoft Security Analyst stor
 | Reduce data risk | [SOC-021: Microsoft Purview Data Governance Security Review](cases/2026-06-soc-021-microsoft-purview-data-governance-security-review/) | Assessed sensitive data exposure, DLP gaps, access governance, audit visibility, and recommendations requiring owner approval |
 | Review cloud posture | [SOC-022: Azure Security Posture / IAM & RBAC Governance Review](cases/2026-06-soc-022-azure-security-posture-iam-rbac-review/) | Assessed Azure RBAC, IAM and access governance, least privilege, privileged access, Conditional Access / MFA, Defender for Cloud-style recommendations, diagnostic and audit logging, and cloud misconfiguration risk |
 | Protect cloud identities | [SOC-023: Azure Conditional Access / MFA Risk Review](cases/2026-06-soc-023-azure-conditional-access-mfa-risk-review/) | Reviewed identity protection, Conditional Access, MFA enforcement, risky sign-ins, access-control gaps, cloud identity governance, and analyst recommendations |
+| Investigate risky sign-ins | [SOC-024: Azure Sign-In Risk / Identity Protection Investigation](cases/2026-06-soc-024-azure-sign-in-risk-identity-protection-investigation/) | Investigated Microsoft Entra ID risky sign-in evidence, Azure sign-in logs, MFA prompts, Conditional Access blocks, password spraying indicators, valid accounts risk, account compromise triage, session revocation recommendations, and identity security response |
 
 Recruiter and interview resources:
 
@@ -39,6 +40,7 @@ These newer case studies extend the portfolio into SOC automation, AI security, 
 
 | Case | Review Focus | Recruiter-Relevant Skills |
 | --- | --- | --- |
+| [SOC-024: Azure Sign-In Risk / Identity Protection Investigation](cases/2026-06-soc-024-azure-sign-in-risk-identity-protection-investigation/) | Investigate a simulated Microsoft Entra ID risky sign-in involving failed attempts, MFA prompts, impossible travel-style timing, and Conditional Access blocks | Microsoft Entra ID, Azure sign-in logs, risky sign-in triage, MFA, Conditional Access, password spraying, valid accounts, account compromise triage, session revocation, and identity security |
 | [CTI-001: Threat Actor TTP Tracking and Intelligence Brief](cases/2026-06-cti-001-threat-actor-ttp-tracking-intelligence-brief/) | Track fictional activity cluster Silver Orchard across cloud identity targeting, phishing, credential abuse, and password spraying | Cyber threat intelligence, TTP tracking, MITRE ATT&CK mapping, analytic confidence, indicators of compromise handling, adversary infrastructure review, detection opportunities, and defensive recommendations |
 | [SOC-020: Microsoft Logic Apps SOC Automation](cases/2026-06-soc-020-microsoft-logic-apps-soc-automation/) | Support a Sentinel / Defender XDR alert workflow | Logic Apps workflow design, analyst notification, incident note drafting, failure handling, and human approval gates |
 | [AI-SEC-001: Securing an AI Assistant](cases/2026-06-ai-sec-001-securing-an-ai-assistant/) | Review an AI assistant before SOC production use | Prompt injection risk, sensitive data leakage controls, tool abuse prevention, human approval gates, audit logging, and AI governance |
@@ -48,9 +50,9 @@ These newer case studies extend the portfolio into SOC automation, AI security, 
 
 ## Microsoft SOC Analyst Portfolio Series
 
-The thirteen-case sequence follows a practical Microsoft security operations progression:
+The fourteen-case sequence follows a practical Microsoft security operations progression:
 
-**Sentinel -> Defender -> PowerShell -> Azure Identity -> Detection Tuning -> Incident Reporting -> AI-Assisted Review -> Sentinel Investigation -> Defender XDR Investigation -> Logic Apps Automation -> Purview Data Governance -> Azure Security Posture -> Conditional Access / MFA**
+**Sentinel -> Defender -> PowerShell -> Azure Identity -> Detection Tuning -> Incident Reporting -> AI-Assisted Review -> Sentinel Investigation -> Defender XDR Investigation -> Logic Apps Automation -> Purview Data Governance -> Azure Security Posture -> Conditional Access / MFA -> Identity Protection Risky Sign-In**
 
 | Case | Investigation Focus | Recruiter-Relevant Skills |
 | --- | --- | --- |
@@ -67,6 +69,7 @@ The thirteen-case sequence follows a practical Microsoft security operations pro
 | [SOC-021: Microsoft Purview Data Governance Security Review](cases/2026-06-soc-021-microsoft-purview-data-governance-security-review/) | Review sensitive data risk across SharePoint, OneDrive, Teams, and Exchange | Sensitive data discovery, sensitivity labels, DLP gaps, access governance, audit visibility, and analyst recommendations |
 | [SOC-022: Azure Security Posture / IAM & RBAC Governance Review](cases/2026-06-soc-022-azure-security-posture-iam-rbac-review/) | Review identity, access, resource exposure, and monitoring risk in Microsoft Azure | Azure RBAC, IAM and access governance, least privilege, privileged access, Conditional Access / MFA, Defender for Cloud-style recommendations, diagnostic and audit logging, and cloud misconfiguration risk |
 | [SOC-023: Azure Conditional Access / MFA Risk Review](cases/2026-06-soc-023-azure-conditional-access-mfa-risk-review/) | Review identity protection and sign-in control gaps in Microsoft Azure | Conditional Access, MFA enforcement, risky sign-in review, access-control gaps, cloud identity governance, and analyst recommendations |
+| [SOC-024: Azure Sign-In Risk / Identity Protection Investigation](cases/2026-06-soc-024-azure-sign-in-risk-identity-protection-investigation/) | Investigate Microsoft Entra ID risky sign-in activity and possible credential exposure | Azure sign-in logs, Identity Protection, risky sign-in alert triage, MFA prompt review, Conditional Access result analysis, password spraying, valid accounts, account compromise triage, session revocation, and identity security |
 | SOC-020 | Logic Apps Automated Alert Triage | Microsoft Sentinel, Logic Apps, PowerShell, Security Automation, MITRE ATT&CK |
 ## What This Repository Provides
 
