@@ -15,6 +15,14 @@ Blue Team Command Center is a Microsoft-focused SOC analyst portfolio built arou
 
 > **Portfolio boundary:** SOC-011 through SOC-024 and CTI-001 are lab and case-study artifacts. They demonstrate investigation method, documentation discipline, and analyst judgment; they do not represent production SOC employment, unrestricted enterprise tool access, tenant ownership, live customer data access, legal or compliance authority, real-world attribution authority, or authority to act on live systems.
 
+## Recommended Recruiter Review Order
+
+1. [Recruiter Snapshot](#recruiter-snapshot)
+2. [Featured Recruiter Path: SOC-018 to SOC-024](#featured-recruiter-path-soc-018-to-soc-024)
+3. [Microsoft SOC Analyst Portfolio Series](#microsoft-soc-analyst-portfolio-series)
+4. [Interview Story Bank](docs/interview-story-bank.md)
+5. [Public/private safety boundary](docs/public-private-boundary.md)
+
 ## Featured Recruiter Path: SOC-018 to SOC-024
 
 This seven-project sequence presents one connected Microsoft Security Analyst story:
@@ -70,27 +78,26 @@ The fourteen-case sequence follows a practical Microsoft security operations pro
 | [SOC-022: Azure Security Posture / IAM & RBAC Governance Review](cases/2026-06-soc-022-azure-security-posture-iam-rbac-review/) | Review identity, access, resource exposure, and monitoring risk in Microsoft Azure | Azure RBAC, IAM and access governance, least privilege, privileged access, Conditional Access / MFA, Defender for Cloud-style recommendations, diagnostic and audit logging, and cloud misconfiguration risk |
 | [SOC-023: Azure Conditional Access / MFA Risk Review](cases/2026-06-soc-023-azure-conditional-access-mfa-risk-review/) | Review identity protection and sign-in control gaps in Microsoft Azure | Conditional Access, MFA enforcement, risky sign-in review, access-control gaps, cloud identity governance, and analyst recommendations |
 | [SOC-024: Azure Sign-In Risk / Identity Protection Investigation](cases/2026-06-soc-024-azure-sign-in-risk-identity-protection-investigation/) | Investigate Microsoft Entra ID risky sign-in activity and possible credential exposure | Azure sign-in logs, Identity Protection, risky sign-in alert triage, MFA prompt review, Conditional Access result analysis, password spraying, valid accounts, account compromise triage, session revocation, and identity security |
-| SOC-020 | Logic Apps Automated Alert Triage | Microsoft Sentinel, Logic Apps, PowerShell, Security Automation, MITRE ATT&CK |
 ## What This Repository Provides
 
 Beyond the featured series, Blue Team Command Center is a portable, Markdown-first workbench for SOC and blue-team analysis. It supports case intake, evidence organization, investigation playbooks, framework mapping, report drafting, and decision-support summaries.
 
 - Provides repeatable templates for alert triage, incident reporting, threat hunting, phishing analysis, detection engineering, vulnerability remediation, audit findings, executive summaries, and lessons learned.
 - Provides safe investigation playbooks for failed login, phishing, suspicious PowerShell, malware alert triage, and account compromise scenarios.
-- Includes a v0.5 featured SOC case portfolio covering IAM alerts, account compromise, suspicious PowerShell, malware alerts, endpoint alerts, and vulnerability finding/remediation planning.
+- Keeps earlier v0.5 practice cases as legacy reference material while the SOC-018 to SOC-024 Microsoft series remains the recommended recruiter path.
 - Separates known facts from analyst interpretation, assumptions, and missing information.
 - Captures recommended next steps without taking action on behalf of the analyst.
 - Supports copy and paste ready reporting into approved systems.
 
 The repository is designed to move between computers as a normal folder. Its core files are Markdown and do not require Python, administrator rights, internet access, cloud services, or installed security tools.
 
-## v0.5 Featured SOC Case Portfolio
+## Legacy / Earlier Case Work
 
-This repo now includes a featured SOC case portfolio index at:
+Earlier v0.5 practice cases are still useful as foundation material, but they are not the primary recruiter path for the current Microsoft SOC analyst story.
 
-`cases/README.md`
+Index: `cases/README.md`
 
-The featured cases show a practical blue-team investigation progression:
+The earlier cases show a practical blue-team investigation progression:
 
 - SOC IAM Identity Alert Investigation
 - Account Compromise Practice Case
