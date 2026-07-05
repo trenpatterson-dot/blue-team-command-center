@@ -3,17 +3,17 @@
 
 Portfolio Website: https://cybersecurity-site-portfolio.vercel.app/
 
-Blue Team Command Center is a Microsoft-focused SOC analyst portfolio built around documented lab investigations and case studies. The featured series demonstrates alert triage, incident investigation, MITRE ATT&CK mapping, evidence-based reporting, analyst-controlled automation, data governance risk review, Azure security posture assessment, cloud identity protection review, risky sign-in investigation, and cyber threat intelligence reporting.
+Blue Team Command Center is a Microsoft-focused SOC analyst portfolio built around documented lab investigations and case studies. The featured series demonstrates alert triage, incident investigation, MITRE ATT&CK mapping, evidence-based reporting, analyst-controlled automation, data governance risk review, Azure security posture assessment, cloud identity protection review, risky sign-in investigation, cyber threat intelligence reporting, and vulnerability management prioritization.
 
 ## Recruiter Snapshot
 
 - **Target roles:** Microsoft SOC Analyst, Security Operations Analyst, and Blue Team Analyst.
-- **Investigation focus:** Microsoft Sentinel alerts, Microsoft Defender XDR endpoint context, suspicious PowerShell, Azure identity risk, detection tuning, Logic Apps SOC automation, Microsoft Purview data governance, Azure IAM / RBAC security posture, Conditional Access / MFA risk, Identity Protection risky sign-in triage, and CTI threat actor TTP tracking.
+- **Investigation focus:** Microsoft Sentinel alerts, Microsoft Defender XDR endpoint context, suspicious PowerShell, Azure identity risk, detection tuning, Logic Apps SOC automation, Microsoft Purview data governance, Azure IAM / RBAC security posture, Conditional Access / MFA risk, Identity Protection risky sign-in triage, CTI threat actor TTP tracking, and vulnerability management prioritization.
 - **Analyst workflow:** Triage the alert, separate facts from interpretation, map observed behavior to MITRE ATT&CK where supported, document evidence gaps, and communicate findings.
 - **Reporting:** Technical case notes, investigation summaries, recommended next steps, and executive-ready incident communication.
 - **AI and automation boundary:** AI or automation may assist with organizing, enriching, routing, or reviewing documented information, but a human analyst validates the output and retains approval authority for decisions and actions.
 
-> **Portfolio boundary:** SOC-011 through SOC-024 and CTI-001 are lab and case-study artifacts. They demonstrate investigation method, documentation discipline, and analyst judgment; they do not represent production SOC employment, unrestricted enterprise tool access, tenant ownership, live customer data access, legal or compliance authority, real-world attribution authority, or authority to act on live systems.
+> **Portfolio boundary:** SOC-011 through SOC-024, CTI-001, and VM-001 are lab and case-study artifacts. They demonstrate investigation method, documentation discipline, and analyst judgment; they do not represent production SOC employment, vulnerability management employment, unrestricted enterprise tool access, tenant ownership, live customer data access, legal or compliance authority, real-world attribution authority, or authority to act on live systems.
 
 ## Recommended Recruiter Review Order
 
@@ -44,10 +44,11 @@ Recruiter and interview resources:
 
 ## Newest Security Review Cases
 
-These newer case studies extend the portfolio into SOC automation, AI security, identity attack paths, Microsoft Purview insider-risk review, Microsoft Entra Conditional Access governance, and cyber threat intelligence.
+These newer case studies extend the portfolio into SOC automation, AI security, identity attack paths, Microsoft Purview insider-risk review, Microsoft Entra Conditional Access governance, cyber threat intelligence, and vulnerability management.
 
 | Case | Review Focus | Recruiter-Relevant Skills |
 | --- | --- | --- |
+| [VM-001: Vulnerability Management Prioritization Case](cases/2026-06-vm-001-vulnerability-management-prioritization-case/) | Prioritize simulated vulnerability findings using severity, exposure, exploitability, asset criticality, compensating controls, and business impact | Vulnerability management, CVSS-style scoring, asset criticality, exploitability, exposure management, patch management, compensating controls, business impact, remediation planning, detection and monitoring, and executive summary writing |
 | [SOC-024: Azure Sign-In Risk / Identity Protection Investigation](cases/2026-06-soc-024-azure-sign-in-risk-identity-protection-investigation/) | Investigate a simulated Microsoft Entra ID risky sign-in involving failed attempts, MFA prompts, impossible travel-style timing, and Conditional Access blocks | Microsoft Entra ID, Azure sign-in logs, risky sign-in triage, MFA, Conditional Access, password spraying, valid accounts, account compromise triage, session revocation, and identity security |
 | [CTI-001: Threat Actor TTP Tracking and Intelligence Brief](cases/2026-06-cti-001-threat-actor-ttp-tracking-intelligence-brief/) | Track fictional activity cluster Silver Orchard across cloud identity targeting, phishing, credential abuse, and password spraying | Cyber threat intelligence, TTP tracking, MITRE ATT&CK mapping, analytic confidence, indicators of compromise handling, adversary infrastructure review, detection opportunities, and defensive recommendations |
 | [SOC-020: Microsoft Logic Apps SOC Automation](cases/2026-06-soc-020-microsoft-logic-apps-soc-automation/) | Support a Sentinel / Defender XDR alert workflow | Logic Apps workflow design, analyst notification, incident note drafting, failure handling, and human approval gates |
